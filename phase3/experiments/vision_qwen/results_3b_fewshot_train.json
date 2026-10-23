@@ -1,0 +1,66 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount": {
+      "rows": [
+        {
+          "cheque_id": "309069_reference",
+          "expected": "2,75,000/-",
+          "raw": "2,75,000",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309070_reference",
+          "expected": "7,67,000/-",
+          "raw": "767,000/-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.125
+        }
+      ]
+    },
+    "amount_words": {
+      "rows": [
+        {
+          "cheque_id": "309069_reference",
+          "expected": "Two Lakh Seventy Five thousand",
+          "raw": "Two Lakh Seventy Five Thousand",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309070_reference",
+          "expected": "Seven lakhs Sixty seven thousand",
+          "raw": "Seven lakh sixty seven thousand",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.031
+        }
+      ]
+    },
+    "payee_name": {
+      "rows": [
+        {
+          "cheque_id": "309069_reference",
+          "expected": "R. SRILEKHA RAO",
+          "raw": "R. SRI LEKHA RAO",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.071
+        },
+        {
+          "cheque_id": "309070_reference",
+          "expected": "B. AMULYA PRASAD",
+          "raw": "Amulya Prasad",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.133
+        }
+      ]
+    }
+  }
+}

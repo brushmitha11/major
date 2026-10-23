@@ -1,0 +1,93 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount_words": {
+      "rows": [
+        {
+          "cheque_id": "309080_reference",
+          "expected": "One crore Twenty Five lacks",
+          "raw": "One Crore Twenty Five Lakh",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.074
+        },
+        {
+          "cheque_id": "309083_reference",
+          "expected": "Two lakh Thirty five thousand",
+          "raw": "Two Lakh Thirty Five Thousand",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309084_reference",
+          "expected": "Fifty Two Crores",
+          "raw": "Fifty Two Crores",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309086_reference",
+          "expected": "One crore Twenty one lack",
+          "raw": "One Crore Twenty One Lacs",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.04
+        },
+        {
+          "cheque_id": "309089_reference",
+          "expected": "Forty Two lakh twenty thousand",
+          "raw": "Twenty Two Lacs Twenty Thousand",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.2
+        },
+        {
+          "cheque_id": "309090_reference",
+          "expected": "One Crores Seventy lacks",
+          "raw": "One Crore Seventy Lacks",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.042
+        },
+        {
+          "cheque_id": "309091_reference",
+          "expected": "Twenty five thousand",
+          "raw": "Twenty five thousand",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309092_reference",
+          "expected": "forty two thousand and twenty",
+          "raw": "Forty-two thousand and twenty",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309093_reference",
+          "expected": "Three lakh Twenty two thousand",
+          "raw": "Three lakh twenty two thousand",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309094_reference",
+          "expected": "Two lakh Sixty thousand",
+          "raw": "Two lakh Sixty thousand",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        }
+      ],
+      "exact": "3/10",
+      "exact_norm": "6/10",
+      "mean_cer_norm": 0.036
+    }
+  }
+}

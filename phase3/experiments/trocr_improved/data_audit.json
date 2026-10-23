@@ -1,0 +1,35 @@
+{
+  "cheques": 45,
+  "samples_per_field": {
+    "amount": 45,
+    "amount_words": 45,
+    "payee_name": 45,
+    "date": 45
+  },
+  "flags": [
+    [
+      "309078_reference",
+      "figures/words mismatch",
+      "12,00,500",
+      "one crore Two lakhs Five hundred"
+    ],
+    [
+      "309079_reference",
+      "figures/words mismatch",
+      "5,20,20,000",
+      "One Crore Twenty lakh Twenty Thousand"
+    ],
+    [
+      "309102_reference",
+      "figures/words mismatch",
+      "71,50,000/-",
+      "Seventy One lakh thirty thousand"
+    ],
+    [
+      "309117_reference",
+      "figures/words mismatch",
+      "2,50,00,000/-",
+      "Two lakh fifty lacs"
+    ]
+  ]
+}

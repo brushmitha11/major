@@ -1,0 +1,139 @@
+{
+  "ocr": {
+    "confidence": 0.927,
+    "lines": [
+      {
+        "confidence": 0.984,
+        "text": "AXIS BANK LTD"
+      },
+      {
+        "confidence": 1.0,
+        "text": "DATE"
+      },
+      {
+        "confidence": 1.0,
+        "text": "2"
+      },
+      {
+        "confidence": 0.985,
+        "text": "0"
+      },
+      {
+        "confidence": 0.996,
+        "text": "MEHDIPATNAM, HYDERABAD [AP], HYDERABAD, 500028"
+      },
+      {
+        "confidence": 0.744,
+        "text": "farich"
+      },
+      {
+        "confidence": 0.99,
+        "text": "IFS CODE - UTIB0000426"
+      },
+      {
+        "confidence": 0.996,
+        "text": "VALID FOR THREE MONTHS FROM THE DATE OF ISSUE"
+      },
+      {
+        "confidence": 1.0,
+        "text": "DDMMYYYY"
+      },
+      {
+        "confidence": 0.929,
+        "text": "K. SRAVANI"
+      },
+      {
+        "confidence": 1.0,
+        "text": "KUMARI"
+      },
+      {
+        "confidence": 0.841,
+        "text": "OR BEARER/"
+      },
+      {
+        "confidence": 1.0,
+        "text": "PAY"
+      },
+      {
+        "confidence": 0.629,
+        "text": "AN E1O"
+      },
+      {
+        "confidence": 0.988,
+        "text": "One lalch Fourty"
+      },
+      {
+        "confidence": 1.0,
+        "text": "thousand"
+      },
+      {
+        "confidence": 1.0,
+        "text": "RUPEES"
+      },
+      {
+        "confidence": 0.239,
+        "text": "\u53eb"
+      },
+      {
+        "confidence": 0.972,
+        "text": "1,G0,000"
+      },
+      {
+        "confidence": 0.636,
+        "text": "3TT \u6216"
+      },
+      {
+        "confidence": 0.999,
+        "text": "A/C NO."
+      },
+      {
+        "confidence": 1.0,
+        "text": "911010049001545"
+      },
+      {
+        "confidence": 1.0,
+        "text": "SAPPM"
+      },
+      {
+        "confidence": 1.0,
+        "text": "426160"
+      },
+      {
+        "confidence": 0.993,
+        "text": "RAJARSHI PAL"
+      },
+      {
+        "confidence": 0.967,
+        "text": "08-15"
+      },
+      {
+        "confidence": 0.992,
+        "text": "Payable at par at all branches of Axis Bank Ltd in India."
+      },
+      {
+        "confidence": 1.0,
+        "text": "Please sign above"
+      },
+      {
+        "confidence": 0.995,
+        "text": "309067500211012:42616031"
+      }
+    ],
+    "status": "OK",
+    "text": "AXIS BANK LTD DATE 2 0 MEHDIPATNAM, HYDERABAD [AP], HYDERABAD, 500028 farich IFS CODE - UTIB0000426 VALID FOR THREE MONTHS FROM THE DATE OF ISSUE DDMMYYYY K. SRAVANI KUMARI OR BEARER/ PAY AN E1O One lalch Fourty thousand RUPEES \u53eb 1,G0,000 3TT \u6216 A/C NO. 911010049001545 SAPPM 426160 RAJARSHI PAL 08-15 Payable at par at all branches of Axis Bank Ltd in India. Please sign above 309067500211012:42616031"
+  },
+  "timestamp": "2026-10-16T08:09:19.533094Z",
+  "upload_id": "20261016_080917_Cheque_309067.tif",
+  "verification": null,
+  "vlm": {
+    "fields": {
+      "amount_figures": "1,00,000/-",
+      "amount_words": "One lakh Fourty thousand",
+      "date": "25/03/2016",
+      "payee_name": "K. SRAVANI KUMARI"
+    },
+    "model": "qwen2.5vl:3b",
+    "raw": "{\n    \"date\": \"25032016\",\n    \"amount_figures\": \"1,00,000\",\n    \"amount_words\": \"One lakh Fourty thousand\",\n    \"payee_name\": \"K. SRAVANI KUMARI\"\n}",
+    "status": "OK"
+  }
+}

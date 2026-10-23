@@ -1,0 +1,27 @@
+metric,train,validation,test,total,notes
+Parent Count,78,17,17,112,All 112 unique parents assigned exactly once
+Image Count,315,71,70,456,All 456 unique images assigned exactly once
+Parent Percentage,69.6%,15.2%,15.2%,100%,Distribution close to target 70/15/15
+Image Percentage,69.1%,15.6%,15.3%,100%,Distribution close to target 70/15/15
+Avg Images per Parent,4.04,4.18,4.12,4.07,Consistent across splits
+Parent-ID Leakage (Train ∩ Val),0,0,0,0,✓ ZERO LEAKAGE
+Parent-ID Leakage (Train ∩ Test),0,0,0,0,✓ ZERO LEAKAGE
+Parent-ID Leakage (Val ∩ Test),0,0,0,0,✓ ZERO LEAKAGE
+Image Path Leakage (Train ∩ Val),0,0,0,0,✓ ZERO LEAKAGE
+Image Path Leakage (Train ∩ Test),0,0,0,0,✓ ZERO LEAKAGE
+Image Path Leakage (Val ∩ Test),0,0,0,0,✓ ZERO LEAKAGE
+Bank: AXIS BANK,70,9,8,87,✓ All 87 AXIS parents represented (100%)
+Bank: CANARA BANK,3,3,4,10,✓ All 10 CANARA parents represented (100%)
+Bank: ICICI BANK,3,3,2,8,✓ All 8 ICICI parents represented (100%)
+Bank: SYNDICATE BANK,2,2,3,7,✓ All 7 SYNDICATE parents represented (100%)
+Banks in Split,4,4,4,4,✓ All 4 banks represented in each split
+Reference Images,78,17,17,112,Parent cheques (original images)
+Amount Forgery,78,17,17,112,Numeric amount altered
+Payee Forgery,78,17,17,112,Payee name substituted
+Multi-Field Forgery,78,17,17,112,Multiple fields altered simultaneously
+Date Forgery (ICICI),3,3,2,8,Only ICICI has detectable date fields
+Total Forgery Count,237,54,53,344,336 base + 8 date forgeries
+Variant Distribution,416,68,68,456,104 parents×4 + 8 parents×5 variants
+Reproducibility,Seed 2024,Seed 2024,Seed 2024,Seed 2024,✓ Fixed seed ensures identical results
+Coverage Check,100%,100%,100%,100%,✓ All data accounted for
+Data Integrity,✓ PASS,✓ PASS,✓ PASS,✓ PASS,All validation checks successful

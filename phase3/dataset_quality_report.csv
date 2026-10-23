@@ -1,0 +1,981 @@
+file_name,file_path,quality_score,quality_status,sharpness,contrast,brightness,skew,completeness,issues,recommendation
+100829_amount_forgery_comparison.jpg,metadata\comparison_samples\100829_amount_forgery_comparison.jpg,0.729,GOOD,0.985,0.312,0.5,1.0,0.85,[],Continue to verification
+309135_amount_forgery_comparison.jpg,metadata\comparison_samples\309135_amount_forgery_comparison.jpg,0.675,GOOD,0.977,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309135_multi_field_forgery_comparison.jpg,metadata\comparison_samples\309135_multi_field_forgery_comparison.jpg,0.675,GOOD,0.978,0.299,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309135_payee_forgery_comparison.jpg,metadata\comparison_samples\309135_payee_forgery_comparison.jpg,0.675,GOOD,0.977,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+100829_amount_forgery_comparison.jpg,metadata\comparison_samples\100829_amount_forgery_comparison.jpg,0.729,GOOD,0.985,0.312,0.5,1.0,0.85,[],Continue to verification
+309135_amount_forgery_comparison.jpg,metadata\comparison_samples\309135_amount_forgery_comparison.jpg,0.675,GOOD,0.977,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309135_multi_field_forgery_comparison.jpg,metadata\comparison_samples\309135_multi_field_forgery_comparison.jpg,0.675,GOOD,0.978,0.299,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309135_payee_forgery_comparison.jpg,metadata\comparison_samples\309135_payee_forgery_comparison.jpg,0.675,GOOD,0.977,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+Cheque 083654.tif,raw\idrbt\300\Cheque 083654.tif,0.579,UNCERTAIN,0.806,0.29,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083655.tif,raw\idrbt\300\Cheque 083655.tif,0.576,UNCERTAIN,0.809,0.273,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083656.tif,raw\idrbt\300\Cheque 083656.tif,0.578,UNCERTAIN,0.802,0.289,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083657.tif,raw\idrbt\300\Cheque 083657.tif,0.579,UNCERTAIN,0.799,0.296,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083658.tif,raw\idrbt\300\Cheque 083658.tif,0.578,UNCERTAIN,0.804,0.284,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083659.tif,raw\idrbt\300\Cheque 083659.tif,0.572,UNCERTAIN,0.797,0.264,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083660.tif,raw\idrbt\300\Cheque 083660.tif,0.573,UNCERTAIN,0.804,0.26,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 100828.tif,raw\idrbt\300\Cheque 100828.tif,0.821,GOOD,0.92,0.337,1.0,1.0,0.85,[],Continue to verification
+Cheque 100829.tif,raw\idrbt\300\Cheque 100829.tif,0.818,GOOD,0.917,0.325,1.0,1.0,0.85,[],Continue to verification
+Cheque 100830.tif,raw\idrbt\300\Cheque 100830.tif,0.82,GOOD,0.921,0.332,1.0,1.0,0.85,[],Continue to verification
+Cheque 100831.tif,raw\idrbt\300\Cheque 100831.tif,0.821,GOOD,0.918,0.338,1.0,1.0,0.85,[],Continue to verification
+Cheque 100832.tif,raw\idrbt\300\Cheque 100832.tif,0.82,GOOD,0.919,0.333,1.0,1.0,0.85,[],Continue to verification
+Cheque 100833.tif,raw\idrbt\300\Cheque 100833.tif,0.822,GOOD,0.919,0.34,1.0,1.0,0.85,[],Continue to verification
+Cheque 100834.tif,raw\idrbt\300\Cheque 100834.tif,0.821,GOOD,0.915,0.34,1.0,1.0,0.85,[],Continue to verification
+Cheque 100835.tif,raw\idrbt\300\Cheque 100835.tif,0.803,GOOD,0.921,0.342,1.0,0.9,0.85,[],Continue to verification
+Cheque 120611.tif,raw\idrbt\300\Cheque 120611.tif,0.642,UNCERTAIN,0.815,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120612.tif,raw\idrbt\300\Cheque 120612.tif,0.644,UNCERTAIN,0.823,0.296,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120613.tif,raw\idrbt\300\Cheque 120613.tif,0.646,UNCERTAIN,0.826,0.306,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120614.tif,raw\idrbt\300\Cheque 120614.tif,0.644,UNCERTAIN,0.824,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120615.tif,raw\idrbt\300\Cheque 120615.tif,0.648,UNCERTAIN,0.829,0.312,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120616.tif,raw\idrbt\300\Cheque 120616.tif,0.645,UNCERTAIN,0.822,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120617.tif,raw\idrbt\300\Cheque 120617.tif,0.645,UNCERTAIN,0.825,0.301,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120618.tif,raw\idrbt\300\Cheque 120618.tif,0.647,UNCERTAIN,0.823,0.31,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120619.tif,raw\idrbt\300\Cheque 120619.tif,0.641,UNCERTAIN,0.816,0.29,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120620.tif,raw\idrbt\300\Cheque 120620.tif,0.645,UNCERTAIN,0.817,0.307,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 309061.tif,raw\idrbt\300\Cheque 309061.tif,0.715,GOOD,0.951,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309062.tif,raw\idrbt\300\Cheque 309062.tif,0.716,GOOD,0.952,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309063.tif,raw\idrbt\300\Cheque 309063.tif,0.715,GOOD,0.952,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309066.tif,raw\idrbt\300\Cheque 309066.tif,0.713,GOOD,0.952,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309067.tif,raw\idrbt\300\Cheque 309067.tif,0.715,GOOD,0.954,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309068.tif,raw\idrbt\300\Cheque 309068.tif,0.776,GOOD,0.954,0.324,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309069.tif,raw\idrbt\300\Cheque 309069.tif,0.715,GOOD,0.952,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309070.tif,raw\idrbt\300\Cheque 309070.tif,0.716,GOOD,0.952,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309071.tif,raw\idrbt\300\Cheque 309071.tif,0.777,GOOD,0.955,0.331,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309072.tif,raw\idrbt\300\Cheque 309072.tif,0.717,GOOD,0.953,0.335,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309073.tif,raw\idrbt\300\Cheque 309073.tif,0.715,GOOD,0.952,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309074.tif,raw\idrbt\300\Cheque 309074.tif,0.714,GOOD,0.953,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309075.tif,raw\idrbt\300\Cheque 309075.tif,0.718,GOOD,0.953,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309076.tif,raw\idrbt\300\Cheque 309076.tif,0.719,GOOD,0.951,0.342,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309077.tif,raw\idrbt\300\Cheque 309077.tif,0.715,GOOD,0.951,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309078.tif,raw\idrbt\300\Cheque 309078.tif,0.714,GOOD,0.951,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309079.tif,raw\idrbt\300\Cheque 309079.tif,0.716,GOOD,0.953,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309080.tif,raw\idrbt\300\Cheque 309080.tif,0.772,GOOD,0.95,0.31,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309082.tif,raw\idrbt\300\Cheque 309082.tif,0.712,GOOD,0.947,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309083.tif,raw\idrbt\300\Cheque 309083.tif,0.713,GOOD,0.95,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309084.tif,raw\idrbt\300\Cheque 309084.tif,0.714,GOOD,0.949,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309086.tif,raw\idrbt\300\Cheque 309086.tif,0.715,GOOD,0.949,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309089.tif,raw\idrbt\300\Cheque 309089.tif,0.716,GOOD,0.949,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309090.tif,raw\idrbt\300\Cheque 309090.tif,0.716,GOOD,0.948,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309091.tif,raw\idrbt\300\Cheque 309091.tif,0.715,GOOD,0.949,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309092.tif,raw\idrbt\300\Cheque 309092.tif,0.714,GOOD,0.949,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309093.tif,raw\idrbt\300\Cheque 309093.tif,0.716,GOOD,0.952,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309094.tif,raw\idrbt\300\Cheque 309094.tif,0.713,GOOD,0.948,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309095.tif,raw\idrbt\300\Cheque 309095.tif,0.714,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309096.tif,raw\idrbt\300\Cheque 309096.tif,0.694,GOOD,0.949,0.32,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309097.tif,raw\idrbt\300\Cheque 309097.tif,0.715,GOOD,0.95,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309098.tif,raw\idrbt\300\Cheque 309098.tif,0.715,GOOD,0.949,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309099.tif,raw\idrbt\300\Cheque 309099.tif,0.716,GOOD,0.95,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309100.tif,raw\idrbt\300\Cheque 309100.tif,0.619,UNCERTAIN,0.879,0.315,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309101.tif,raw\idrbt\300\Cheque 309101.tif,0.719,GOOD,0.951,0.342,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309102.tif,raw\idrbt\300\Cheque 309102.tif,0.715,GOOD,0.952,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309103.tif,raw\idrbt\300\Cheque 309103.tif,0.718,GOOD,0.95,0.339,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309104.tif,raw\idrbt\300\Cheque 309104.tif,0.697,GOOD,0.95,0.335,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309105.tif,raw\idrbt\300\Cheque 309105.tif,0.718,GOOD,0.951,0.337,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309106.tif,raw\idrbt\300\Cheque 309106.tif,0.696,GOOD,0.951,0.331,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309107.tif,raw\idrbt\300\Cheque 309107.tif,0.716,GOOD,0.95,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309108.tif,raw\idrbt\300\Cheque 309108.tif,0.635,UNCERTAIN,0.953,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309109.tif,raw\idrbt\300\Cheque 309109.tif,0.697,GOOD,0.953,0.331,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309110.tif,raw\idrbt\300\Cheque 309110.tif,0.695,GOOD,0.949,0.325,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309111.tif,raw\idrbt\300\Cheque 309111.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309112.tif,raw\idrbt\300\Cheque 309112.tif,0.715,GOOD,0.95,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309113.tif,raw\idrbt\300\Cheque 309113.tif,0.717,GOOD,0.949,0.335,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309114.tif,raw\idrbt\300\Cheque 309114.tif,0.638,UNCERTAIN,0.951,0.34,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309115.tif,raw\idrbt\300\Cheque 309115.tif,0.719,GOOD,0.95,0.343,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309116.tif,raw\idrbt\300\Cheque 309116.tif,0.693,GOOD,0.951,0.314,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309117.tif,raw\idrbt\300\Cheque 309117.tif,0.718,GOOD,0.952,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309118.tif,raw\idrbt\300\Cheque 309118.tif,0.718,GOOD,0.951,0.341,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309119.tif,raw\idrbt\300\Cheque 309119.tif,0.699,GOOD,0.951,0.342,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309121.tif,raw\idrbt\300\Cheque 309121.tif,0.713,GOOD,0.951,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309122.tif,raw\idrbt\300\Cheque 309122.tif,0.775,GOOD,0.953,0.321,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309123.tif,raw\idrbt\300\Cheque 309123.tif,0.716,GOOD,0.955,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309124.tif,raw\idrbt\300\Cheque 309124.tif,0.716,GOOD,0.953,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309125.tif,raw\idrbt\300\Cheque 309125.tif,0.719,GOOD,0.958,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309126.tif,raw\idrbt\300\Cheque 309126.tif,0.717,GOOD,0.955,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309127.tif,raw\idrbt\300\Cheque 309127.tif,0.636,UNCERTAIN,0.952,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309128.tif,raw\idrbt\300\Cheque 309128.tif,0.635,UNCERTAIN,0.952,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309129.tif,raw\idrbt\300\Cheque 309129.tif,0.715,GOOD,0.952,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309130.tif,raw\idrbt\300\Cheque 309130.tif,0.716,GOOD,0.952,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309131.tif,raw\idrbt\300\Cheque 309131.tif,0.696,GOOD,0.951,0.327,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309133.tif,raw\idrbt\300\Cheque 309133.tif,0.716,GOOD,0.952,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309134.tif,raw\idrbt\300\Cheque 309134.tif,0.715,GOOD,0.952,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309135.tif,raw\idrbt\300\Cheque 309135.tif,0.718,GOOD,0.952,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309136.tif,raw\idrbt\300\Cheque 309136.tif,0.716,GOOD,0.953,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309137.tif,raw\idrbt\300\Cheque 309137.tif,0.716,GOOD,0.954,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309138.tif,raw\idrbt\300\Cheque 309138.tif,0.715,GOOD,0.953,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309139.tif,raw\idrbt\300\Cheque 309139.tif,0.716,GOOD,0.951,0.331,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309141.tif,raw\idrbt\300\Cheque 309141.tif,0.714,GOOD,0.949,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309142.tif,raw\idrbt\300\Cheque 309142.tif,0.716,GOOD,0.95,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309144.tif,raw\idrbt\300\Cheque 309144.tif,0.637,UNCERTAIN,0.952,0.333,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309145.tif,raw\idrbt\300\Cheque 309145.tif,0.716,GOOD,0.951,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309147.tif,raw\idrbt\300\Cheque 309147.tif,0.717,GOOD,0.951,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309148.tif,raw\idrbt\300\Cheque 309148.tif,0.718,GOOD,0.953,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309149.tif,raw\idrbt\300\Cheque 309149.tif,0.715,GOOD,0.951,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309150.tif,raw\idrbt\300\Cheque 309150.tif,0.714,GOOD,0.949,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309151.tif,raw\idrbt\300\Cheque 309151.tif,0.713,GOOD,0.949,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309153.tif,raw\idrbt\300\Cheque 309153.tif,0.715,GOOD,0.95,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309155.tif,raw\idrbt\300\Cheque 309155.tif,0.714,GOOD,0.951,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309156.tif,raw\idrbt\300\Cheque 309156.tif,0.696,GOOD,0.951,0.33,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309157.tif,raw\idrbt\300\Cheque 309157.tif,0.715,GOOD,0.95,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309158.tif,raw\idrbt\300\Cheque 309158.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309159.tif,raw\idrbt\300\Cheque 309159.tif,0.715,GOOD,0.949,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309160.tif,raw\idrbt\300\Cheque 309160.tif,0.713,GOOD,0.949,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309061_amount_forgery.tif,synthetic\forged\axis\309061_amount_forgery.tif,0.713,GOOD,0.95,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309061_multi_field_forgery.tif,synthetic\forged\axis\309061_multi_field_forgery.tif,0.711,GOOD,0.945,0.309,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309061_payee_forgery.tif,synthetic\forged\axis\309061_payee_forgery.tif,0.713,GOOD,0.947,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309062_amount_forgery.tif,synthetic\forged\axis\309062_amount_forgery.tif,0.715,GOOD,0.951,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309062_multi_field_forgery.tif,synthetic\forged\axis\309062_multi_field_forgery.tif,0.714,GOOD,0.947,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309062_payee_forgery.tif,synthetic\forged\axis\309062_payee_forgery.tif,0.715,GOOD,0.949,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309063_amount_forgery.tif,synthetic\forged\axis\309063_amount_forgery.tif,0.693,GOOD,0.95,0.316,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309063_multi_field_forgery.tif,synthetic\forged\axis\309063_multi_field_forgery.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309063_payee_forgery.tif,synthetic\forged\axis\309063_payee_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309066_amount_forgery.tif,synthetic\forged\axis\309066_amount_forgery.tif,0.711,GOOD,0.95,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309066_multi_field_forgery.tif,synthetic\forged\axis\309066_multi_field_forgery.tif,0.71,GOOD,0.946,0.305,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309066_payee_forgery.tif,synthetic\forged\axis\309066_payee_forgery.tif,0.712,GOOD,0.948,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309067_amount_forgery.tif,synthetic\forged\axis\309067_amount_forgery.tif,0.713,GOOD,0.952,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309067_multi_field_forgery.tif,synthetic\forged\axis\309067_multi_field_forgery.tif,0.712,GOOD,0.948,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309067_payee_forgery.tif,synthetic\forged\axis\309067_payee_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309068_amount_forgery.tif,synthetic\forged\axis\309068_amount_forgery.tif,0.714,GOOD,0.953,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309068_multi_field_forgery.tif,synthetic\forged\axis\309068_multi_field_forgery.tif,0.712,GOOD,0.949,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309068_payee_forgery.tif,synthetic\forged\axis\309068_payee_forgery.tif,0.774,GOOD,0.951,0.318,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+309069_amount_forgery.tif,synthetic\forged\axis\309069_amount_forgery.tif,0.713,GOOD,0.95,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309069_multi_field_forgery.tif,synthetic\forged\axis\309069_multi_field_forgery.tif,0.712,GOOD,0.947,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309069_payee_forgery.tif,synthetic\forged\axis\309069_payee_forgery.tif,0.713,GOOD,0.949,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309070_amount_forgery.tif,synthetic\forged\axis\309070_amount_forgery.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309070_multi_field_forgery.tif,synthetic\forged\axis\309070_multi_field_forgery.tif,0.714,GOOD,0.947,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309070_payee_forgery.tif,synthetic\forged\axis\309070_payee_forgery.tif,0.715,GOOD,0.948,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309071_amount_forgery.tif,synthetic\forged\axis\309071_amount_forgery.tif,0.716,GOOD,0.953,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309071_multi_field_forgery.tif,synthetic\forged\axis\309071_multi_field_forgery.tif,0.716,GOOD,0.95,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309071_payee_forgery.tif,synthetic\forged\axis\309071_payee_forgery.tif,0.757,GOOD,0.952,0.333,1.0,0.9,0.6,['The complete cheque may not be visible.'],Continue to verification
+309072_amount_forgery.tif,synthetic\forged\axis\309072_amount_forgery.tif,0.716,GOOD,0.951,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309072_multi_field_forgery.tif,synthetic\forged\axis\309072_multi_field_forgery.tif,0.714,GOOD,0.947,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309072_payee_forgery.tif,synthetic\forged\axis\309072_payee_forgery.tif,0.716,GOOD,0.949,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309073_amount_forgery.tif,synthetic\forged\axis\309073_amount_forgery.tif,0.714,GOOD,0.951,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309073_multi_field_forgery.tif,synthetic\forged\axis\309073_multi_field_forgery.tif,0.711,GOOD,0.946,0.307,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309073_payee_forgery.tif,synthetic\forged\axis\309073_payee_forgery.tif,0.712,GOOD,0.947,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309074_amount_forgery.tif,synthetic\forged\axis\309074_amount_forgery.tif,0.712,GOOD,0.951,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309074_multi_field_forgery.tif,synthetic\forged\axis\309074_multi_field_forgery.tif,0.708,GOOD,0.947,0.295,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309074_payee_forgery.tif,synthetic\forged\axis\309074_payee_forgery.tif,0.71,GOOD,0.948,0.3,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309075_amount_forgery.tif,synthetic\forged\axis\309075_amount_forgery.tif,0.717,GOOD,0.952,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309075_multi_field_forgery.tif,synthetic\forged\axis\309075_multi_field_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309075_payee_forgery.tif,synthetic\forged\axis\309075_payee_forgery.tif,0.715,GOOD,0.949,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309076_amount_forgery.tif,synthetic\forged\axis\309076_amount_forgery.tif,0.718,GOOD,0.95,0.34,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309076_multi_field_forgery.tif,synthetic\forged\axis\309076_multi_field_forgery.tif,0.717,GOOD,0.946,0.337,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309076_payee_forgery.tif,synthetic\forged\axis\309076_payee_forgery.tif,0.717,GOOD,0.948,0.339,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309077_amount_forgery.tif,synthetic\forged\axis\309077_amount_forgery.tif,0.713,GOOD,0.95,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309077_multi_field_forgery.tif,synthetic\forged\axis\309077_multi_field_forgery.tif,0.693,GOOD,0.947,0.319,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309077_payee_forgery.tif,synthetic\forged\axis\309077_payee_forgery.tif,0.715,GOOD,0.949,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309078_amount_forgery.tif,synthetic\forged\axis\309078_amount_forgery.tif,0.712,GOOD,0.949,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309078_multi_field_forgery.tif,synthetic\forged\axis\309078_multi_field_forgery.tif,0.711,GOOD,0.945,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309078_payee_forgery.tif,synthetic\forged\axis\309078_payee_forgery.tif,0.713,GOOD,0.947,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309079_amount_forgery.tif,synthetic\forged\axis\309079_amount_forgery.tif,0.714,GOOD,0.952,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309079_multi_field_forgery.tif,synthetic\forged\axis\309079_multi_field_forgery.tif,0.712,GOOD,0.947,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309079_payee_forgery.tif,synthetic\forged\axis\309079_payee_forgery.tif,0.714,GOOD,0.949,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309080_amount_forgery.tif,synthetic\forged\axis\309080_amount_forgery.tif,0.71,GOOD,0.948,0.303,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309080_multi_field_forgery.tif,synthetic\forged\axis\309080_multi_field_forgery.tif,0.708,GOOD,0.944,0.296,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309080_payee_forgery.tif,synthetic\forged\axis\309080_payee_forgery.tif,0.77,GOOD,0.946,0.303,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+309082_amount_forgery.tif,synthetic\forged\axis\309082_amount_forgery.tif,0.711,GOOD,0.945,0.307,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309082_multi_field_forgery.tif,synthetic\forged\axis\309082_multi_field_forgery.tif,0.71,GOOD,0.942,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309082_payee_forgery.tif,synthetic\forged\axis\309082_payee_forgery.tif,0.711,GOOD,0.945,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309083_amount_forgery.tif,synthetic\forged\axis\309083_amount_forgery.tif,0.712,GOOD,0.949,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309083_multi_field_forgery.tif,synthetic\forged\axis\309083_multi_field_forgery.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309083_payee_forgery.tif,synthetic\forged\axis\309083_payee_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309084_amount_forgery.tif,synthetic\forged\axis\309084_amount_forgery.tif,0.712,GOOD,0.947,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309084_multi_field_forgery.tif,synthetic\forged\axis\309084_multi_field_forgery.tif,0.711,GOOD,0.944,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309084_payee_forgery.tif,synthetic\forged\axis\309084_payee_forgery.tif,0.713,GOOD,0.947,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309086_amount_forgery.tif,synthetic\forged\axis\309086_amount_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309086_multi_field_forgery.tif,synthetic\forged\axis\309086_multi_field_forgery.tif,0.711,GOOD,0.944,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309086_payee_forgery.tif,synthetic\forged\axis\309086_payee_forgery.tif,0.713,GOOD,0.946,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309089_amount_forgery.tif,synthetic\forged\axis\309089_amount_forgery.tif,0.715,GOOD,0.947,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309089_multi_field_forgery.tif,synthetic\forged\axis\309089_multi_field_forgery.tif,0.694,GOOD,0.943,0.327,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309089_payee_forgery.tif,synthetic\forged\axis\309089_payee_forgery.tif,0.716,GOOD,0.946,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309090_amount_forgery.tif,synthetic\forged\axis\309090_amount_forgery.tif,0.715,GOOD,0.946,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309090_multi_field_forgery.tif,synthetic\forged\axis\309090_multi_field_forgery.tif,0.713,GOOD,0.942,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309090_payee_forgery.tif,synthetic\forged\axis\309090_payee_forgery.tif,0.714,GOOD,0.944,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309091_amount_forgery.tif,synthetic\forged\axis\309091_amount_forgery.tif,0.714,GOOD,0.947,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309091_multi_field_forgery.tif,synthetic\forged\axis\309091_multi_field_forgery.tif,0.714,GOOD,0.944,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309091_payee_forgery.tif,synthetic\forged\axis\309091_payee_forgery.tif,0.716,GOOD,0.946,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309092_amount_forgery.tif,synthetic\forged\axis\309092_amount_forgery.tif,0.713,GOOD,0.947,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309092_multi_field_forgery.tif,synthetic\forged\axis\309092_multi_field_forgery.tif,0.71,GOOD,0.942,0.308,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309092_payee_forgery.tif,synthetic\forged\axis\309092_payee_forgery.tif,0.711,GOOD,0.944,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309093_amount_forgery.tif,synthetic\forged\axis\309093_amount_forgery.tif,0.715,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309093_multi_field_forgery.tif,synthetic\forged\axis\309093_multi_field_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309093_payee_forgery.tif,synthetic\forged\axis\309093_payee_forgery.tif,0.714,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309094_amount_forgery.tif,synthetic\forged\axis\309094_amount_forgery.tif,0.711,GOOD,0.946,0.309,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309094_multi_field_forgery.tif,synthetic\forged\axis\309094_multi_field_forgery.tif,0.71,GOOD,0.942,0.308,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309094_payee_forgery.tif,synthetic\forged\axis\309094_payee_forgery.tif,0.692,GOOD,0.945,0.313,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309095_amount_forgery.tif,synthetic\forged\axis\309095_amount_forgery.tif,0.713,GOOD,0.947,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309095_multi_field_forgery.tif,synthetic\forged\axis\309095_multi_field_forgery.tif,0.711,GOOD,0.943,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309095_payee_forgery.tif,synthetic\forged\axis\309095_payee_forgery.tif,0.712,GOOD,0.945,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_amount_forgery.tif,synthetic\forged\axis\309096_amount_forgery.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_amount_forgery_v2.tif,synthetic\forged\axis\309096_amount_forgery_v2.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_multi_field_forgery.tif,synthetic\forged\axis\309096_multi_field_forgery.tif,0.711,GOOD,0.944,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_multi_field_forgery_v2.tif,synthetic\forged\axis\309096_multi_field_forgery_v2.tif,0.711,GOOD,0.944,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_payee_forgery.tif,synthetic\forged\axis\309096_payee_forgery.tif,0.713,GOOD,0.946,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_payee_forgery_v2.tif,synthetic\forged\axis\309096_payee_forgery_v2.tif,0.713,GOOD,0.946,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309097_amount_forgery.tif,synthetic\forged\axis\309097_amount_forgery.tif,0.713,GOOD,0.948,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309097_multi_field_forgery.tif,synthetic\forged\axis\309097_multi_field_forgery.tif,0.712,GOOD,0.944,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309097_payee_forgery.tif,synthetic\forged\axis\309097_payee_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309098_amount_forgery.tif,synthetic\forged\axis\309098_amount_forgery.tif,0.714,GOOD,0.947,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309098_multi_field_forgery.tif,synthetic\forged\axis\309098_multi_field_forgery.tif,0.712,GOOD,0.943,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309098_payee_forgery.tif,synthetic\forged\axis\309098_payee_forgery.tif,0.713,GOOD,0.945,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309099_amount_forgery.tif,synthetic\forged\axis\309099_amount_forgery.tif,0.715,GOOD,0.949,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309099_multi_field_forgery.tif,synthetic\forged\axis\309099_multi_field_forgery.tif,0.712,GOOD,0.943,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309099_payee_forgery.tif,synthetic\forged\axis\309099_payee_forgery.tif,0.713,GOOD,0.945,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309100_amount_forgery.tif,synthetic\forged\axis\309100_amount_forgery.tif,0.697,GOOD,0.875,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309100_multi_field_forgery.tif,synthetic\forged\axis\309100_multi_field_forgery.tif,0.692,GOOD,0.863,0.297,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309100_payee_forgery.tif,synthetic\forged\axis\309100_payee_forgery.tif,0.694,GOOD,0.868,0.301,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309101_amount_forgery.tif,synthetic\forged\axis\309101_amount_forgery.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309101_multi_field_forgery.tif,synthetic\forged\axis\309101_multi_field_forgery.tif,0.715,GOOD,0.945,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309101_payee_forgery.tif,synthetic\forged\axis\309101_payee_forgery.tif,0.717,GOOD,0.947,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309102_amount_forgery.tif,synthetic\forged\axis\309102_amount_forgery.tif,0.694,GOOD,0.95,0.318,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309102_multi_field_forgery.tif,synthetic\forged\axis\309102_multi_field_forgery.tif,0.711,GOOD,0.946,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309102_payee_forgery.tif,synthetic\forged\axis\309102_payee_forgery.tif,0.713,GOOD,0.948,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309103_amount_forgery.tif,synthetic\forged\axis\309103_amount_forgery.tif,0.718,GOOD,0.948,0.34,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309103_multi_field_forgery.tif,synthetic\forged\axis\309103_multi_field_forgery.tif,0.717,GOOD,0.946,0.339,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309103_payee_forgery.tif,synthetic\forged\axis\309103_payee_forgery.tif,0.717,GOOD,0.948,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309104_amount_forgery.tif,synthetic\forged\axis\309104_amount_forgery.tif,0.715,GOOD,0.947,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309104_multi_field_forgery.tif,synthetic\forged\axis\309104_multi_field_forgery.tif,0.694,GOOD,0.945,0.323,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309104_payee_forgery.tif,synthetic\forged\axis\309104_payee_forgery.tif,0.695,GOOD,0.947,0.328,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309105_amount_forgery.tif,synthetic\forged\axis\309105_amount_forgery.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309105_multi_field_forgery.tif,synthetic\forged\axis\309105_multi_field_forgery.tif,0.716,GOOD,0.947,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309105_payee_forgery.tif,synthetic\forged\axis\309105_payee_forgery.tif,0.696,GOOD,0.949,0.333,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309106_amount_forgery.tif,synthetic\forged\axis\309106_amount_forgery.tif,0.715,GOOD,0.949,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309106_multi_field_forgery.tif,synthetic\forged\axis\309106_multi_field_forgery.tif,0.634,UNCERTAIN,0.946,0.322,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309106_payee_forgery.tif,synthetic\forged\axis\309106_payee_forgery.tif,0.715,GOOD,0.949,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309107_amount_forgery.tif,synthetic\forged\axis\309107_amount_forgery.tif,0.715,GOOD,0.948,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309107_multi_field_forgery.tif,synthetic\forged\axis\309107_multi_field_forgery.tif,0.713,GOOD,0.945,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309107_payee_forgery.tif,synthetic\forged\axis\309107_payee_forgery.tif,0.694,GOOD,0.948,0.323,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309108_amount_forgery.tif,synthetic\forged\axis\309108_amount_forgery.tif,0.713,GOOD,0.951,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309108_multi_field_forgery.tif,synthetic\forged\axis\309108_multi_field_forgery.tif,0.712,GOOD,0.949,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309108_payee_forgery.tif,synthetic\forged\axis\309108_payee_forgery.tif,0.713,GOOD,0.951,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309109_amount_forgery.tif,synthetic\forged\axis\309109_amount_forgery.tif,0.636,UNCERTAIN,0.951,0.332,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309109_multi_field_forgery.tif,synthetic\forged\axis\309109_multi_field_forgery.tif,0.635,UNCERTAIN,0.948,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309109_payee_forgery.tif,synthetic\forged\axis\309109_payee_forgery.tif,0.715,GOOD,0.951,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309110_amount_forgery.tif,synthetic\forged\axis\309110_amount_forgery.tif,0.694,GOOD,0.946,0.324,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309110_multi_field_forgery.tif,synthetic\forged\axis\309110_multi_field_forgery.tif,0.713,GOOD,0.944,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309110_payee_forgery.tif,synthetic\forged\axis\309110_payee_forgery.tif,0.633,UNCERTAIN,0.946,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309111_amount_forgery.tif,synthetic\forged\axis\309111_amount_forgery.tif,0.696,GOOD,0.948,0.333,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309111_multi_field_forgery.tif,synthetic\forged\axis\309111_multi_field_forgery.tif,0.716,GOOD,0.946,0.331,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309111_payee_forgery.tif,synthetic\forged\axis\309111_payee_forgery.tif,0.694,GOOD,0.949,0.323,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309112_amount_forgery.tif,synthetic\forged\axis\309112_amount_forgery.tif,0.713,GOOD,0.947,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309112_multi_field_forgery.tif,synthetic\forged\axis\309112_multi_field_forgery.tif,0.712,GOOD,0.944,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309112_payee_forgery.tif,synthetic\forged\axis\309112_payee_forgery.tif,0.713,GOOD,0.947,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309113_amount_forgery.tif,synthetic\forged\axis\309113_amount_forgery.tif,0.715,GOOD,0.947,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309113_multi_field_forgery.tif,synthetic\forged\axis\309113_multi_field_forgery.tif,0.714,GOOD,0.944,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309113_payee_forgery.tif,synthetic\forged\axis\309113_payee_forgery.tif,0.716,GOOD,0.946,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309114_amount_forgery.tif,synthetic\forged\axis\309114_amount_forgery.tif,0.717,GOOD,0.948,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309114_multi_field_forgery.tif,synthetic\forged\axis\309114_multi_field_forgery.tif,0.716,GOOD,0.946,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309114_payee_forgery.tif,synthetic\forged\axis\309114_payee_forgery.tif,0.637,UNCERTAIN,0.948,0.335,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309115_amount_forgery.tif,synthetic\forged\axis\309115_amount_forgery.tif,0.717,GOOD,0.948,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309115_multi_field_forgery.tif,synthetic\forged\axis\309115_multi_field_forgery.tif,0.716,GOOD,0.945,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309115_payee_forgery.tif,synthetic\forged\axis\309115_payee_forgery.tif,0.718,GOOD,0.947,0.343,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309116_amount_forgery.tif,synthetic\forged\axis\309116_amount_forgery.tif,0.632,UNCERTAIN,0.948,0.311,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309116_multi_field_forgery.tif,synthetic\forged\axis\309116_multi_field_forgery.tif,0.71,GOOD,0.946,0.305,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309116_payee_forgery.tif,synthetic\forged\axis\309116_payee_forgery.tif,0.711,GOOD,0.948,0.308,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309117_amount_forgery.tif,synthetic\forged\axis\309117_amount_forgery.tif,0.697,GOOD,0.95,0.335,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309117_multi_field_forgery.tif,synthetic\forged\axis\309117_multi_field_forgery.tif,0.715,GOOD,0.947,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309117_payee_forgery.tif,synthetic\forged\axis\309117_payee_forgery.tif,0.716,GOOD,0.949,0.331,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309118_amount_forgery.tif,synthetic\forged\axis\309118_amount_forgery.tif,0.717,GOOD,0.949,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309118_multi_field_forgery.tif,synthetic\forged\axis\309118_multi_field_forgery.tif,0.715,GOOD,0.947,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309118_payee_forgery.tif,synthetic\forged\axis\309118_payee_forgery.tif,0.717,GOOD,0.949,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309119_amount_forgery.tif,synthetic\forged\axis\309119_amount_forgery.tif,0.638,UNCERTAIN,0.949,0.34,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309119_multi_field_forgery.tif,synthetic\forged\axis\309119_multi_field_forgery.tif,0.716,GOOD,0.946,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309119_payee_forgery.tif,synthetic\forged\axis\309119_payee_forgery.tif,0.717,GOOD,0.949,0.337,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309121_amount_forgery.tif,synthetic\forged\axis\309121_amount_forgery.tif,0.712,GOOD,0.949,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309121_multi_field_forgery.tif,synthetic\forged\axis\309121_multi_field_forgery.tif,0.708,GOOD,0.944,0.298,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309121_payee_forgery.tif,synthetic\forged\axis\309121_payee_forgery.tif,0.69,GOOD,0.946,0.304,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309122_amount_forgery.tif,synthetic\forged\axis\309122_amount_forgery.tif,0.713,GOOD,0.951,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309122_multi_field_forgery.tif,synthetic\forged\axis\309122_multi_field_forgery.tif,0.711,GOOD,0.947,0.309,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309122_payee_forgery.tif,synthetic\forged\axis\309122_payee_forgery.tif,0.753,GOOD,0.949,0.314,1.0,0.9,0.6,['The complete cheque may not be visible.'],Continue to verification
+309123_amount_forgery.tif,synthetic\forged\axis\309123_amount_forgery.tif,0.635,UNCERTAIN,0.953,0.324,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309123_multi_field_forgery.tif,synthetic\forged\axis\309123_multi_field_forgery.tif,0.634,UNCERTAIN,0.95,0.321,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309123_payee_forgery.tif,synthetic\forged\axis\309123_payee_forgery.tif,0.715,GOOD,0.953,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309124_amount_forgery.tif,synthetic\forged\axis\309124_amount_forgery.tif,0.694,GOOD,0.951,0.321,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309124_multi_field_forgery.tif,synthetic\forged\axis\309124_multi_field_forgery.tif,0.713,GOOD,0.948,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309124_payee_forgery.tif,synthetic\forged\axis\309124_payee_forgery.tif,0.635,UNCERTAIN,0.95,0.324,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309125_amount_forgery.tif,synthetic\forged\axis\309125_amount_forgery.tif,0.717,GOOD,0.956,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309125_multi_field_forgery.tif,synthetic\forged\axis\309125_multi_field_forgery.tif,0.697,GOOD,0.954,0.331,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309125_payee_forgery.tif,synthetic\forged\axis\309125_payee_forgery.tif,0.698,GOOD,0.955,0.336,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309126_amount_forgery.tif,synthetic\forged\axis\309126_amount_forgery.tif,0.715,GOOD,0.953,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309126_multi_field_forgery.tif,synthetic\forged\axis\309126_multi_field_forgery.tif,0.714,GOOD,0.951,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309126_payee_forgery.tif,synthetic\forged\axis\309126_payee_forgery.tif,0.715,GOOD,0.953,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309127_amount_forgery.tif,synthetic\forged\axis\309127_amount_forgery.tif,0.714,GOOD,0.95,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309127_multi_field_forgery.tif,synthetic\forged\axis\309127_multi_field_forgery.tif,0.632,UNCERTAIN,0.947,0.315,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309127_payee_forgery.tif,synthetic\forged\axis\309127_payee_forgery.tif,0.634,UNCERTAIN,0.95,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309128_amount_forgery.tif,synthetic\forged\axis\309128_amount_forgery.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309128_multi_field_forgery.tif,synthetic\forged\axis\309128_multi_field_forgery.tif,0.713,GOOD,0.947,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309128_payee_forgery.tif,synthetic\forged\axis\309128_payee_forgery.tif,0.694,GOOD,0.949,0.32,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309129_amount_forgery.tif,synthetic\forged\axis\309129_amount_forgery.tif,0.694,GOOD,0.95,0.318,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309129_multi_field_forgery.tif,synthetic\forged\axis\309129_multi_field_forgery.tif,0.632,UNCERTAIN,0.948,0.314,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309129_payee_forgery.tif,synthetic\forged\axis\309129_payee_forgery.tif,0.714,GOOD,0.95,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309130_amount_forgery.tif,synthetic\forged\axis\309130_amount_forgery.tif,0.715,GOOD,0.95,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309130_multi_field_forgery.tif,synthetic\forged\axis\309130_multi_field_forgery.tif,0.715,GOOD,0.947,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309130_payee_forgery.tif,synthetic\forged\axis\309130_payee_forgery.tif,0.717,GOOD,0.949,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309131_amount_forgery.tif,synthetic\forged\axis\309131_amount_forgery.tif,0.634,UNCERTAIN,0.95,0.321,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309131_multi_field_forgery.tif,synthetic\forged\axis\309131_multi_field_forgery.tif,0.635,UNCERTAIN,0.947,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309131_payee_forgery.tif,synthetic\forged\axis\309131_payee_forgery.tif,0.716,GOOD,0.949,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309133_amount_forgery.tif,synthetic\forged\axis\309133_amount_forgery.tif,0.634,UNCERTAIN,0.95,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309133_multi_field_forgery.tif,synthetic\forged\axis\309133_multi_field_forgery.tif,0.713,GOOD,0.947,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309133_payee_forgery.tif,synthetic\forged\axis\309133_payee_forgery.tif,0.714,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309134_amount_forgery.tif,synthetic\forged\axis\309134_amount_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309134_multi_field_forgery.tif,synthetic\forged\axis\309134_multi_field_forgery.tif,0.633,UNCERTAIN,0.947,0.316,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309134_payee_forgery.tif,synthetic\forged\axis\309134_payee_forgery.tif,0.714,GOOD,0.949,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_amount_forgery.tif,synthetic\forged\axis\309135_amount_forgery.tif,0.716,GOOD,0.95,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_amount_forgery_v2.tif,synthetic\forged\axis\309135_amount_forgery_v2.tif,0.716,GOOD,0.95,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_multi_field_forgery.tif,synthetic\forged\axis\309135_multi_field_forgery.tif,0.715,GOOD,0.947,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_multi_field_forgery_v2.tif,synthetic\forged\axis\309135_multi_field_forgery_v2.tif,0.715,GOOD,0.947,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_payee_forgery.tif,synthetic\forged\axis\309135_payee_forgery.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_payee_forgery_v2.tif,synthetic\forged\axis\309135_payee_forgery_v2.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309136_amount_forgery.tif,synthetic\forged\axis\309136_amount_forgery.tif,0.694,GOOD,0.95,0.321,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309136_multi_field_forgery.tif,synthetic\forged\axis\309136_multi_field_forgery.tif,0.693,GOOD,0.948,0.316,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309136_payee_forgery.tif,synthetic\forged\axis\309136_payee_forgery.tif,0.714,GOOD,0.95,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309137_amount_forgery.tif,synthetic\forged\axis\309137_amount_forgery.tif,0.635,UNCERTAIN,0.952,0.321,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309137_multi_field_forgery.tif,synthetic\forged\axis\309137_multi_field_forgery.tif,0.712,GOOD,0.948,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309137_payee_forgery.tif,synthetic\forged\axis\309137_payee_forgery.tif,0.694,GOOD,0.95,0.321,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309138_amount_forgery.tif,synthetic\forged\axis\309138_amount_forgery.tif,0.714,GOOD,0.951,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309138_multi_field_forgery.tif,synthetic\forged\axis\309138_multi_field_forgery.tif,0.692,GOOD,0.948,0.312,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309138_payee_forgery.tif,synthetic\forged\axis\309138_payee_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309139_amount_forgery.tif,synthetic\forged\axis\309139_amount_forgery.tif,0.715,GOOD,0.949,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309139_multi_field_forgery.tif,synthetic\forged\axis\309139_multi_field_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309139_payee_forgery.tif,synthetic\forged\axis\309139_payee_forgery.tif,0.715,GOOD,0.948,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309141_amount_forgery.tif,synthetic\forged\axis\309141_amount_forgery.tif,0.713,GOOD,0.947,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309141_multi_field_forgery.tif,synthetic\forged\axis\309141_multi_field_forgery.tif,0.709,GOOD,0.942,0.301,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309141_payee_forgery.tif,synthetic\forged\axis\309141_payee_forgery.tif,0.71,GOOD,0.944,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309142_amount_forgery.tif,synthetic\forged\axis\309142_amount_forgery.tif,0.714,GOOD,0.948,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309142_multi_field_forgery.tif,synthetic\forged\axis\309142_multi_field_forgery.tif,0.713,GOOD,0.944,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309142_payee_forgery.tif,synthetic\forged\axis\309142_payee_forgery.tif,0.715,GOOD,0.946,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309144_amount_forgery.tif,synthetic\forged\axis\309144_amount_forgery.tif,0.716,GOOD,0.95,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309144_multi_field_forgery.tif,synthetic\forged\axis\309144_multi_field_forgery.tif,0.715,GOOD,0.947,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309144_payee_forgery.tif,synthetic\forged\axis\309144_payee_forgery.tif,0.716,GOOD,0.949,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309145_amount_forgery.tif,synthetic\forged\axis\309145_amount_forgery.tif,0.714,GOOD,0.949,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309145_multi_field_forgery.tif,synthetic\forged\axis\309145_multi_field_forgery.tif,0.713,GOOD,0.946,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309145_payee_forgery.tif,synthetic\forged\axis\309145_payee_forgery.tif,0.715,GOOD,0.948,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309147_amount_forgery.tif,synthetic\forged\axis\309147_amount_forgery.tif,0.718,GOOD,0.949,0.34,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309147_multi_field_forgery.tif,synthetic\forged\axis\309147_multi_field_forgery.tif,0.717,GOOD,0.946,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309147_payee_forgery.tif,synthetic\forged\axis\309147_payee_forgery.tif,0.716,GOOD,0.948,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309148_amount_forgery.tif,synthetic\forged\axis\309148_amount_forgery.tif,0.636,UNCERTAIN,0.952,0.331,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309148_multi_field_forgery.tif,synthetic\forged\axis\309148_multi_field_forgery.tif,0.636,UNCERTAIN,0.949,0.333,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309148_payee_forgery.tif,synthetic\forged\axis\309148_payee_forgery.tif,0.638,UNCERTAIN,0.951,0.338,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309149_amount_forgery.tif,synthetic\forged\axis\309149_amount_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309149_multi_field_forgery.tif,synthetic\forged\axis\309149_multi_field_forgery.tif,0.714,GOOD,0.947,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309149_payee_forgery.tif,synthetic\forged\axis\309149_payee_forgery.tif,0.715,GOOD,0.949,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309150_amount_forgery.tif,synthetic\forged\axis\309150_amount_forgery.tif,0.712,GOOD,0.947,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309150_multi_field_forgery.tif,synthetic\forged\axis\309150_multi_field_forgery.tif,0.711,GOOD,0.943,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309150_payee_forgery.tif,synthetic\forged\axis\309150_payee_forgery.tif,0.713,GOOD,0.945,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309151_amount_forgery.tif,synthetic\forged\axis\309151_amount_forgery.tif,0.692,GOOD,0.947,0.312,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309151_multi_field_forgery.tif,synthetic\forged\axis\309151_multi_field_forgery.tif,0.71,GOOD,0.944,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309151_payee_forgery.tif,synthetic\forged\axis\309151_payee_forgery.tif,0.692,GOOD,0.946,0.311,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309153_amount_forgery.tif,synthetic\forged\axis\309153_amount_forgery.tif,0.713,GOOD,0.948,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309153_multi_field_forgery.tif,synthetic\forged\axis\309153_multi_field_forgery.tif,0.711,GOOD,0.944,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309153_payee_forgery.tif,synthetic\forged\axis\309153_payee_forgery.tif,0.713,GOOD,0.946,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309155_amount_forgery.tif,synthetic\forged\axis\309155_amount_forgery.tif,0.633,UNCERTAIN,0.949,0.315,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309155_multi_field_forgery.tif,synthetic\forged\axis\309155_multi_field_forgery.tif,0.712,GOOD,0.945,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309155_payee_forgery.tif,synthetic\forged\axis\309155_payee_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309156_amount_forgery.tif,synthetic\forged\axis\309156_amount_forgery.tif,0.715,GOOD,0.949,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309156_multi_field_forgery.tif,synthetic\forged\axis\309156_multi_field_forgery.tif,0.713,GOOD,0.945,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309156_payee_forgery.tif,synthetic\forged\axis\309156_payee_forgery.tif,0.714,GOOD,0.947,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309157_amount_forgery.tif,synthetic\forged\axis\309157_amount_forgery.tif,0.714,GOOD,0.948,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309157_multi_field_forgery.tif,synthetic\forged\axis\309157_multi_field_forgery.tif,0.713,GOOD,0.945,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309157_payee_forgery.tif,synthetic\forged\axis\309157_payee_forgery.tif,0.714,GOOD,0.947,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309158_amount_forgery.tif,synthetic\forged\axis\309158_amount_forgery.tif,0.633,UNCERTAIN,0.948,0.319,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309158_multi_field_forgery.tif,synthetic\forged\axis\309158_multi_field_forgery.tif,0.712,GOOD,0.945,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309158_payee_forgery.tif,synthetic\forged\axis\309158_payee_forgery.tif,0.714,GOOD,0.947,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309159_amount_forgery.tif,synthetic\forged\axis\309159_amount_forgery.tif,0.713,GOOD,0.948,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309159_multi_field_forgery.tif,synthetic\forged\axis\309159_multi_field_forgery.tif,0.69,GOOD,0.943,0.309,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309159_payee_forgery.tif,synthetic\forged\axis\309159_payee_forgery.tif,0.692,GOOD,0.945,0.314,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309160_amount_forgery.tif,synthetic\forged\axis\309160_amount_forgery.tif,0.712,GOOD,0.947,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309160_multi_field_forgery.tif,synthetic\forged\axis\309160_multi_field_forgery.tif,0.711,GOOD,0.944,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309160_payee_forgery.tif,synthetic\forged\axis\309160_payee_forgery.tif,0.692,GOOD,0.946,0.316,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+120611_amount_forgery.tif,synthetic\forged\canara\120611_amount_forgery.tif,0.641,UNCERTAIN,0.81,0.296,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120611_multi_field_forgery.tif,synthetic\forged\canara\120611_multi_field_forgery.tif,0.64,UNCERTAIN,0.804,0.294,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120611_payee_forgery.tif,synthetic\forged\canara\120611_payee_forgery.tif,0.64,UNCERTAIN,0.809,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120612_amount_forgery.tif,synthetic\forged\canara\120612_amount_forgery.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120612_multi_field_forgery.tif,synthetic\forged\canara\120612_multi_field_forgery.tif,0.64,UNCERTAIN,0.813,0.289,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120612_payee_forgery.tif,synthetic\forged\canara\120612_payee_forgery.tif,0.642,UNCERTAIN,0.818,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120613_amount_forgery.tif,synthetic\forged\canara\120613_amount_forgery.tif,0.644,UNCERTAIN,0.821,0.301,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120613_multi_field_forgery.tif,synthetic\forged\canara\120613_multi_field_forgery.tif,0.642,UNCERTAIN,0.814,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120613_payee_forgery.tif,synthetic\forged\canara\120613_payee_forgery.tif,0.644,UNCERTAIN,0.819,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120614_amount_forgery.tif,synthetic\forged\canara\120614_amount_forgery.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_amount_forgery_1_v3.tif,synthetic\forged\canara\120614_amount_forgery_1_v3.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_amount_forgery_2_v3.tif,synthetic\forged\canara\120614_amount_forgery_2_v3.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_multi_field_forgery.tif,synthetic\forged\canara\120614_multi_field_forgery.tif,0.64,UNCERTAIN,0.812,0.288,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_multi_field_forgery_v3.tif,synthetic\forged\canara\120614_multi_field_forgery_v3.tif,0.64,UNCERTAIN,0.812,0.288,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_payee_forgery.tif,synthetic\forged\canara\120614_payee_forgery.tif,0.642,UNCERTAIN,0.817,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_payee_forgery_1_v3.tif,synthetic\forged\canara\120614_payee_forgery_1_v3.tif,0.642,UNCERTAIN,0.817,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_payee_forgery_2_v3.tif,synthetic\forged\canara\120614_payee_forgery_2_v3.tif,0.642,UNCERTAIN,0.817,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120615_amount_forgery.tif,synthetic\forged\canara\120615_amount_forgery.tif,0.646,UNCERTAIN,0.825,0.308,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120615_multi_field_forgery.tif,synthetic\forged\canara\120615_multi_field_forgery.tif,0.644,UNCERTAIN,0.818,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120615_payee_forgery.tif,synthetic\forged\canara\120615_payee_forgery.tif,0.646,UNCERTAIN,0.823,0.307,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120616_amount_forgery.tif,synthetic\forged\canara\120616_amount_forgery.tif,0.643,UNCERTAIN,0.818,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120616_multi_field_forgery.tif,synthetic\forged\canara\120616_multi_field_forgery.tif,0.641,UNCERTAIN,0.812,0.296,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120616_payee_forgery.tif,synthetic\forged\canara\120616_payee_forgery.tif,0.643,UNCERTAIN,0.816,0.3,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120617_amount_forgery.tif,synthetic\forged\canara\120617_amount_forgery.tif,0.643,UNCERTAIN,0.82,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120617_multi_field_forgery.tif,synthetic\forged\canara\120617_multi_field_forgery.tif,0.642,UNCERTAIN,0.814,0.294,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120617_payee_forgery.tif,synthetic\forged\canara\120617_payee_forgery.tif,0.643,UNCERTAIN,0.819,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120618_amount_forgery.tif,synthetic\forged\canara\120618_amount_forgery.tif,0.645,UNCERTAIN,0.818,0.305,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120618_multi_field_forgery.tif,synthetic\forged\canara\120618_multi_field_forgery.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120618_payee_forgery.tif,synthetic\forged\canara\120618_payee_forgery.tif,0.645,UNCERTAIN,0.816,0.307,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120619_amount_forgery.tif,synthetic\forged\canara\120619_amount_forgery.tif,0.639,UNCERTAIN,0.811,0.286,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120619_multi_field_forgery.tif,synthetic\forged\canara\120619_multi_field_forgery.tif,0.637,UNCERTAIN,0.804,0.281,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120619_payee_forgery.tif,synthetic\forged\canara\120619_payee_forgery.tif,0.639,UNCERTAIN,0.809,0.286,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120620_amount_forgery.tif,synthetic\forged\canara\120620_amount_forgery.tif,0.643,UNCERTAIN,0.812,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_amount_forgery_1_v3.tif,synthetic\forged\canara\120620_amount_forgery_1_v3.tif,0.643,UNCERTAIN,0.812,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_amount_forgery_2_v3.tif,synthetic\forged\canara\120620_amount_forgery_2_v3.tif,0.643,UNCERTAIN,0.812,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_multi_field_forgery.tif,synthetic\forged\canara\120620_multi_field_forgery.tif,0.64,UNCERTAIN,0.805,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120620_multi_field_forgery_v3.tif,synthetic\forged\canara\120620_multi_field_forgery_v3.tif,0.64,UNCERTAIN,0.805,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120620_payee_forgery.tif,synthetic\forged\canara\120620_payee_forgery.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_payee_forgery_1_v3.tif,synthetic\forged\canara\120620_payee_forgery_1_v3.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_payee_forgery_2_v3.tif,synthetic\forged\canara\120620_payee_forgery_2_v3.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+100828_amount_forgery.tif,synthetic\forged\icici\100828_amount_forgery.tif,0.819,GOOD,0.917,0.33,1.0,1.0,0.85,[],Continue to verification
+100828_date_forgery.tif,synthetic\forged\icici\100828_date_forgery.tif,0.819,GOOD,0.916,0.331,1.0,1.0,0.85,[],Continue to verification
+100828_multi_field_forgery.tif,synthetic\forged\icici\100828_multi_field_forgery.tif,0.819,GOOD,0.914,0.329,1.0,1.0,0.85,[],Continue to verification
+100828_payee_forgery.tif,synthetic\forged\icici\100828_payee_forgery.tif,0.821,GOOD,0.917,0.336,1.0,1.0,0.85,[],Continue to verification
+100829_amount_forgery.tif,synthetic\forged\icici\100829_amount_forgery.tif,0.818,GOOD,0.915,0.326,1.0,1.0,0.85,[],Continue to verification
+100829_amount_forgery_v2.tif,synthetic\forged\icici\100829_amount_forgery_v2.tif,0.818,GOOD,0.915,0.326,1.0,1.0,0.85,[],Continue to verification
+100829_date_forgery.tif,synthetic\forged\icici\100829_date_forgery.tif,0.817,GOOD,0.913,0.32,1.0,1.0,0.85,[],Continue to verification
+100829_date_forgery_v2.tif,synthetic\forged\icici\100829_date_forgery_v2.tif,0.817,GOOD,0.913,0.32,1.0,1.0,0.85,[],Continue to verification
+100829_multi_field_forgery.tif,synthetic\forged\icici\100829_multi_field_forgery.tif,0.817,GOOD,0.912,0.324,1.0,1.0,0.85,[],Continue to verification
+100829_multi_field_forgery_v2.tif,synthetic\forged\icici\100829_multi_field_forgery_v2.tif,0.817,GOOD,0.912,0.324,1.0,1.0,0.85,[],Continue to verification
+100829_payee_forgery.tif,synthetic\forged\icici\100829_payee_forgery.tif,0.818,GOOD,0.915,0.323,1.0,1.0,0.85,[],Continue to verification
+100829_payee_forgery_v2.tif,synthetic\forged\icici\100829_payee_forgery_v2.tif,0.818,GOOD,0.915,0.323,1.0,1.0,0.85,[],Continue to verification
+100830_amount_forgery.tif,synthetic\forged\icici\100830_amount_forgery.tif,0.82,GOOD,0.918,0.33,1.0,1.0,0.85,[],Continue to verification
+100830_date_forgery.tif,synthetic\forged\icici\100830_date_forgery.tif,0.818,GOOD,0.917,0.326,1.0,1.0,0.85,[],Continue to verification
+100830_multi_field_forgery.tif,synthetic\forged\icici\100830_multi_field_forgery.tif,0.819,GOOD,0.915,0.329,1.0,1.0,0.85,[],Continue to verification
+100830_payee_forgery.tif,synthetic\forged\icici\100830_payee_forgery.tif,0.82,GOOD,0.918,0.33,1.0,1.0,0.85,[],Continue to verification
+100831_amount_forgery.tif,synthetic\forged\icici\100831_amount_forgery.tif,0.799,GOOD,0.915,0.331,1.0,0.9,0.85,[],Continue to verification
+100831_date_forgery.tif,synthetic\forged\icici\100831_date_forgery.tif,0.819,GOOD,0.914,0.332,1.0,1.0,0.85,[],Continue to verification
+100831_multi_field_forgery.tif,synthetic\forged\icici\100831_multi_field_forgery.tif,0.818,GOOD,0.913,0.329,1.0,1.0,0.85,[],Continue to verification
+100831_payee_forgery.tif,synthetic\forged\icici\100831_payee_forgery.tif,0.82,GOOD,0.916,0.336,1.0,1.0,0.85,[],Continue to verification
+100832_amount_forgery.tif,synthetic\forged\icici\100832_amount_forgery.tif,0.82,GOOD,0.916,0.332,1.0,1.0,0.85,[],Continue to verification
+100832_date_forgery.tif,synthetic\forged\icici\100832_date_forgery.tif,0.818,GOOD,0.915,0.328,1.0,1.0,0.85,[],Continue to verification
+100832_multi_field_forgery.tif,synthetic\forged\icici\100832_multi_field_forgery.tif,0.818,GOOD,0.913,0.329,1.0,1.0,0.85,[],Continue to verification
+100832_payee_forgery.tif,synthetic\forged\icici\100832_payee_forgery.tif,0.819,GOOD,0.916,0.33,1.0,1.0,0.85,[],Continue to verification
+100833_amount_forgery.tif,synthetic\forged\icici\100833_amount_forgery.tif,0.821,GOOD,0.916,0.34,1.0,1.0,0.85,[],Continue to verification
+100833_date_forgery.tif,synthetic\forged\icici\100833_date_forgery.tif,0.82,GOOD,0.915,0.334,1.0,1.0,0.85,[],Continue to verification
+100833_multi_field_forgery.tif,synthetic\forged\icici\100833_multi_field_forgery.tif,0.82,GOOD,0.913,0.337,1.0,1.0,0.85,[],Continue to verification
+100833_payee_forgery.tif,synthetic\forged\icici\100833_payee_forgery.tif,0.821,GOOD,0.916,0.338,1.0,1.0,0.85,[],Continue to verification
+100834_amount_forgery.tif,synthetic\forged\icici\100834_amount_forgery.tif,0.821,GOOD,0.912,0.342,1.0,1.0,0.85,[],Continue to verification
+100834_date_forgery.tif,synthetic\forged\icici\100834_date_forgery.tif,0.819,GOOD,0.911,0.335,1.0,1.0,0.85,[],Continue to verification
+100834_multi_field_forgery.tif,synthetic\forged\icici\100834_multi_field_forgery.tif,0.82,GOOD,0.909,0.339,1.0,1.0,0.85,[],Continue to verification
+100834_payee_forgery.tif,synthetic\forged\icici\100834_payee_forgery.tif,0.82,GOOD,0.912,0.337,1.0,1.0,0.85,[],Continue to verification
+100835_amount_forgery.tif,synthetic\forged\icici\100835_amount_forgery.tif,0.823,GOOD,0.918,0.345,1.0,1.0,0.85,[],Continue to verification
+100835_date_forgery.tif,synthetic\forged\icici\100835_date_forgery.tif,0.741,GOOD,0.917,0.336,1.0,0.6,0.85,['The cheque appears tilted. Please photograph it straight-on.'],Continue to verification
+100835_multi_field_forgery.tif,synthetic\forged\icici\100835_multi_field_forgery.tif,0.822,GOOD,0.915,0.343,1.0,1.0,0.85,[],Continue to verification
+100835_payee_forgery.tif,synthetic\forged\icici\100835_payee_forgery.tif,0.822,GOOD,0.918,0.34,1.0,1.0,0.85,[],Continue to verification
+83654_amount_forgery.tif,synthetic\forged\syndicate\83654_amount_forgery.tif,0.577,UNCERTAIN,0.799,0.286,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83654_multi_field_forgery.tif,synthetic\forged\syndicate\83654_multi_field_forgery.tif,0.574,UNCERTAIN,0.789,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83654_payee_forgery.tif,synthetic\forged\syndicate\83654_payee_forgery.tif,0.576,UNCERTAIN,0.796,0.286,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_amount_forgery.tif,synthetic\forged\syndicate\83655_amount_forgery.tif,0.574,UNCERTAIN,0.802,0.269,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_amount_forgery_1_v3.tif,synthetic\forged\syndicate\83655_amount_forgery_1_v3.tif,0.574,UNCERTAIN,0.802,0.269,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_amount_forgery_2_v3.tif,synthetic\forged\syndicate\83655_amount_forgery_2_v3.tif,0.574,UNCERTAIN,0.802,0.269,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_multi_field_forgery.tif,synthetic\forged\syndicate\83655_multi_field_forgery.tif,0.571,UNCERTAIN,0.793,0.264,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_multi_field_forgery_v3.tif,synthetic\forged\syndicate\83655_multi_field_forgery_v3.tif,0.571,UNCERTAIN,0.793,0.264,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_payee_forgery.tif,synthetic\forged\syndicate\83655_payee_forgery.tif,0.574,UNCERTAIN,0.8,0.268,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_payee_forgery_1_v3.tif,synthetic\forged\syndicate\83655_payee_forgery_1_v3.tif,0.574,UNCERTAIN,0.8,0.268,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_payee_forgery_2_v3.tif,synthetic\forged\syndicate\83655_payee_forgery_2_v3.tif,0.574,UNCERTAIN,0.8,0.268,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83656_amount_forgery.tif,synthetic\forged\syndicate\83656_amount_forgery.tif,0.577,UNCERTAIN,0.795,0.287,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83656_multi_field_forgery.tif,synthetic\forged\syndicate\83656_multi_field_forgery.tif,0.573,UNCERTAIN,0.785,0.28,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83656_payee_forgery.tif,synthetic\forged\syndicate\83656_payee_forgery.tif,0.575,UNCERTAIN,0.792,0.282,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83657_amount_forgery.tif,synthetic\forged\syndicate\83657_amount_forgery.tif,0.576,UNCERTAIN,0.792,0.29,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83657_multi_field_forgery.tif,synthetic\forged\syndicate\83657_multi_field_forgery.tif,0.573,UNCERTAIN,0.782,0.285,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83657_payee_forgery.tif,synthetic\forged\syndicate\83657_payee_forgery.tif,0.576,UNCERTAIN,0.789,0.291,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_amount_forgery.tif,synthetic\forged\syndicate\83658_amount_forgery.tif,0.576,UNCERTAIN,0.797,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_amount_forgery_1_v3.tif,synthetic\forged\syndicate\83658_amount_forgery_1_v3.tif,0.576,UNCERTAIN,0.797,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_amount_forgery_2_v3.tif,synthetic\forged\syndicate\83658_amount_forgery_2_v3.tif,0.576,UNCERTAIN,0.797,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_multi_field_forgery.tif,synthetic\forged\syndicate\83658_multi_field_forgery.tif,0.573,UNCERTAIN,0.787,0.276,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_multi_field_forgery_v3.tif,synthetic\forged\syndicate\83658_multi_field_forgery_v3.tif,0.573,UNCERTAIN,0.787,0.276,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_payee_forgery.tif,synthetic\forged\syndicate\83658_payee_forgery.tif,0.575,UNCERTAIN,0.794,0.279,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_payee_forgery_1_v3.tif,synthetic\forged\syndicate\83658_payee_forgery_1_v3.tif,0.575,UNCERTAIN,0.794,0.279,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_payee_forgery_2_v3.tif,synthetic\forged\syndicate\83658_payee_forgery_2_v3.tif,0.575,UNCERTAIN,0.794,0.279,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83659_amount_forgery.tif,synthetic\forged\syndicate\83659_amount_forgery.tif,0.57,UNCERTAIN,0.79,0.259,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83659_multi_field_forgery.tif,synthetic\forged\syndicate\83659_multi_field_forgery.tif,0.567,UNCERTAIN,0.78,0.254,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83659_payee_forgery.tif,synthetic\forged\syndicate\83659_payee_forgery.tif,0.569,UNCERTAIN,0.787,0.259,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83660_amount_forgery.tif,synthetic\forged\syndicate\83660_amount_forgery.tif,0.571,UNCERTAIN,0.797,0.256,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83660_multi_field_forgery.tif,synthetic\forged\syndicate\83660_multi_field_forgery.tif,0.567,UNCERTAIN,0.786,0.251,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83660_payee_forgery.tif,synthetic\forged\syndicate\83660_payee_forgery.tif,0.57,UNCERTAIN,0.794,0.255,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083654.tif,raw\idrbt\300\Cheque 083654.tif,0.579,UNCERTAIN,0.806,0.29,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083655.tif,raw\idrbt\300\Cheque 083655.tif,0.576,UNCERTAIN,0.809,0.273,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083656.tif,raw\idrbt\300\Cheque 083656.tif,0.578,UNCERTAIN,0.802,0.289,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083657.tif,raw\idrbt\300\Cheque 083657.tif,0.579,UNCERTAIN,0.799,0.296,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083658.tif,raw\idrbt\300\Cheque 083658.tif,0.578,UNCERTAIN,0.804,0.284,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083659.tif,raw\idrbt\300\Cheque 083659.tif,0.572,UNCERTAIN,0.797,0.264,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 083660.tif,raw\idrbt\300\Cheque 083660.tif,0.573,UNCERTAIN,0.804,0.26,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 100828.tif,raw\idrbt\300\Cheque 100828.tif,0.821,GOOD,0.92,0.337,1.0,1.0,0.85,[],Continue to verification
+Cheque 100829.tif,raw\idrbt\300\Cheque 100829.tif,0.818,GOOD,0.917,0.325,1.0,1.0,0.85,[],Continue to verification
+Cheque 100830.tif,raw\idrbt\300\Cheque 100830.tif,0.82,GOOD,0.921,0.332,1.0,1.0,0.85,[],Continue to verification
+Cheque 100831.tif,raw\idrbt\300\Cheque 100831.tif,0.821,GOOD,0.918,0.338,1.0,1.0,0.85,[],Continue to verification
+Cheque 100832.tif,raw\idrbt\300\Cheque 100832.tif,0.82,GOOD,0.919,0.333,1.0,1.0,0.85,[],Continue to verification
+Cheque 100833.tif,raw\idrbt\300\Cheque 100833.tif,0.822,GOOD,0.919,0.34,1.0,1.0,0.85,[],Continue to verification
+Cheque 100834.tif,raw\idrbt\300\Cheque 100834.tif,0.821,GOOD,0.915,0.34,1.0,1.0,0.85,[],Continue to verification
+Cheque 100835.tif,raw\idrbt\300\Cheque 100835.tif,0.803,GOOD,0.921,0.342,1.0,0.9,0.85,[],Continue to verification
+Cheque 120611.tif,raw\idrbt\300\Cheque 120611.tif,0.642,UNCERTAIN,0.815,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120612.tif,raw\idrbt\300\Cheque 120612.tif,0.644,UNCERTAIN,0.823,0.296,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120613.tif,raw\idrbt\300\Cheque 120613.tif,0.646,UNCERTAIN,0.826,0.306,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120614.tif,raw\idrbt\300\Cheque 120614.tif,0.644,UNCERTAIN,0.824,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120615.tif,raw\idrbt\300\Cheque 120615.tif,0.648,UNCERTAIN,0.829,0.312,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120616.tif,raw\idrbt\300\Cheque 120616.tif,0.645,UNCERTAIN,0.822,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120617.tif,raw\idrbt\300\Cheque 120617.tif,0.645,UNCERTAIN,0.825,0.301,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120618.tif,raw\idrbt\300\Cheque 120618.tif,0.647,UNCERTAIN,0.823,0.31,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 120619.tif,raw\idrbt\300\Cheque 120619.tif,0.641,UNCERTAIN,0.816,0.29,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 120620.tif,raw\idrbt\300\Cheque 120620.tif,0.645,UNCERTAIN,0.817,0.307,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+Cheque 309061.tif,raw\idrbt\300\Cheque 309061.tif,0.715,GOOD,0.951,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309062.tif,raw\idrbt\300\Cheque 309062.tif,0.716,GOOD,0.952,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309063.tif,raw\idrbt\300\Cheque 309063.tif,0.715,GOOD,0.952,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309066.tif,raw\idrbt\300\Cheque 309066.tif,0.713,GOOD,0.952,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309067.tif,raw\idrbt\300\Cheque 309067.tif,0.715,GOOD,0.954,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309068.tif,raw\idrbt\300\Cheque 309068.tif,0.776,GOOD,0.954,0.324,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309069.tif,raw\idrbt\300\Cheque 309069.tif,0.715,GOOD,0.952,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309070.tif,raw\idrbt\300\Cheque 309070.tif,0.716,GOOD,0.952,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309071.tif,raw\idrbt\300\Cheque 309071.tif,0.777,GOOD,0.955,0.331,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309072.tif,raw\idrbt\300\Cheque 309072.tif,0.717,GOOD,0.953,0.335,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309073.tif,raw\idrbt\300\Cheque 309073.tif,0.715,GOOD,0.952,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309074.tif,raw\idrbt\300\Cheque 309074.tif,0.714,GOOD,0.953,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309075.tif,raw\idrbt\300\Cheque 309075.tif,0.718,GOOD,0.953,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309076.tif,raw\idrbt\300\Cheque 309076.tif,0.719,GOOD,0.951,0.342,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309077.tif,raw\idrbt\300\Cheque 309077.tif,0.715,GOOD,0.951,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309078.tif,raw\idrbt\300\Cheque 309078.tif,0.714,GOOD,0.951,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309079.tif,raw\idrbt\300\Cheque 309079.tif,0.716,GOOD,0.953,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309080.tif,raw\idrbt\300\Cheque 309080.tif,0.772,GOOD,0.95,0.31,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309082.tif,raw\idrbt\300\Cheque 309082.tif,0.712,GOOD,0.947,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309083.tif,raw\idrbt\300\Cheque 309083.tif,0.713,GOOD,0.95,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309084.tif,raw\idrbt\300\Cheque 309084.tif,0.714,GOOD,0.949,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309086.tif,raw\idrbt\300\Cheque 309086.tif,0.715,GOOD,0.949,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309089.tif,raw\idrbt\300\Cheque 309089.tif,0.716,GOOD,0.949,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309090.tif,raw\idrbt\300\Cheque 309090.tif,0.716,GOOD,0.948,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309091.tif,raw\idrbt\300\Cheque 309091.tif,0.715,GOOD,0.949,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309092.tif,raw\idrbt\300\Cheque 309092.tif,0.714,GOOD,0.949,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309093.tif,raw\idrbt\300\Cheque 309093.tif,0.716,GOOD,0.952,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309094.tif,raw\idrbt\300\Cheque 309094.tif,0.713,GOOD,0.948,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309095.tif,raw\idrbt\300\Cheque 309095.tif,0.714,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309096.tif,raw\idrbt\300\Cheque 309096.tif,0.694,GOOD,0.949,0.32,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309097.tif,raw\idrbt\300\Cheque 309097.tif,0.715,GOOD,0.95,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309098.tif,raw\idrbt\300\Cheque 309098.tif,0.715,GOOD,0.949,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309099.tif,raw\idrbt\300\Cheque 309099.tif,0.716,GOOD,0.95,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309100.tif,raw\idrbt\300\Cheque 309100.tif,0.619,UNCERTAIN,0.879,0.315,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309101.tif,raw\idrbt\300\Cheque 309101.tif,0.719,GOOD,0.951,0.342,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309102.tif,raw\idrbt\300\Cheque 309102.tif,0.715,GOOD,0.952,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309103.tif,raw\idrbt\300\Cheque 309103.tif,0.718,GOOD,0.95,0.339,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309104.tif,raw\idrbt\300\Cheque 309104.tif,0.697,GOOD,0.95,0.335,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309105.tif,raw\idrbt\300\Cheque 309105.tif,0.718,GOOD,0.951,0.337,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309106.tif,raw\idrbt\300\Cheque 309106.tif,0.696,GOOD,0.951,0.331,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309107.tif,raw\idrbt\300\Cheque 309107.tif,0.716,GOOD,0.95,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309108.tif,raw\idrbt\300\Cheque 309108.tif,0.635,UNCERTAIN,0.953,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309109.tif,raw\idrbt\300\Cheque 309109.tif,0.697,GOOD,0.953,0.331,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309110.tif,raw\idrbt\300\Cheque 309110.tif,0.695,GOOD,0.949,0.325,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309111.tif,raw\idrbt\300\Cheque 309111.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309112.tif,raw\idrbt\300\Cheque 309112.tif,0.715,GOOD,0.95,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309113.tif,raw\idrbt\300\Cheque 309113.tif,0.717,GOOD,0.949,0.335,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309114.tif,raw\idrbt\300\Cheque 309114.tif,0.638,UNCERTAIN,0.951,0.34,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309115.tif,raw\idrbt\300\Cheque 309115.tif,0.719,GOOD,0.95,0.343,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309116.tif,raw\idrbt\300\Cheque 309116.tif,0.693,GOOD,0.951,0.314,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309117.tif,raw\idrbt\300\Cheque 309117.tif,0.718,GOOD,0.952,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309118.tif,raw\idrbt\300\Cheque 309118.tif,0.718,GOOD,0.951,0.341,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309119.tif,raw\idrbt\300\Cheque 309119.tif,0.699,GOOD,0.951,0.342,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309121.tif,raw\idrbt\300\Cheque 309121.tif,0.713,GOOD,0.951,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309122.tif,raw\idrbt\300\Cheque 309122.tif,0.775,GOOD,0.953,0.321,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309123.tif,raw\idrbt\300\Cheque 309123.tif,0.716,GOOD,0.955,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309124.tif,raw\idrbt\300\Cheque 309124.tif,0.716,GOOD,0.953,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309125.tif,raw\idrbt\300\Cheque 309125.tif,0.719,GOOD,0.958,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309126.tif,raw\idrbt\300\Cheque 309126.tif,0.717,GOOD,0.955,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309127.tif,raw\idrbt\300\Cheque 309127.tif,0.636,UNCERTAIN,0.952,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309128.tif,raw\idrbt\300\Cheque 309128.tif,0.635,UNCERTAIN,0.952,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309129.tif,raw\idrbt\300\Cheque 309129.tif,0.715,GOOD,0.952,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309130.tif,raw\idrbt\300\Cheque 309130.tif,0.716,GOOD,0.952,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309131.tif,raw\idrbt\300\Cheque 309131.tif,0.696,GOOD,0.951,0.327,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309133.tif,raw\idrbt\300\Cheque 309133.tif,0.716,GOOD,0.952,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309134.tif,raw\idrbt\300\Cheque 309134.tif,0.715,GOOD,0.952,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309135.tif,raw\idrbt\300\Cheque 309135.tif,0.718,GOOD,0.952,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309136.tif,raw\idrbt\300\Cheque 309136.tif,0.716,GOOD,0.953,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309137.tif,raw\idrbt\300\Cheque 309137.tif,0.716,GOOD,0.954,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309138.tif,raw\idrbt\300\Cheque 309138.tif,0.715,GOOD,0.953,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309139.tif,raw\idrbt\300\Cheque 309139.tif,0.716,GOOD,0.951,0.331,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309141.tif,raw\idrbt\300\Cheque 309141.tif,0.714,GOOD,0.949,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309142.tif,raw\idrbt\300\Cheque 309142.tif,0.716,GOOD,0.95,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309144.tif,raw\idrbt\300\Cheque 309144.tif,0.637,UNCERTAIN,0.952,0.333,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+Cheque 309145.tif,raw\idrbt\300\Cheque 309145.tif,0.716,GOOD,0.951,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309147.tif,raw\idrbt\300\Cheque 309147.tif,0.717,GOOD,0.951,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309148.tif,raw\idrbt\300\Cheque 309148.tif,0.718,GOOD,0.953,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309149.tif,raw\idrbt\300\Cheque 309149.tif,0.715,GOOD,0.951,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309150.tif,raw\idrbt\300\Cheque 309150.tif,0.714,GOOD,0.949,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309151.tif,raw\idrbt\300\Cheque 309151.tif,0.713,GOOD,0.949,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309153.tif,raw\idrbt\300\Cheque 309153.tif,0.715,GOOD,0.95,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309155.tif,raw\idrbt\300\Cheque 309155.tif,0.714,GOOD,0.951,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309156.tif,raw\idrbt\300\Cheque 309156.tif,0.696,GOOD,0.951,0.33,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309157.tif,raw\idrbt\300\Cheque 309157.tif,0.715,GOOD,0.95,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309158.tif,raw\idrbt\300\Cheque 309158.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309159.tif,raw\idrbt\300\Cheque 309159.tif,0.715,GOOD,0.949,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+Cheque 309160.tif,raw\idrbt\300\Cheque 309160.tif,0.713,GOOD,0.949,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309061_amount_forgery.tif,synthetic\forged\axis\309061_amount_forgery.tif,0.713,GOOD,0.95,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309061_multi_field_forgery.tif,synthetic\forged\axis\309061_multi_field_forgery.tif,0.711,GOOD,0.945,0.309,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309061_payee_forgery.tif,synthetic\forged\axis\309061_payee_forgery.tif,0.713,GOOD,0.947,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309062_amount_forgery.tif,synthetic\forged\axis\309062_amount_forgery.tif,0.715,GOOD,0.951,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309062_multi_field_forgery.tif,synthetic\forged\axis\309062_multi_field_forgery.tif,0.714,GOOD,0.947,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309062_payee_forgery.tif,synthetic\forged\axis\309062_payee_forgery.tif,0.715,GOOD,0.949,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309063_amount_forgery.tif,synthetic\forged\axis\309063_amount_forgery.tif,0.693,GOOD,0.95,0.316,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309063_multi_field_forgery.tif,synthetic\forged\axis\309063_multi_field_forgery.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309063_payee_forgery.tif,synthetic\forged\axis\309063_payee_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309066_amount_forgery.tif,synthetic\forged\axis\309066_amount_forgery.tif,0.711,GOOD,0.95,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309066_multi_field_forgery.tif,synthetic\forged\axis\309066_multi_field_forgery.tif,0.71,GOOD,0.946,0.305,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309066_payee_forgery.tif,synthetic\forged\axis\309066_payee_forgery.tif,0.712,GOOD,0.948,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309067_amount_forgery.tif,synthetic\forged\axis\309067_amount_forgery.tif,0.713,GOOD,0.952,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309067_multi_field_forgery.tif,synthetic\forged\axis\309067_multi_field_forgery.tif,0.712,GOOD,0.948,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309067_payee_forgery.tif,synthetic\forged\axis\309067_payee_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309068_amount_forgery.tif,synthetic\forged\axis\309068_amount_forgery.tif,0.714,GOOD,0.953,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309068_multi_field_forgery.tif,synthetic\forged\axis\309068_multi_field_forgery.tif,0.712,GOOD,0.949,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309068_payee_forgery.tif,synthetic\forged\axis\309068_payee_forgery.tif,0.774,GOOD,0.951,0.318,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+309069_amount_forgery.tif,synthetic\forged\axis\309069_amount_forgery.tif,0.713,GOOD,0.95,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309069_multi_field_forgery.tif,synthetic\forged\axis\309069_multi_field_forgery.tif,0.712,GOOD,0.947,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309069_payee_forgery.tif,synthetic\forged\axis\309069_payee_forgery.tif,0.713,GOOD,0.949,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309070_amount_forgery.tif,synthetic\forged\axis\309070_amount_forgery.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309070_multi_field_forgery.tif,synthetic\forged\axis\309070_multi_field_forgery.tif,0.714,GOOD,0.947,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309070_payee_forgery.tif,synthetic\forged\axis\309070_payee_forgery.tif,0.715,GOOD,0.948,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309071_amount_forgery.tif,synthetic\forged\axis\309071_amount_forgery.tif,0.716,GOOD,0.953,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309071_multi_field_forgery.tif,synthetic\forged\axis\309071_multi_field_forgery.tif,0.716,GOOD,0.95,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309071_payee_forgery.tif,synthetic\forged\axis\309071_payee_forgery.tif,0.757,GOOD,0.952,0.333,1.0,0.9,0.6,['The complete cheque may not be visible.'],Continue to verification
+309072_amount_forgery.tif,synthetic\forged\axis\309072_amount_forgery.tif,0.716,GOOD,0.951,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309072_multi_field_forgery.tif,synthetic\forged\axis\309072_multi_field_forgery.tif,0.714,GOOD,0.947,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309072_payee_forgery.tif,synthetic\forged\axis\309072_payee_forgery.tif,0.716,GOOD,0.949,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309073_amount_forgery.tif,synthetic\forged\axis\309073_amount_forgery.tif,0.714,GOOD,0.951,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309073_multi_field_forgery.tif,synthetic\forged\axis\309073_multi_field_forgery.tif,0.711,GOOD,0.946,0.307,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309073_payee_forgery.tif,synthetic\forged\axis\309073_payee_forgery.tif,0.712,GOOD,0.947,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309074_amount_forgery.tif,synthetic\forged\axis\309074_amount_forgery.tif,0.712,GOOD,0.951,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309074_multi_field_forgery.tif,synthetic\forged\axis\309074_multi_field_forgery.tif,0.708,GOOD,0.947,0.295,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309074_payee_forgery.tif,synthetic\forged\axis\309074_payee_forgery.tif,0.71,GOOD,0.948,0.3,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309075_amount_forgery.tif,synthetic\forged\axis\309075_amount_forgery.tif,0.717,GOOD,0.952,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309075_multi_field_forgery.tif,synthetic\forged\axis\309075_multi_field_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309075_payee_forgery.tif,synthetic\forged\axis\309075_payee_forgery.tif,0.715,GOOD,0.949,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309076_amount_forgery.tif,synthetic\forged\axis\309076_amount_forgery.tif,0.718,GOOD,0.95,0.34,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309076_multi_field_forgery.tif,synthetic\forged\axis\309076_multi_field_forgery.tif,0.717,GOOD,0.946,0.337,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309076_payee_forgery.tif,synthetic\forged\axis\309076_payee_forgery.tif,0.717,GOOD,0.948,0.339,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309077_amount_forgery.tif,synthetic\forged\axis\309077_amount_forgery.tif,0.713,GOOD,0.95,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309077_multi_field_forgery.tif,synthetic\forged\axis\309077_multi_field_forgery.tif,0.693,GOOD,0.947,0.319,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309077_payee_forgery.tif,synthetic\forged\axis\309077_payee_forgery.tif,0.715,GOOD,0.949,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309078_amount_forgery.tif,synthetic\forged\axis\309078_amount_forgery.tif,0.712,GOOD,0.949,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309078_multi_field_forgery.tif,synthetic\forged\axis\309078_multi_field_forgery.tif,0.711,GOOD,0.945,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309078_payee_forgery.tif,synthetic\forged\axis\309078_payee_forgery.tif,0.713,GOOD,0.947,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309079_amount_forgery.tif,synthetic\forged\axis\309079_amount_forgery.tif,0.714,GOOD,0.952,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309079_multi_field_forgery.tif,synthetic\forged\axis\309079_multi_field_forgery.tif,0.712,GOOD,0.947,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309079_payee_forgery.tif,synthetic\forged\axis\309079_payee_forgery.tif,0.714,GOOD,0.949,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309080_amount_forgery.tif,synthetic\forged\axis\309080_amount_forgery.tif,0.71,GOOD,0.948,0.303,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309080_multi_field_forgery.tif,synthetic\forged\axis\309080_multi_field_forgery.tif,0.708,GOOD,0.944,0.296,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309080_payee_forgery.tif,synthetic\forged\axis\309080_payee_forgery.tif,0.77,GOOD,0.946,0.303,1.0,1.0,0.6,['The complete cheque may not be visible.'],Continue to verification
+309082_amount_forgery.tif,synthetic\forged\axis\309082_amount_forgery.tif,0.711,GOOD,0.945,0.307,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309082_multi_field_forgery.tif,synthetic\forged\axis\309082_multi_field_forgery.tif,0.71,GOOD,0.942,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309082_payee_forgery.tif,synthetic\forged\axis\309082_payee_forgery.tif,0.711,GOOD,0.945,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309083_amount_forgery.tif,synthetic\forged\axis\309083_amount_forgery.tif,0.712,GOOD,0.949,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309083_multi_field_forgery.tif,synthetic\forged\axis\309083_multi_field_forgery.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309083_payee_forgery.tif,synthetic\forged\axis\309083_payee_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309084_amount_forgery.tif,synthetic\forged\axis\309084_amount_forgery.tif,0.712,GOOD,0.947,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309084_multi_field_forgery.tif,synthetic\forged\axis\309084_multi_field_forgery.tif,0.711,GOOD,0.944,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309084_payee_forgery.tif,synthetic\forged\axis\309084_payee_forgery.tif,0.713,GOOD,0.947,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309086_amount_forgery.tif,synthetic\forged\axis\309086_amount_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309086_multi_field_forgery.tif,synthetic\forged\axis\309086_multi_field_forgery.tif,0.711,GOOD,0.944,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309086_payee_forgery.tif,synthetic\forged\axis\309086_payee_forgery.tif,0.713,GOOD,0.946,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309089_amount_forgery.tif,synthetic\forged\axis\309089_amount_forgery.tif,0.715,GOOD,0.947,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309089_multi_field_forgery.tif,synthetic\forged\axis\309089_multi_field_forgery.tif,0.694,GOOD,0.943,0.327,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309089_payee_forgery.tif,synthetic\forged\axis\309089_payee_forgery.tif,0.716,GOOD,0.946,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309090_amount_forgery.tif,synthetic\forged\axis\309090_amount_forgery.tif,0.715,GOOD,0.946,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309090_multi_field_forgery.tif,synthetic\forged\axis\309090_multi_field_forgery.tif,0.713,GOOD,0.942,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309090_payee_forgery.tif,synthetic\forged\axis\309090_payee_forgery.tif,0.714,GOOD,0.944,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309091_amount_forgery.tif,synthetic\forged\axis\309091_amount_forgery.tif,0.714,GOOD,0.947,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309091_multi_field_forgery.tif,synthetic\forged\axis\309091_multi_field_forgery.tif,0.714,GOOD,0.944,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309091_payee_forgery.tif,synthetic\forged\axis\309091_payee_forgery.tif,0.716,GOOD,0.946,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309092_amount_forgery.tif,synthetic\forged\axis\309092_amount_forgery.tif,0.713,GOOD,0.947,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309092_multi_field_forgery.tif,synthetic\forged\axis\309092_multi_field_forgery.tif,0.71,GOOD,0.942,0.308,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309092_payee_forgery.tif,synthetic\forged\axis\309092_payee_forgery.tif,0.711,GOOD,0.944,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309093_amount_forgery.tif,synthetic\forged\axis\309093_amount_forgery.tif,0.715,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309093_multi_field_forgery.tif,synthetic\forged\axis\309093_multi_field_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309093_payee_forgery.tif,synthetic\forged\axis\309093_payee_forgery.tif,0.714,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309094_amount_forgery.tif,synthetic\forged\axis\309094_amount_forgery.tif,0.711,GOOD,0.946,0.309,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309094_multi_field_forgery.tif,synthetic\forged\axis\309094_multi_field_forgery.tif,0.71,GOOD,0.942,0.308,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309094_payee_forgery.tif,synthetic\forged\axis\309094_payee_forgery.tif,0.692,GOOD,0.945,0.313,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309095_amount_forgery.tif,synthetic\forged\axis\309095_amount_forgery.tif,0.713,GOOD,0.947,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309095_multi_field_forgery.tif,synthetic\forged\axis\309095_multi_field_forgery.tif,0.711,GOOD,0.943,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309095_payee_forgery.tif,synthetic\forged\axis\309095_payee_forgery.tif,0.712,GOOD,0.945,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_amount_forgery.tif,synthetic\forged\axis\309096_amount_forgery.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_amount_forgery_v2.tif,synthetic\forged\axis\309096_amount_forgery_v2.tif,0.712,GOOD,0.946,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_multi_field_forgery.tif,synthetic\forged\axis\309096_multi_field_forgery.tif,0.711,GOOD,0.944,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_multi_field_forgery_v2.tif,synthetic\forged\axis\309096_multi_field_forgery_v2.tif,0.711,GOOD,0.944,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_payee_forgery.tif,synthetic\forged\axis\309096_payee_forgery.tif,0.713,GOOD,0.946,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309096_payee_forgery_v2.tif,synthetic\forged\axis\309096_payee_forgery_v2.tif,0.713,GOOD,0.946,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309097_amount_forgery.tif,synthetic\forged\axis\309097_amount_forgery.tif,0.713,GOOD,0.948,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309097_multi_field_forgery.tif,synthetic\forged\axis\309097_multi_field_forgery.tif,0.712,GOOD,0.944,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309097_payee_forgery.tif,synthetic\forged\axis\309097_payee_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309098_amount_forgery.tif,synthetic\forged\axis\309098_amount_forgery.tif,0.714,GOOD,0.947,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309098_multi_field_forgery.tif,synthetic\forged\axis\309098_multi_field_forgery.tif,0.712,GOOD,0.943,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309098_payee_forgery.tif,synthetic\forged\axis\309098_payee_forgery.tif,0.713,GOOD,0.945,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309099_amount_forgery.tif,synthetic\forged\axis\309099_amount_forgery.tif,0.715,GOOD,0.949,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309099_multi_field_forgery.tif,synthetic\forged\axis\309099_multi_field_forgery.tif,0.712,GOOD,0.943,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309099_payee_forgery.tif,synthetic\forged\axis\309099_payee_forgery.tif,0.713,GOOD,0.945,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309100_amount_forgery.tif,synthetic\forged\axis\309100_amount_forgery.tif,0.697,GOOD,0.875,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309100_multi_field_forgery.tif,synthetic\forged\axis\309100_multi_field_forgery.tif,0.692,GOOD,0.863,0.297,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309100_payee_forgery.tif,synthetic\forged\axis\309100_payee_forgery.tif,0.694,GOOD,0.868,0.301,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309101_amount_forgery.tif,synthetic\forged\axis\309101_amount_forgery.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309101_multi_field_forgery.tif,synthetic\forged\axis\309101_multi_field_forgery.tif,0.715,GOOD,0.945,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309101_payee_forgery.tif,synthetic\forged\axis\309101_payee_forgery.tif,0.717,GOOD,0.947,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309102_amount_forgery.tif,synthetic\forged\axis\309102_amount_forgery.tif,0.694,GOOD,0.95,0.318,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309102_multi_field_forgery.tif,synthetic\forged\axis\309102_multi_field_forgery.tif,0.711,GOOD,0.946,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309102_payee_forgery.tif,synthetic\forged\axis\309102_payee_forgery.tif,0.713,GOOD,0.948,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309103_amount_forgery.tif,synthetic\forged\axis\309103_amount_forgery.tif,0.718,GOOD,0.948,0.34,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309103_multi_field_forgery.tif,synthetic\forged\axis\309103_multi_field_forgery.tif,0.717,GOOD,0.946,0.339,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309103_payee_forgery.tif,synthetic\forged\axis\309103_payee_forgery.tif,0.717,GOOD,0.948,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309104_amount_forgery.tif,synthetic\forged\axis\309104_amount_forgery.tif,0.715,GOOD,0.947,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309104_multi_field_forgery.tif,synthetic\forged\axis\309104_multi_field_forgery.tif,0.694,GOOD,0.945,0.323,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309104_payee_forgery.tif,synthetic\forged\axis\309104_payee_forgery.tif,0.695,GOOD,0.947,0.328,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309105_amount_forgery.tif,synthetic\forged\axis\309105_amount_forgery.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309105_multi_field_forgery.tif,synthetic\forged\axis\309105_multi_field_forgery.tif,0.716,GOOD,0.947,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309105_payee_forgery.tif,synthetic\forged\axis\309105_payee_forgery.tif,0.696,GOOD,0.949,0.333,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309106_amount_forgery.tif,synthetic\forged\axis\309106_amount_forgery.tif,0.715,GOOD,0.949,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309106_multi_field_forgery.tif,synthetic\forged\axis\309106_multi_field_forgery.tif,0.634,UNCERTAIN,0.946,0.322,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309106_payee_forgery.tif,synthetic\forged\axis\309106_payee_forgery.tif,0.715,GOOD,0.949,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309107_amount_forgery.tif,synthetic\forged\axis\309107_amount_forgery.tif,0.715,GOOD,0.948,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309107_multi_field_forgery.tif,synthetic\forged\axis\309107_multi_field_forgery.tif,0.713,GOOD,0.945,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309107_payee_forgery.tif,synthetic\forged\axis\309107_payee_forgery.tif,0.694,GOOD,0.948,0.323,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309108_amount_forgery.tif,synthetic\forged\axis\309108_amount_forgery.tif,0.713,GOOD,0.951,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309108_multi_field_forgery.tif,synthetic\forged\axis\309108_multi_field_forgery.tif,0.712,GOOD,0.949,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309108_payee_forgery.tif,synthetic\forged\axis\309108_payee_forgery.tif,0.713,GOOD,0.951,0.316,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309109_amount_forgery.tif,synthetic\forged\axis\309109_amount_forgery.tif,0.636,UNCERTAIN,0.951,0.332,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309109_multi_field_forgery.tif,synthetic\forged\axis\309109_multi_field_forgery.tif,0.635,UNCERTAIN,0.948,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309109_payee_forgery.tif,synthetic\forged\axis\309109_payee_forgery.tif,0.715,GOOD,0.951,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309110_amount_forgery.tif,synthetic\forged\axis\309110_amount_forgery.tif,0.694,GOOD,0.946,0.324,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309110_multi_field_forgery.tif,synthetic\forged\axis\309110_multi_field_forgery.tif,0.713,GOOD,0.944,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309110_payee_forgery.tif,synthetic\forged\axis\309110_payee_forgery.tif,0.633,UNCERTAIN,0.946,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309111_amount_forgery.tif,synthetic\forged\axis\309111_amount_forgery.tif,0.696,GOOD,0.948,0.333,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309111_multi_field_forgery.tif,synthetic\forged\axis\309111_multi_field_forgery.tif,0.716,GOOD,0.946,0.331,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309111_payee_forgery.tif,synthetic\forged\axis\309111_payee_forgery.tif,0.694,GOOD,0.949,0.323,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309112_amount_forgery.tif,synthetic\forged\axis\309112_amount_forgery.tif,0.713,GOOD,0.947,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309112_multi_field_forgery.tif,synthetic\forged\axis\309112_multi_field_forgery.tif,0.712,GOOD,0.944,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309112_payee_forgery.tif,synthetic\forged\axis\309112_payee_forgery.tif,0.713,GOOD,0.947,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309113_amount_forgery.tif,synthetic\forged\axis\309113_amount_forgery.tif,0.715,GOOD,0.947,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309113_multi_field_forgery.tif,synthetic\forged\axis\309113_multi_field_forgery.tif,0.714,GOOD,0.944,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309113_payee_forgery.tif,synthetic\forged\axis\309113_payee_forgery.tif,0.716,GOOD,0.946,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309114_amount_forgery.tif,synthetic\forged\axis\309114_amount_forgery.tif,0.717,GOOD,0.948,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309114_multi_field_forgery.tif,synthetic\forged\axis\309114_multi_field_forgery.tif,0.716,GOOD,0.946,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309114_payee_forgery.tif,synthetic\forged\axis\309114_payee_forgery.tif,0.637,UNCERTAIN,0.948,0.335,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309115_amount_forgery.tif,synthetic\forged\axis\309115_amount_forgery.tif,0.717,GOOD,0.948,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309115_multi_field_forgery.tif,synthetic\forged\axis\309115_multi_field_forgery.tif,0.716,GOOD,0.945,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309115_payee_forgery.tif,synthetic\forged\axis\309115_payee_forgery.tif,0.718,GOOD,0.947,0.343,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309116_amount_forgery.tif,synthetic\forged\axis\309116_amount_forgery.tif,0.632,UNCERTAIN,0.948,0.311,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309116_multi_field_forgery.tif,synthetic\forged\axis\309116_multi_field_forgery.tif,0.71,GOOD,0.946,0.305,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309116_payee_forgery.tif,synthetic\forged\axis\309116_payee_forgery.tif,0.711,GOOD,0.948,0.308,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309117_amount_forgery.tif,synthetic\forged\axis\309117_amount_forgery.tif,0.697,GOOD,0.95,0.335,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309117_multi_field_forgery.tif,synthetic\forged\axis\309117_multi_field_forgery.tif,0.715,GOOD,0.947,0.329,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309117_payee_forgery.tif,synthetic\forged\axis\309117_payee_forgery.tif,0.716,GOOD,0.949,0.331,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309118_amount_forgery.tif,synthetic\forged\axis\309118_amount_forgery.tif,0.717,GOOD,0.949,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309118_multi_field_forgery.tif,synthetic\forged\axis\309118_multi_field_forgery.tif,0.715,GOOD,0.947,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309118_payee_forgery.tif,synthetic\forged\axis\309118_payee_forgery.tif,0.717,GOOD,0.949,0.334,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309119_amount_forgery.tif,synthetic\forged\axis\309119_amount_forgery.tif,0.638,UNCERTAIN,0.949,0.34,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309119_multi_field_forgery.tif,synthetic\forged\axis\309119_multi_field_forgery.tif,0.716,GOOD,0.946,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309119_payee_forgery.tif,synthetic\forged\axis\309119_payee_forgery.tif,0.717,GOOD,0.949,0.337,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309121_amount_forgery.tif,synthetic\forged\axis\309121_amount_forgery.tif,0.712,GOOD,0.949,0.311,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309121_multi_field_forgery.tif,synthetic\forged\axis\309121_multi_field_forgery.tif,0.708,GOOD,0.944,0.298,1.0,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Continue to verification
+309121_payee_forgery.tif,synthetic\forged\axis\309121_payee_forgery.tif,0.69,GOOD,0.946,0.304,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309122_amount_forgery.tif,synthetic\forged\axis\309122_amount_forgery.tif,0.713,GOOD,0.951,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309122_multi_field_forgery.tif,synthetic\forged\axis\309122_multi_field_forgery.tif,0.711,GOOD,0.947,0.309,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309122_payee_forgery.tif,synthetic\forged\axis\309122_payee_forgery.tif,0.753,GOOD,0.949,0.314,1.0,0.9,0.6,['The complete cheque may not be visible.'],Continue to verification
+309123_amount_forgery.tif,synthetic\forged\axis\309123_amount_forgery.tif,0.635,UNCERTAIN,0.953,0.324,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309123_multi_field_forgery.tif,synthetic\forged\axis\309123_multi_field_forgery.tif,0.634,UNCERTAIN,0.95,0.321,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309123_payee_forgery.tif,synthetic\forged\axis\309123_payee_forgery.tif,0.715,GOOD,0.953,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309124_amount_forgery.tif,synthetic\forged\axis\309124_amount_forgery.tif,0.694,GOOD,0.951,0.321,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309124_multi_field_forgery.tif,synthetic\forged\axis\309124_multi_field_forgery.tif,0.713,GOOD,0.948,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309124_payee_forgery.tif,synthetic\forged\axis\309124_payee_forgery.tif,0.635,UNCERTAIN,0.95,0.324,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309125_amount_forgery.tif,synthetic\forged\axis\309125_amount_forgery.tif,0.717,GOOD,0.956,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309125_multi_field_forgery.tif,synthetic\forged\axis\309125_multi_field_forgery.tif,0.697,GOOD,0.954,0.331,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309125_payee_forgery.tif,synthetic\forged\axis\309125_payee_forgery.tif,0.698,GOOD,0.955,0.336,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309126_amount_forgery.tif,synthetic\forged\axis\309126_amount_forgery.tif,0.715,GOOD,0.953,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309126_multi_field_forgery.tif,synthetic\forged\axis\309126_multi_field_forgery.tif,0.714,GOOD,0.951,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309126_payee_forgery.tif,synthetic\forged\axis\309126_payee_forgery.tif,0.715,GOOD,0.953,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309127_amount_forgery.tif,synthetic\forged\axis\309127_amount_forgery.tif,0.714,GOOD,0.95,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309127_multi_field_forgery.tif,synthetic\forged\axis\309127_multi_field_forgery.tif,0.632,UNCERTAIN,0.947,0.315,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309127_payee_forgery.tif,synthetic\forged\axis\309127_payee_forgery.tif,0.634,UNCERTAIN,0.95,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309128_amount_forgery.tif,synthetic\forged\axis\309128_amount_forgery.tif,0.715,GOOD,0.95,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309128_multi_field_forgery.tif,synthetic\forged\axis\309128_multi_field_forgery.tif,0.713,GOOD,0.947,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309128_payee_forgery.tif,synthetic\forged\axis\309128_payee_forgery.tif,0.694,GOOD,0.949,0.32,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309129_amount_forgery.tif,synthetic\forged\axis\309129_amount_forgery.tif,0.694,GOOD,0.95,0.318,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309129_multi_field_forgery.tif,synthetic\forged\axis\309129_multi_field_forgery.tif,0.632,UNCERTAIN,0.948,0.314,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309129_payee_forgery.tif,synthetic\forged\axis\309129_payee_forgery.tif,0.714,GOOD,0.95,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309130_amount_forgery.tif,synthetic\forged\axis\309130_amount_forgery.tif,0.715,GOOD,0.95,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309130_multi_field_forgery.tif,synthetic\forged\axis\309130_multi_field_forgery.tif,0.715,GOOD,0.947,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309130_payee_forgery.tif,synthetic\forged\axis\309130_payee_forgery.tif,0.717,GOOD,0.949,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309131_amount_forgery.tif,synthetic\forged\axis\309131_amount_forgery.tif,0.634,UNCERTAIN,0.95,0.321,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309131_multi_field_forgery.tif,synthetic\forged\axis\309131_multi_field_forgery.tif,0.635,UNCERTAIN,0.947,0.326,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309131_payee_forgery.tif,synthetic\forged\axis\309131_payee_forgery.tif,0.716,GOOD,0.949,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309133_amount_forgery.tif,synthetic\forged\axis\309133_amount_forgery.tif,0.634,UNCERTAIN,0.95,0.32,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309133_multi_field_forgery.tif,synthetic\forged\axis\309133_multi_field_forgery.tif,0.713,GOOD,0.947,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309133_payee_forgery.tif,synthetic\forged\axis\309133_payee_forgery.tif,0.714,GOOD,0.949,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309134_amount_forgery.tif,synthetic\forged\axis\309134_amount_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309134_multi_field_forgery.tif,synthetic\forged\axis\309134_multi_field_forgery.tif,0.633,UNCERTAIN,0.947,0.316,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309134_payee_forgery.tif,synthetic\forged\axis\309134_payee_forgery.tif,0.714,GOOD,0.949,0.322,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_amount_forgery.tif,synthetic\forged\axis\309135_amount_forgery.tif,0.716,GOOD,0.95,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_amount_forgery_v2.tif,synthetic\forged\axis\309135_amount_forgery_v2.tif,0.716,GOOD,0.95,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_multi_field_forgery.tif,synthetic\forged\axis\309135_multi_field_forgery.tif,0.715,GOOD,0.947,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_multi_field_forgery_v2.tif,synthetic\forged\axis\309135_multi_field_forgery_v2.tif,0.715,GOOD,0.947,0.33,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_payee_forgery.tif,synthetic\forged\axis\309135_payee_forgery.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309135_payee_forgery_v2.tif,synthetic\forged\axis\309135_payee_forgery_v2.tif,0.717,GOOD,0.949,0.336,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309136_amount_forgery.tif,synthetic\forged\axis\309136_amount_forgery.tif,0.694,GOOD,0.95,0.321,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309136_multi_field_forgery.tif,synthetic\forged\axis\309136_multi_field_forgery.tif,0.693,GOOD,0.948,0.316,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309136_payee_forgery.tif,synthetic\forged\axis\309136_payee_forgery.tif,0.714,GOOD,0.95,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309137_amount_forgery.tif,synthetic\forged\axis\309137_amount_forgery.tif,0.635,UNCERTAIN,0.952,0.321,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309137_multi_field_forgery.tif,synthetic\forged\axis\309137_multi_field_forgery.tif,0.712,GOOD,0.948,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309137_payee_forgery.tif,synthetic\forged\axis\309137_payee_forgery.tif,0.694,GOOD,0.95,0.321,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309138_amount_forgery.tif,synthetic\forged\axis\309138_amount_forgery.tif,0.714,GOOD,0.951,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309138_multi_field_forgery.tif,synthetic\forged\axis\309138_multi_field_forgery.tif,0.692,GOOD,0.948,0.312,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309138_payee_forgery.tif,synthetic\forged\axis\309138_payee_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309139_amount_forgery.tif,synthetic\forged\axis\309139_amount_forgery.tif,0.715,GOOD,0.949,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309139_multi_field_forgery.tif,synthetic\forged\axis\309139_multi_field_forgery.tif,0.713,GOOD,0.946,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309139_payee_forgery.tif,synthetic\forged\axis\309139_payee_forgery.tif,0.715,GOOD,0.948,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309141_amount_forgery.tif,synthetic\forged\axis\309141_amount_forgery.tif,0.713,GOOD,0.947,0.317,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309141_multi_field_forgery.tif,synthetic\forged\axis\309141_multi_field_forgery.tif,0.709,GOOD,0.942,0.301,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309141_payee_forgery.tif,synthetic\forged\axis\309141_payee_forgery.tif,0.71,GOOD,0.944,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309142_amount_forgery.tif,synthetic\forged\axis\309142_amount_forgery.tif,0.714,GOOD,0.948,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309142_multi_field_forgery.tif,synthetic\forged\axis\309142_multi_field_forgery.tif,0.713,GOOD,0.944,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309142_payee_forgery.tif,synthetic\forged\axis\309142_payee_forgery.tif,0.715,GOOD,0.946,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309144_amount_forgery.tif,synthetic\forged\axis\309144_amount_forgery.tif,0.716,GOOD,0.95,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309144_multi_field_forgery.tif,synthetic\forged\axis\309144_multi_field_forgery.tif,0.715,GOOD,0.947,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309144_payee_forgery.tif,synthetic\forged\axis\309144_payee_forgery.tif,0.716,GOOD,0.949,0.332,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309145_amount_forgery.tif,synthetic\forged\axis\309145_amount_forgery.tif,0.714,GOOD,0.949,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309145_multi_field_forgery.tif,synthetic\forged\axis\309145_multi_field_forgery.tif,0.713,GOOD,0.946,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309145_payee_forgery.tif,synthetic\forged\axis\309145_payee_forgery.tif,0.715,GOOD,0.948,0.327,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309147_amount_forgery.tif,synthetic\forged\axis\309147_amount_forgery.tif,0.718,GOOD,0.949,0.34,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309147_multi_field_forgery.tif,synthetic\forged\axis\309147_multi_field_forgery.tif,0.717,GOOD,0.946,0.338,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309147_payee_forgery.tif,synthetic\forged\axis\309147_payee_forgery.tif,0.716,GOOD,0.948,0.333,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309148_amount_forgery.tif,synthetic\forged\axis\309148_amount_forgery.tif,0.636,UNCERTAIN,0.952,0.331,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309148_multi_field_forgery.tif,synthetic\forged\axis\309148_multi_field_forgery.tif,0.636,UNCERTAIN,0.949,0.333,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309148_payee_forgery.tif,synthetic\forged\axis\309148_payee_forgery.tif,0.638,UNCERTAIN,0.951,0.338,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309149_amount_forgery.tif,synthetic\forged\axis\309149_amount_forgery.tif,0.714,GOOD,0.95,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309149_multi_field_forgery.tif,synthetic\forged\axis\309149_multi_field_forgery.tif,0.714,GOOD,0.947,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309149_payee_forgery.tif,synthetic\forged\axis\309149_payee_forgery.tif,0.715,GOOD,0.949,0.328,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309150_amount_forgery.tif,synthetic\forged\axis\309150_amount_forgery.tif,0.712,GOOD,0.947,0.315,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309150_multi_field_forgery.tif,synthetic\forged\axis\309150_multi_field_forgery.tif,0.711,GOOD,0.943,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309150_payee_forgery.tif,synthetic\forged\axis\309150_payee_forgery.tif,0.713,GOOD,0.945,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309151_amount_forgery.tif,synthetic\forged\axis\309151_amount_forgery.tif,0.692,GOOD,0.947,0.312,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309151_multi_field_forgery.tif,synthetic\forged\axis\309151_multi_field_forgery.tif,0.71,GOOD,0.944,0.306,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309151_payee_forgery.tif,synthetic\forged\axis\309151_payee_forgery.tif,0.692,GOOD,0.946,0.311,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309153_amount_forgery.tif,synthetic\forged\axis\309153_amount_forgery.tif,0.713,GOOD,0.948,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309153_multi_field_forgery.tif,synthetic\forged\axis\309153_multi_field_forgery.tif,0.711,GOOD,0.944,0.313,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309153_payee_forgery.tif,synthetic\forged\axis\309153_payee_forgery.tif,0.713,GOOD,0.946,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309155_amount_forgery.tif,synthetic\forged\axis\309155_amount_forgery.tif,0.633,UNCERTAIN,0.949,0.315,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309155_multi_field_forgery.tif,synthetic\forged\axis\309155_multi_field_forgery.tif,0.712,GOOD,0.945,0.314,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309155_payee_forgery.tif,synthetic\forged\axis\309155_payee_forgery.tif,0.714,GOOD,0.948,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309156_amount_forgery.tif,synthetic\forged\axis\309156_amount_forgery.tif,0.715,GOOD,0.949,0.324,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309156_multi_field_forgery.tif,synthetic\forged\axis\309156_multi_field_forgery.tif,0.713,GOOD,0.945,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309156_payee_forgery.tif,synthetic\forged\axis\309156_payee_forgery.tif,0.714,GOOD,0.947,0.325,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309157_amount_forgery.tif,synthetic\forged\axis\309157_amount_forgery.tif,0.714,GOOD,0.948,0.321,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309157_multi_field_forgery.tif,synthetic\forged\axis\309157_multi_field_forgery.tif,0.713,GOOD,0.945,0.32,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309157_payee_forgery.tif,synthetic\forged\axis\309157_payee_forgery.tif,0.714,GOOD,0.947,0.326,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309158_amount_forgery.tif,synthetic\forged\axis\309158_amount_forgery.tif,0.633,UNCERTAIN,0.948,0.319,1.0,0.6,0.3,"['The cheque appears tilted. Please photograph it straight-on.', 'The complete cheque may not be visible.']",Re-upload image
+309158_multi_field_forgery.tif,synthetic\forged\axis\309158_multi_field_forgery.tif,0.712,GOOD,0.945,0.318,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309158_payee_forgery.tif,synthetic\forged\axis\309158_payee_forgery.tif,0.714,GOOD,0.947,0.323,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309159_amount_forgery.tif,synthetic\forged\axis\309159_amount_forgery.tif,0.713,GOOD,0.948,0.319,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309159_multi_field_forgery.tif,synthetic\forged\axis\309159_multi_field_forgery.tif,0.69,GOOD,0.943,0.309,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309159_payee_forgery.tif,synthetic\forged\axis\309159_payee_forgery.tif,0.692,GOOD,0.945,0.314,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+309160_amount_forgery.tif,synthetic\forged\axis\309160_amount_forgery.tif,0.712,GOOD,0.947,0.312,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309160_multi_field_forgery.tif,synthetic\forged\axis\309160_multi_field_forgery.tif,0.711,GOOD,0.944,0.31,1.0,1.0,0.3,['The complete cheque may not be visible.'],Continue to verification
+309160_payee_forgery.tif,synthetic\forged\axis\309160_payee_forgery.tif,0.692,GOOD,0.946,0.316,1.0,0.9,0.3,['The complete cheque may not be visible.'],Continue to verification
+120611_amount_forgery.tif,synthetic\forged\canara\120611_amount_forgery.tif,0.641,UNCERTAIN,0.81,0.296,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120611_multi_field_forgery.tif,synthetic\forged\canara\120611_multi_field_forgery.tif,0.64,UNCERTAIN,0.804,0.294,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120611_payee_forgery.tif,synthetic\forged\canara\120611_payee_forgery.tif,0.64,UNCERTAIN,0.809,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120612_amount_forgery.tif,synthetic\forged\canara\120612_amount_forgery.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120612_multi_field_forgery.tif,synthetic\forged\canara\120612_multi_field_forgery.tif,0.64,UNCERTAIN,0.813,0.289,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120612_payee_forgery.tif,synthetic\forged\canara\120612_payee_forgery.tif,0.642,UNCERTAIN,0.818,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120613_amount_forgery.tif,synthetic\forged\canara\120613_amount_forgery.tif,0.644,UNCERTAIN,0.821,0.301,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120613_multi_field_forgery.tif,synthetic\forged\canara\120613_multi_field_forgery.tif,0.642,UNCERTAIN,0.814,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120613_payee_forgery.tif,synthetic\forged\canara\120613_payee_forgery.tif,0.644,UNCERTAIN,0.819,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120614_amount_forgery.tif,synthetic\forged\canara\120614_amount_forgery.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_amount_forgery_1_v3.tif,synthetic\forged\canara\120614_amount_forgery_1_v3.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_amount_forgery_2_v3.tif,synthetic\forged\canara\120614_amount_forgery_2_v3.tif,0.642,UNCERTAIN,0.819,0.292,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_multi_field_forgery.tif,synthetic\forged\canara\120614_multi_field_forgery.tif,0.64,UNCERTAIN,0.812,0.288,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_multi_field_forgery_v3.tif,synthetic\forged\canara\120614_multi_field_forgery_v3.tif,0.64,UNCERTAIN,0.812,0.288,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_payee_forgery.tif,synthetic\forged\canara\120614_payee_forgery.tif,0.642,UNCERTAIN,0.817,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_payee_forgery_1_v3.tif,synthetic\forged\canara\120614_payee_forgery_1_v3.tif,0.642,UNCERTAIN,0.817,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120614_payee_forgery_2_v3.tif,synthetic\forged\canara\120614_payee_forgery_2_v3.tif,0.642,UNCERTAIN,0.817,0.293,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120615_amount_forgery.tif,synthetic\forged\canara\120615_amount_forgery.tif,0.646,UNCERTAIN,0.825,0.308,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120615_multi_field_forgery.tif,synthetic\forged\canara\120615_multi_field_forgery.tif,0.644,UNCERTAIN,0.818,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120615_payee_forgery.tif,synthetic\forged\canara\120615_payee_forgery.tif,0.646,UNCERTAIN,0.823,0.307,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120616_amount_forgery.tif,synthetic\forged\canara\120616_amount_forgery.tif,0.643,UNCERTAIN,0.818,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120616_multi_field_forgery.tif,synthetic\forged\canara\120616_multi_field_forgery.tif,0.641,UNCERTAIN,0.812,0.296,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120616_payee_forgery.tif,synthetic\forged\canara\120616_payee_forgery.tif,0.643,UNCERTAIN,0.816,0.3,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120617_amount_forgery.tif,synthetic\forged\canara\120617_amount_forgery.tif,0.643,UNCERTAIN,0.82,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120617_multi_field_forgery.tif,synthetic\forged\canara\120617_multi_field_forgery.tif,0.642,UNCERTAIN,0.814,0.294,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120617_payee_forgery.tif,synthetic\forged\canara\120617_payee_forgery.tif,0.643,UNCERTAIN,0.819,0.298,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120618_amount_forgery.tif,synthetic\forged\canara\120618_amount_forgery.tif,0.645,UNCERTAIN,0.818,0.305,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120618_multi_field_forgery.tif,synthetic\forged\canara\120618_multi_field_forgery.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120618_payee_forgery.tif,synthetic\forged\canara\120618_payee_forgery.tif,0.645,UNCERTAIN,0.816,0.307,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120619_amount_forgery.tif,synthetic\forged\canara\120619_amount_forgery.tif,0.639,UNCERTAIN,0.811,0.286,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120619_multi_field_forgery.tif,synthetic\forged\canara\120619_multi_field_forgery.tif,0.637,UNCERTAIN,0.804,0.281,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120619_payee_forgery.tif,synthetic\forged\canara\120619_payee_forgery.tif,0.639,UNCERTAIN,0.809,0.286,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120620_amount_forgery.tif,synthetic\forged\canara\120620_amount_forgery.tif,0.643,UNCERTAIN,0.812,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_amount_forgery_1_v3.tif,synthetic\forged\canara\120620_amount_forgery_1_v3.tif,0.643,UNCERTAIN,0.812,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_amount_forgery_2_v3.tif,synthetic\forged\canara\120620_amount_forgery_2_v3.tif,0.643,UNCERTAIN,0.812,0.303,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_multi_field_forgery.tif,synthetic\forged\canara\120620_multi_field_forgery.tif,0.64,UNCERTAIN,0.805,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120620_multi_field_forgery_v3.tif,synthetic\forged\canara\120620_multi_field_forgery_v3.tif,0.64,UNCERTAIN,0.805,0.297,0.5,1.0,0.6,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+120620_payee_forgery.tif,synthetic\forged\canara\120620_payee_forgery.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_payee_forgery_1_v3.tif,synthetic\forged\canara\120620_payee_forgery_1_v3.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+120620_payee_forgery_2_v3.tif,synthetic\forged\canara\120620_payee_forgery_2_v3.tif,0.642,UNCERTAIN,0.81,0.302,0.5,1.0,0.6,['The complete cheque may not be visible.'],Re-upload image
+100828_amount_forgery.tif,synthetic\forged\icici\100828_amount_forgery.tif,0.819,GOOD,0.917,0.33,1.0,1.0,0.85,[],Continue to verification
+100828_date_forgery.tif,synthetic\forged\icici\100828_date_forgery.tif,0.819,GOOD,0.916,0.331,1.0,1.0,0.85,[],Continue to verification
+100828_multi_field_forgery.tif,synthetic\forged\icici\100828_multi_field_forgery.tif,0.819,GOOD,0.914,0.329,1.0,1.0,0.85,[],Continue to verification
+100828_payee_forgery.tif,synthetic\forged\icici\100828_payee_forgery.tif,0.821,GOOD,0.917,0.336,1.0,1.0,0.85,[],Continue to verification
+100829_amount_forgery.tif,synthetic\forged\icici\100829_amount_forgery.tif,0.818,GOOD,0.915,0.326,1.0,1.0,0.85,[],Continue to verification
+100829_amount_forgery_v2.tif,synthetic\forged\icici\100829_amount_forgery_v2.tif,0.818,GOOD,0.915,0.326,1.0,1.0,0.85,[],Continue to verification
+100829_date_forgery.tif,synthetic\forged\icici\100829_date_forgery.tif,0.817,GOOD,0.913,0.32,1.0,1.0,0.85,[],Continue to verification
+100829_date_forgery_v2.tif,synthetic\forged\icici\100829_date_forgery_v2.tif,0.817,GOOD,0.913,0.32,1.0,1.0,0.85,[],Continue to verification
+100829_multi_field_forgery.tif,synthetic\forged\icici\100829_multi_field_forgery.tif,0.817,GOOD,0.912,0.324,1.0,1.0,0.85,[],Continue to verification
+100829_multi_field_forgery_v2.tif,synthetic\forged\icici\100829_multi_field_forgery_v2.tif,0.817,GOOD,0.912,0.324,1.0,1.0,0.85,[],Continue to verification
+100829_payee_forgery.tif,synthetic\forged\icici\100829_payee_forgery.tif,0.818,GOOD,0.915,0.323,1.0,1.0,0.85,[],Continue to verification
+100829_payee_forgery_v2.tif,synthetic\forged\icici\100829_payee_forgery_v2.tif,0.818,GOOD,0.915,0.323,1.0,1.0,0.85,[],Continue to verification
+100830_amount_forgery.tif,synthetic\forged\icici\100830_amount_forgery.tif,0.82,GOOD,0.918,0.33,1.0,1.0,0.85,[],Continue to verification
+100830_date_forgery.tif,synthetic\forged\icici\100830_date_forgery.tif,0.818,GOOD,0.917,0.326,1.0,1.0,0.85,[],Continue to verification
+100830_multi_field_forgery.tif,synthetic\forged\icici\100830_multi_field_forgery.tif,0.819,GOOD,0.915,0.329,1.0,1.0,0.85,[],Continue to verification
+100830_payee_forgery.tif,synthetic\forged\icici\100830_payee_forgery.tif,0.82,GOOD,0.918,0.33,1.0,1.0,0.85,[],Continue to verification
+100831_amount_forgery.tif,synthetic\forged\icici\100831_amount_forgery.tif,0.799,GOOD,0.915,0.331,1.0,0.9,0.85,[],Continue to verification
+100831_date_forgery.tif,synthetic\forged\icici\100831_date_forgery.tif,0.819,GOOD,0.914,0.332,1.0,1.0,0.85,[],Continue to verification
+100831_multi_field_forgery.tif,synthetic\forged\icici\100831_multi_field_forgery.tif,0.818,GOOD,0.913,0.329,1.0,1.0,0.85,[],Continue to verification
+100831_payee_forgery.tif,synthetic\forged\icici\100831_payee_forgery.tif,0.82,GOOD,0.916,0.336,1.0,1.0,0.85,[],Continue to verification
+100832_amount_forgery.tif,synthetic\forged\icici\100832_amount_forgery.tif,0.82,GOOD,0.916,0.332,1.0,1.0,0.85,[],Continue to verification
+100832_date_forgery.tif,synthetic\forged\icici\100832_date_forgery.tif,0.818,GOOD,0.915,0.328,1.0,1.0,0.85,[],Continue to verification
+100832_multi_field_forgery.tif,synthetic\forged\icici\100832_multi_field_forgery.tif,0.818,GOOD,0.913,0.329,1.0,1.0,0.85,[],Continue to verification
+100832_payee_forgery.tif,synthetic\forged\icici\100832_payee_forgery.tif,0.819,GOOD,0.916,0.33,1.0,1.0,0.85,[],Continue to verification
+100833_amount_forgery.tif,synthetic\forged\icici\100833_amount_forgery.tif,0.821,GOOD,0.916,0.34,1.0,1.0,0.85,[],Continue to verification
+100833_date_forgery.tif,synthetic\forged\icici\100833_date_forgery.tif,0.82,GOOD,0.915,0.334,1.0,1.0,0.85,[],Continue to verification
+100833_multi_field_forgery.tif,synthetic\forged\icici\100833_multi_field_forgery.tif,0.82,GOOD,0.913,0.337,1.0,1.0,0.85,[],Continue to verification
+100833_payee_forgery.tif,synthetic\forged\icici\100833_payee_forgery.tif,0.821,GOOD,0.916,0.338,1.0,1.0,0.85,[],Continue to verification
+100834_amount_forgery.tif,synthetic\forged\icici\100834_amount_forgery.tif,0.821,GOOD,0.912,0.342,1.0,1.0,0.85,[],Continue to verification
+100834_date_forgery.tif,synthetic\forged\icici\100834_date_forgery.tif,0.819,GOOD,0.911,0.335,1.0,1.0,0.85,[],Continue to verification
+100834_multi_field_forgery.tif,synthetic\forged\icici\100834_multi_field_forgery.tif,0.82,GOOD,0.909,0.339,1.0,1.0,0.85,[],Continue to verification
+100834_payee_forgery.tif,synthetic\forged\icici\100834_payee_forgery.tif,0.82,GOOD,0.912,0.337,1.0,1.0,0.85,[],Continue to verification
+100835_amount_forgery.tif,synthetic\forged\icici\100835_amount_forgery.tif,0.823,GOOD,0.918,0.345,1.0,1.0,0.85,[],Continue to verification
+100835_date_forgery.tif,synthetic\forged\icici\100835_date_forgery.tif,0.741,GOOD,0.917,0.336,1.0,0.6,0.85,['The cheque appears tilted. Please photograph it straight-on.'],Continue to verification
+100835_multi_field_forgery.tif,synthetic\forged\icici\100835_multi_field_forgery.tif,0.822,GOOD,0.915,0.343,1.0,1.0,0.85,[],Continue to verification
+100835_payee_forgery.tif,synthetic\forged\icici\100835_payee_forgery.tif,0.822,GOOD,0.918,0.34,1.0,1.0,0.85,[],Continue to verification
+83654_amount_forgery.tif,synthetic\forged\syndicate\83654_amount_forgery.tif,0.577,UNCERTAIN,0.799,0.286,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83654_multi_field_forgery.tif,synthetic\forged\syndicate\83654_multi_field_forgery.tif,0.574,UNCERTAIN,0.789,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83654_payee_forgery.tif,synthetic\forged\syndicate\83654_payee_forgery.tif,0.576,UNCERTAIN,0.796,0.286,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_amount_forgery.tif,synthetic\forged\syndicate\83655_amount_forgery.tif,0.574,UNCERTAIN,0.802,0.269,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_amount_forgery_1_v3.tif,synthetic\forged\syndicate\83655_amount_forgery_1_v3.tif,0.574,UNCERTAIN,0.802,0.269,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_amount_forgery_2_v3.tif,synthetic\forged\syndicate\83655_amount_forgery_2_v3.tif,0.574,UNCERTAIN,0.802,0.269,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_multi_field_forgery.tif,synthetic\forged\syndicate\83655_multi_field_forgery.tif,0.571,UNCERTAIN,0.793,0.264,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_multi_field_forgery_v3.tif,synthetic\forged\syndicate\83655_multi_field_forgery_v3.tif,0.571,UNCERTAIN,0.793,0.264,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_payee_forgery.tif,synthetic\forged\syndicate\83655_payee_forgery.tif,0.574,UNCERTAIN,0.8,0.268,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_payee_forgery_1_v3.tif,synthetic\forged\syndicate\83655_payee_forgery_1_v3.tif,0.574,UNCERTAIN,0.8,0.268,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83655_payee_forgery_2_v3.tif,synthetic\forged\syndicate\83655_payee_forgery_2_v3.tif,0.574,UNCERTAIN,0.8,0.268,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83656_amount_forgery.tif,synthetic\forged\syndicate\83656_amount_forgery.tif,0.577,UNCERTAIN,0.795,0.287,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83656_multi_field_forgery.tif,synthetic\forged\syndicate\83656_multi_field_forgery.tif,0.573,UNCERTAIN,0.785,0.28,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83656_payee_forgery.tif,synthetic\forged\syndicate\83656_payee_forgery.tif,0.575,UNCERTAIN,0.792,0.282,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83657_amount_forgery.tif,synthetic\forged\syndicate\83657_amount_forgery.tif,0.576,UNCERTAIN,0.792,0.29,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83657_multi_field_forgery.tif,synthetic\forged\syndicate\83657_multi_field_forgery.tif,0.573,UNCERTAIN,0.782,0.285,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83657_payee_forgery.tif,synthetic\forged\syndicate\83657_payee_forgery.tif,0.576,UNCERTAIN,0.789,0.291,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_amount_forgery.tif,synthetic\forged\syndicate\83658_amount_forgery.tif,0.576,UNCERTAIN,0.797,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_amount_forgery_1_v3.tif,synthetic\forged\syndicate\83658_amount_forgery_1_v3.tif,0.576,UNCERTAIN,0.797,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_amount_forgery_2_v3.tif,synthetic\forged\syndicate\83658_amount_forgery_2_v3.tif,0.576,UNCERTAIN,0.797,0.281,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_multi_field_forgery.tif,synthetic\forged\syndicate\83658_multi_field_forgery.tif,0.573,UNCERTAIN,0.787,0.276,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_multi_field_forgery_v3.tif,synthetic\forged\syndicate\83658_multi_field_forgery_v3.tif,0.573,UNCERTAIN,0.787,0.276,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_payee_forgery.tif,synthetic\forged\syndicate\83658_payee_forgery.tif,0.575,UNCERTAIN,0.794,0.279,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_payee_forgery_1_v3.tif,synthetic\forged\syndicate\83658_payee_forgery_1_v3.tif,0.575,UNCERTAIN,0.794,0.279,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83658_payee_forgery_2_v3.tif,synthetic\forged\syndicate\83658_payee_forgery_2_v3.tif,0.575,UNCERTAIN,0.794,0.279,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83659_amount_forgery.tif,synthetic\forged\syndicate\83659_amount_forgery.tif,0.57,UNCERTAIN,0.79,0.259,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83659_multi_field_forgery.tif,synthetic\forged\syndicate\83659_multi_field_forgery.tif,0.567,UNCERTAIN,0.78,0.254,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83659_payee_forgery.tif,synthetic\forged\syndicate\83659_payee_forgery.tif,0.569,UNCERTAIN,0.787,0.259,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83660_amount_forgery.tif,synthetic\forged\syndicate\83660_amount_forgery.tif,0.571,UNCERTAIN,0.797,0.256,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83660_multi_field_forgery.tif,synthetic\forged\syndicate\83660_multi_field_forgery.tif,0.567,UNCERTAIN,0.786,0.251,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image
+83660_payee_forgery.tif,synthetic\forged\syndicate\83660_payee_forgery.tif,0.57,UNCERTAIN,0.794,0.255,0.5,1.0,0.3,"['The cheque details may be difficult to read due to low contrast.', 'The complete cheque may not be visible.']",Re-upload image

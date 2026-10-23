@@ -1,0 +1,135 @@
+{
+  "config": {
+    "epochs": 4,
+    "lr": 5e-06,
+    "batch": 4,
+    "encoder_frozen": true,
+    "excluded_amount_cheques": [
+      "309078_reference",
+      "309079_reference",
+      "309102_reference",
+      "309117_reference"
+    ],
+    "seed": 2026,
+    "best_epoch": 4,
+    "samples": 146,
+    "train": 118,
+    "internal_validation": 28
+  },
+  "fields": {
+    "amount": {
+      "exact": "1/5",
+      "mean_cer": 0.2,
+      "mean_wer": 0.8,
+      "invalid_outputs": 0,
+      "rows": [
+        {
+          "cheque_id": "100828",
+          "expected": "22,23,000/-",
+          "predicted": "(8223,300/-",
+          "exact": false
+        },
+        {
+          "cheque_id": "100831",
+          "expected": "22,35,000/-",
+          "predicted": "(2,3,500/-",
+          "exact": false
+        },
+        {
+          "cheque_id": "083655",
+          "expected": "44,20,000/-",
+          "predicted": "\"4,40,000/-",
+          "exact": false
+        },
+        {
+          "cheque_id": "083654",
+          "expected": "88,00,000/-",
+          "predicted": "50,00,000/-",
+          "exact": false
+        },
+        {
+          "cheque_id": "083656",
+          "expected": "2,70,000/-",
+          "predicted": "2,70,000/-",
+          "exact": true
+        }
+      ]
+    },
+    "amount_words": {
+      "exact": "0/5",
+      "mean_cer": 1.118,
+      "mean_wer": 2.06,
+      "invalid_outputs": 0,
+      "rows": [
+        {
+          "cheque_id": "100828",
+          "expected": "Two lakh Twenty three thousand",
+          "predicted": "Tru Tui \" AEO entry ., who dark Twenty Twenty three ther usereuxed",
+          "exact": false
+        },
+        {
+          "cheque_id": "100831",
+          "expected": "Twenty Two lakh thirty five thousand",
+          "predicted": "Tiny Tilly timeout Mr. Trures throxyth , three others exel V.U.DY",
+          "exact": false
+        },
+        {
+          "cheque_id": "083655",
+          "expected": "Forty Four lakh twenty thousand",
+          "predicted": "writingly for nr launch twenty -thouse and a a",
+          "exact": false
+        },
+        {
+          "cheque_id": "083654",
+          "expected": "Eighty Eight lakhs",
+          "predicted": "- Eigh by-, Each at laxins Sriya Rao",
+          "exact": false
+        },
+        {
+          "cheque_id": "083656",
+          "expected": "Two lakh seventy thousand",
+          "predicted": "two lakh . sevent gy thorns samel Sriya Rao",
+          "exact": false
+        }
+      ]
+    },
+    "payee_name": {
+      "exact": "0/5",
+      "mean_cer": 1.118,
+      "mean_wer": 1.717,
+      "invalid_outputs": 0,
+      "rows": [
+        {
+          "cheque_id": "100828",
+          "expected": "Kumar Ravi Palli",
+          "predicted": "Travis K.U. veak Rani Pa ll pyrenely",
+          "exact": false
+        },
+        {
+          "cheque_id": "100831",
+          "expected": "Bayuri Manish Osha",
+          "predicted": "R.K.R.A sp mia misty First six ,OSK. Five days",
+          "exact": false
+        },
+        {
+          "cheque_id": "083655",
+          "expected": "G. Jayakrishna Reddy",
+          "predicted": "Jayakr nishima reddy",
+          "exact": false
+        },
+        {
+          "cheque_id": "083654",
+          "expected": "Dadaba D. Pradeep Kumar",
+          "predicted": "radalab id. Produceded summer",
+          "exact": false
+        },
+        {
+          "cheque_id": "083656",
+          "expected": "J. Ravi Kumar Singh",
+          "predicted": "P. J. RAVS summer somah spy",
+          "exact": false
+        }
+      ]
+    }
+  }
+}

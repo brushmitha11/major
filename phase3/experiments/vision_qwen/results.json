@@ -1,0 +1,165 @@
+{
+  "model": "qwen2.5vl:3b",
+  "held_out_cheques": 5,
+  "fields": {
+    "amount": {
+      "exact": "0/5",
+      "mean_cer": 0.262,
+      "mean_wer": 1.0,
+      "invalid_outputs": 0,
+      "rows": [
+        {
+          "cheque_id": "100828",
+          "expected": "22,23,000/-",
+          "raw": "22,23,000",
+          "exact": false,
+          "cer": 0.182,
+          "wer": 1.0,
+          "invalid": false
+        },
+        {
+          "cheque_id": "100831",
+          "expected": "22,35,000/-",
+          "raw": "22,35,000-",
+          "exact": false,
+          "cer": 0.091,
+          "wer": 1.0,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083655",
+          "expected": "44,20,000/-",
+          "raw": "4,20,000",
+          "exact": false,
+          "cer": 0.273,
+          "wer": 1.0,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083654",
+          "expected": "88,00,000/-",
+          "raw": "88,0000",
+          "exact": false,
+          "cer": 0.364,
+          "wer": 1.0,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083656",
+          "expected": "2,70,000/-",
+          "raw": "9,70,001",
+          "exact": false,
+          "cer": 0.4,
+          "wer": 1.0,
+          "invalid": false
+        }
+      ]
+    },
+    "amount_words": {
+      "exact": "0/5",
+      "mean_cer": 0.433,
+      "mean_wer": 0.71,
+      "invalid_outputs": 0,
+      "rows": [
+        {
+          "cheque_id": "100828",
+          "expected": "Two lakh Twenty three thousand",
+          "raw": "Twenty three thousand",
+          "exact": false,
+          "cer": 0.3,
+          "wer": 0.4,
+          "invalid": false
+        },
+        {
+          "cheque_id": "100831",
+          "expected": "Twenty Two lakh thirty five thousand",
+          "raw": "Twenty Two and Thirty Five Thousand",
+          "exact": false,
+          "cer": 0.167,
+          "wer": 0.667,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083655",
+          "expected": "Forty Four lakh twenty thousand",
+          "raw": "Roughly Four Million twenty thousand",
+          "exact": false,
+          "cer": 0.355,
+          "wer": 0.4,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083654",
+          "expected": "Eighty Eight lakhs",
+          "raw": "Eight hundred and twenty-five",
+          "exact": false,
+          "cer": 1.222,
+          "wer": 1.333,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083656",
+          "expected": "Two lakh seventy thousand",
+          "raw": "Two Lakh Seventy Thousand",
+          "exact": false,
+          "cer": 0.12,
+          "wer": 0.75,
+          "invalid": false
+        }
+      ]
+    },
+    "payee_name": {
+      "exact": "2/5",
+      "mean_cer": 0.08,
+      "mean_wer": 0.25,
+      "invalid_outputs": 0,
+      "rows": [
+        {
+          "cheque_id": "100828",
+          "expected": "Kumar Ravi Palli",
+          "raw": "Kumar Ravi Palli",
+          "exact": true,
+          "cer": 0.0,
+          "wer": 0.0,
+          "invalid": false
+        },
+        {
+          "cheque_id": "100831",
+          "expected": "Bayuri Manish Osha",
+          "raw": "Bavani Manish Ojha",
+          "exact": false,
+          "cer": 0.222,
+          "wer": 0.667,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083655",
+          "expected": "G. Jayakrishna Reddy",
+          "raw": "S. Jayakrishna Reddy",
+          "exact": false,
+          "cer": 0.05,
+          "wer": 0.333,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083654",
+          "expected": "Dadaba D. Pradeep Kumar",
+          "raw": "Padmabha D. Pradeep Kumar",
+          "exact": false,
+          "cer": 0.13,
+          "wer": 0.25,
+          "invalid": false
+        },
+        {
+          "cheque_id": "083656",
+          "expected": "J. Ravi Kumar Singh",
+          "raw": "J. Ravi Kumar Singh",
+          "exact": true,
+          "cer": 0.0,
+          "wer": 0.0,
+          "invalid": false
+        }
+      ]
+    }
+  }
+}

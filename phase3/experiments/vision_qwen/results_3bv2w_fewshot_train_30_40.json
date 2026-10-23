@@ -1,0 +1,180 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount_words": {
+      "rows": [
+        {
+          "cheque_id": "309109_reference",
+          "expected": "one crore Twenty five lacs",
+          "raw": "One Crore Twenty Five Lakh",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.077
+        },
+        {
+          "cheque_id": "309110_reference",
+          "expected": "Fifty One thousand",
+          "raw": "Fifty One Thousand",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309111_reference",
+          "expected": "Two crore fifty lacs",
+          "raw": "Two crores fifty five lakhs",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.4
+        },
+        {
+          "cheque_id": "309112_reference",
+          "expected": "Sixty two crores",
+          "raw": "Sixty Crores",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.25
+        },
+        {
+          "cheque_id": "309113_reference",
+          "expected": "Hundred ten crores",
+          "raw": "Hundred ten crores",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309114_reference",
+          "expected": "Twenty crores",
+          "raw": "Twenty Seven Thousand and Fifty",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 1.769
+        },
+        {
+          "cheque_id": "309115_reference",
+          "expected": "one crore fifty lacks",
+          "raw": "One Crore Twenty Five Lacs",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.476
+        },
+        {
+          "cheque_id": "309116_reference",
+          "expected": "One lakh five thousand",
+          "raw": "One Lakh Hundred",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.5
+        },
+        {
+          "cheque_id": "309117_reference",
+          "expected": "Two lakh fifty lacs",
+          "raw": "Two lakh sixty thousand",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.474
+        },
+        {
+          "cheque_id": "309118_reference",
+          "expected": "Seventy five thousand",
+          "raw": "Seventy five thousand",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        }
+      ],
+      "exact": "2/10",
+      "exact_norm": "3/10",
+      "mean_cer_norm": 0.395
+    },
+    "payee_name": {
+      "rows": [
+        {
+          "cheque_id": "309109_reference",
+          "expected": "Madugu Raju V.",
+          "raw": "Madugu Lejiv V.",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.308
+        },
+        {
+          "cheque_id": "309110_reference",
+          "expected": "Neha Durgina P",
+          "raw": "Mehra Jeevan",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.714
+        },
+        {
+          "cheque_id": "309111_reference",
+          "expected": "Gitanjali Vemula",
+          "raw": "Githanjali Vemula",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.062
+        },
+        {
+          "cheque_id": "309112_reference",
+          "expected": "O Laxmi Harihara",
+          "raw": "Sri Harihara",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.375
+        },
+        {
+          "cheque_id": "309113_reference",
+          "expected": "Srinivasa P Yadav",
+          "raw": "Srikanth Yadav",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.412
+        },
+        {
+          "cheque_id": "309114_reference",
+          "expected": "Sri vamsi Krishna Rao",
+          "raw": "Sai Prasanthi RAO",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.571
+        },
+        {
+          "cheque_id": "309115_reference",
+          "expected": "Venkata vamsi Krishna",
+          "raw": "Ve Leega Lewis",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.762
+        },
+        {
+          "cheque_id": "309116_reference",
+          "expected": "Ch. Raja Rao",
+          "raw": "Ch. Pravin Teja Krishna Sai M",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 1.636
+        },
+        {
+          "cheque_id": "309117_reference",
+          "expected": "Sri Sameekya M",
+          "raw": "Sri Ramesh Kumar",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.571
+        },
+        {
+          "cheque_id": "309118_reference",
+          "expected": "Naga Ashwini Kumari",
+          "raw": "Naga Ashwin Kumarini",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.158
+        }
+      ],
+      "exact": "0/10",
+      "exact_norm": "0/10",
+      "mean_cer_norm": 0.557
+    }
+  }
+}

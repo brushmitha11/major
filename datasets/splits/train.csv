@@ -1,0 +1,316 @@
+image_path,parent_id,bank,label,forgery_type,source_image
+datasets/raw/idrbt/300/Cheque 309137.tif,309137,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309137.tif
+datasets/synthetic/forged/axis/309137_amount_forgery.tif,309137,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309137.tif
+datasets/synthetic/forged/axis/309137_payee_forgery.tif,309137,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309137.tif
+datasets/synthetic/forged/axis/309137_multi_field_forgery.tif,309137,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309137.tif
+datasets/raw/idrbt/300/Cheque 309139.tif,309139,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309139.tif
+datasets/synthetic/forged/axis/309139_amount_forgery.tif,309139,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309139.tif
+datasets/synthetic/forged/axis/309139_payee_forgery.tif,309139,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309139.tif
+datasets/synthetic/forged/axis/309139_multi_field_forgery.tif,309139,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309139.tif
+datasets/raw/idrbt/300/Cheque 309141.tif,309141,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309141.tif
+datasets/synthetic/forged/axis/309141_amount_forgery.tif,309141,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309141.tif
+datasets/synthetic/forged/axis/309141_payee_forgery.tif,309141,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309141.tif
+datasets/synthetic/forged/axis/309141_multi_field_forgery.tif,309141,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309141.tif
+datasets/raw/idrbt/300/Cheque 309142.tif,309142,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309142.tif
+datasets/synthetic/forged/axis/309142_amount_forgery.tif,309142,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309142.tif
+datasets/synthetic/forged/axis/309142_payee_forgery.tif,309142,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309142.tif
+datasets/synthetic/forged/axis/309142_multi_field_forgery.tif,309142,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309142.tif
+datasets/raw/idrbt/300/Cheque 309144.tif,309144,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309144.tif
+datasets/synthetic/forged/axis/309144_amount_forgery.tif,309144,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309144.tif
+datasets/synthetic/forged/axis/309144_payee_forgery.tif,309144,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309144.tif
+datasets/synthetic/forged/axis/309144_multi_field_forgery.tif,309144,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309144.tif
+datasets/raw/idrbt/300/Cheque 309147.tif,309147,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309147.tif
+datasets/synthetic/forged/axis/309147_amount_forgery.tif,309147,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309147.tif
+datasets/synthetic/forged/axis/309147_payee_forgery.tif,309147,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309147.tif
+datasets/synthetic/forged/axis/309147_multi_field_forgery.tif,309147,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309147.tif
+datasets/raw/idrbt/300/Cheque 309148.tif,309148,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309148.tif
+datasets/synthetic/forged/axis/309148_amount_forgery.tif,309148,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309148.tif
+datasets/synthetic/forged/axis/309148_payee_forgery.tif,309148,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309148.tif
+datasets/synthetic/forged/axis/309148_multi_field_forgery.tif,309148,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309148.tif
+datasets/raw/idrbt/300/Cheque 309149.tif,309149,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309149.tif
+datasets/synthetic/forged/axis/309149_amount_forgery.tif,309149,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309149.tif
+datasets/synthetic/forged/axis/309149_payee_forgery.tif,309149,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309149.tif
+datasets/synthetic/forged/axis/309149_multi_field_forgery.tif,309149,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309149.tif
+datasets/raw/idrbt/300/Cheque 309150.tif,309150,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309150.tif
+datasets/synthetic/forged/axis/309150_amount_forgery.tif,309150,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309150.tif
+datasets/synthetic/forged/axis/309150_payee_forgery.tif,309150,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309150.tif
+datasets/synthetic/forged/axis/309150_multi_field_forgery.tif,309150,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309150.tif
+datasets/raw/idrbt/300/Cheque 309151.tif,309151,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309151.tif
+datasets/synthetic/forged/axis/309151_amount_forgery.tif,309151,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309151.tif
+datasets/synthetic/forged/axis/309151_payee_forgery.tif,309151,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309151.tif
+datasets/synthetic/forged/axis/309151_multi_field_forgery.tif,309151,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309151.tif
+datasets/raw/idrbt/300/Cheque 309153.tif,309153,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309153.tif
+datasets/synthetic/forged/axis/309153_amount_forgery.tif,309153,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309153.tif
+datasets/synthetic/forged/axis/309153_payee_forgery.tif,309153,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309153.tif
+datasets/synthetic/forged/axis/309153_multi_field_forgery.tif,309153,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309153.tif
+datasets/raw/idrbt/300/Cheque 309155.tif,309155,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309155.tif
+datasets/synthetic/forged/axis/309155_amount_forgery.tif,309155,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309155.tif
+datasets/synthetic/forged/axis/309155_payee_forgery.tif,309155,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309155.tif
+datasets/synthetic/forged/axis/309155_multi_field_forgery.tif,309155,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309155.tif
+datasets/raw/idrbt/300/Cheque 309156.tif,309156,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309156.tif
+datasets/synthetic/forged/axis/309156_amount_forgery.tif,309156,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309156.tif
+datasets/synthetic/forged/axis/309156_payee_forgery.tif,309156,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309156.tif
+datasets/synthetic/forged/axis/309156_multi_field_forgery.tif,309156,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309156.tif
+datasets/raw/idrbt/300/Cheque 309157.tif,309157,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309157.tif
+datasets/synthetic/forged/axis/309157_amount_forgery.tif,309157,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309157.tif
+datasets/synthetic/forged/axis/309157_payee_forgery.tif,309157,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309157.tif
+datasets/synthetic/forged/axis/309157_multi_field_forgery.tif,309157,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309157.tif
+datasets/raw/idrbt/300/Cheque 309158.tif,309158,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309158.tif
+datasets/synthetic/forged/axis/309158_amount_forgery.tif,309158,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309158.tif
+datasets/synthetic/forged/axis/309158_payee_forgery.tif,309158,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309158.tif
+datasets/synthetic/forged/axis/309158_multi_field_forgery.tif,309158,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309158.tif
+datasets/raw/idrbt/300/Cheque 309159.tif,309159,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309159.tif
+datasets/synthetic/forged/axis/309159_amount_forgery.tif,309159,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309159.tif
+datasets/synthetic/forged/axis/309159_payee_forgery.tif,309159,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309159.tif
+datasets/synthetic/forged/axis/309159_multi_field_forgery.tif,309159,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309159.tif
+datasets/raw/idrbt/300/Cheque 309160.tif,309160,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309160.tif
+datasets/synthetic/forged/axis/309160_amount_forgery.tif,309160,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309160.tif
+datasets/synthetic/forged/axis/309160_payee_forgery.tif,309160,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309160.tif
+datasets/synthetic/forged/axis/309160_multi_field_forgery.tif,309160,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309160.tif
+datasets/raw/idrbt/300/Cheque 309062.tif,309062,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309062.tif
+datasets/synthetic/forged/axis/309062_amount_forgery.tif,309062,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309062.tif
+datasets/synthetic/forged/axis/309062_payee_forgery.tif,309062,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309062.tif
+datasets/synthetic/forged/axis/309062_multi_field_forgery.tif,309062,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309062.tif
+datasets/raw/idrbt/300/Cheque 309063.tif,309063,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309063.tif
+datasets/synthetic/forged/axis/309063_amount_forgery.tif,309063,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309063.tif
+datasets/synthetic/forged/axis/309063_payee_forgery.tif,309063,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309063.tif
+datasets/synthetic/forged/axis/309063_multi_field_forgery.tif,309063,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309063.tif
+datasets/raw/idrbt/300/Cheque 309066.tif,309066,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309066.tif
+datasets/synthetic/forged/axis/309066_amount_forgery.tif,309066,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309066.tif
+datasets/synthetic/forged/axis/309066_payee_forgery.tif,309066,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309066.tif
+datasets/synthetic/forged/axis/309066_multi_field_forgery.tif,309066,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309066.tif
+datasets/raw/idrbt/300/Cheque 309067.tif,309067,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309067.tif
+datasets/synthetic/forged/axis/309067_amount_forgery.tif,309067,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309067.tif
+datasets/synthetic/forged/axis/309067_payee_forgery.tif,309067,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309067.tif
+datasets/synthetic/forged/axis/309067_multi_field_forgery.tif,309067,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309067.tif
+datasets/raw/idrbt/300/Cheque 309068.tif,309068,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309068.tif
+datasets/synthetic/forged/axis/309068_amount_forgery.tif,309068,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309068.tif
+datasets/synthetic/forged/axis/309068_payee_forgery.tif,309068,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309068.tif
+datasets/synthetic/forged/axis/309068_multi_field_forgery.tif,309068,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309068.tif
+datasets/raw/idrbt/300/Cheque 309069.tif,309069,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309069.tif
+datasets/synthetic/forged/axis/309069_amount_forgery.tif,309069,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309069.tif
+datasets/synthetic/forged/axis/309069_payee_forgery.tif,309069,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309069.tif
+datasets/synthetic/forged/axis/309069_multi_field_forgery.tif,309069,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309069.tif
+datasets/raw/idrbt/300/Cheque 309070.tif,309070,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309070.tif
+datasets/synthetic/forged/axis/309070_amount_forgery.tif,309070,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309070.tif
+datasets/synthetic/forged/axis/309070_payee_forgery.tif,309070,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309070.tif
+datasets/synthetic/forged/axis/309070_multi_field_forgery.tif,309070,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309070.tif
+datasets/raw/idrbt/300/Cheque 309071.tif,309071,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309071.tif
+datasets/synthetic/forged/axis/309071_amount_forgery.tif,309071,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309071.tif
+datasets/synthetic/forged/axis/309071_payee_forgery.tif,309071,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309071.tif
+datasets/synthetic/forged/axis/309071_multi_field_forgery.tif,309071,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309071.tif
+datasets/raw/idrbt/300/Cheque 309073.tif,309073,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309073.tif
+datasets/synthetic/forged/axis/309073_amount_forgery.tif,309073,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309073.tif
+datasets/synthetic/forged/axis/309073_payee_forgery.tif,309073,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309073.tif
+datasets/synthetic/forged/axis/309073_multi_field_forgery.tif,309073,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309073.tif
+datasets/raw/idrbt/300/Cheque 309074.tif,309074,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309074.tif
+datasets/synthetic/forged/axis/309074_amount_forgery.tif,309074,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309074.tif
+datasets/synthetic/forged/axis/309074_payee_forgery.tif,309074,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309074.tif
+datasets/synthetic/forged/axis/309074_multi_field_forgery.tif,309074,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309074.tif
+datasets/raw/idrbt/300/Cheque 309075.tif,309075,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309075.tif
+datasets/synthetic/forged/axis/309075_amount_forgery.tif,309075,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309075.tif
+datasets/synthetic/forged/axis/309075_payee_forgery.tif,309075,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309075.tif
+datasets/synthetic/forged/axis/309075_multi_field_forgery.tif,309075,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309075.tif
+datasets/raw/idrbt/300/Cheque 309076.tif,309076,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309076.tif
+datasets/synthetic/forged/axis/309076_amount_forgery.tif,309076,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309076.tif
+datasets/synthetic/forged/axis/309076_payee_forgery.tif,309076,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309076.tif
+datasets/synthetic/forged/axis/309076_multi_field_forgery.tif,309076,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309076.tif
+datasets/raw/idrbt/300/Cheque 309077.tif,309077,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309077.tif
+datasets/synthetic/forged/axis/309077_amount_forgery.tif,309077,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309077.tif
+datasets/synthetic/forged/axis/309077_payee_forgery.tif,309077,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309077.tif
+datasets/synthetic/forged/axis/309077_multi_field_forgery.tif,309077,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309077.tif
+datasets/raw/idrbt/300/Cheque 309078.tif,309078,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309078.tif
+datasets/synthetic/forged/axis/309078_amount_forgery.tif,309078,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309078.tif
+datasets/synthetic/forged/axis/309078_payee_forgery.tif,309078,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309078.tif
+datasets/synthetic/forged/axis/309078_multi_field_forgery.tif,309078,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309078.tif
+datasets/raw/idrbt/300/Cheque 309079.tif,309079,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309079.tif
+datasets/synthetic/forged/axis/309079_amount_forgery.tif,309079,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309079.tif
+datasets/synthetic/forged/axis/309079_payee_forgery.tif,309079,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309079.tif
+datasets/synthetic/forged/axis/309079_multi_field_forgery.tif,309079,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309079.tif
+datasets/raw/idrbt/300/Cheque 309080.tif,309080,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309080.tif
+datasets/synthetic/forged/axis/309080_amount_forgery.tif,309080,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309080.tif
+datasets/synthetic/forged/axis/309080_payee_forgery.tif,309080,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309080.tif
+datasets/synthetic/forged/axis/309080_multi_field_forgery.tif,309080,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309080.tif
+datasets/raw/idrbt/300/Cheque 309083.tif,309083,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309083.tif
+datasets/synthetic/forged/axis/309083_amount_forgery.tif,309083,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309083.tif
+datasets/synthetic/forged/axis/309083_payee_forgery.tif,309083,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309083.tif
+datasets/synthetic/forged/axis/309083_multi_field_forgery.tif,309083,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309083.tif
+datasets/raw/idrbt/300/Cheque 309084.tif,309084,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309084.tif
+datasets/synthetic/forged/axis/309084_amount_forgery.tif,309084,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309084.tif
+datasets/synthetic/forged/axis/309084_payee_forgery.tif,309084,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309084.tif
+datasets/synthetic/forged/axis/309084_multi_field_forgery.tif,309084,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309084.tif
+datasets/raw/idrbt/300/Cheque 309086.tif,309086,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309086.tif
+datasets/synthetic/forged/axis/309086_amount_forgery.tif,309086,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309086.tif
+datasets/synthetic/forged/axis/309086_payee_forgery.tif,309086,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309086.tif
+datasets/synthetic/forged/axis/309086_multi_field_forgery.tif,309086,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309086.tif
+datasets/raw/idrbt/300/Cheque 309089.tif,309089,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309089.tif
+datasets/synthetic/forged/axis/309089_amount_forgery.tif,309089,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309089.tif
+datasets/synthetic/forged/axis/309089_payee_forgery.tif,309089,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309089.tif
+datasets/synthetic/forged/axis/309089_multi_field_forgery.tif,309089,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309089.tif
+datasets/raw/idrbt/300/Cheque 309090.tif,309090,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309090.tif
+datasets/synthetic/forged/axis/309090_amount_forgery.tif,309090,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309090.tif
+datasets/synthetic/forged/axis/309090_payee_forgery.tif,309090,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309090.tif
+datasets/synthetic/forged/axis/309090_multi_field_forgery.tif,309090,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309090.tif
+datasets/raw/idrbt/300/Cheque 309091.tif,309091,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309091.tif
+datasets/synthetic/forged/axis/309091_amount_forgery.tif,309091,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309091.tif
+datasets/synthetic/forged/axis/309091_payee_forgery.tif,309091,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309091.tif
+datasets/synthetic/forged/axis/309091_multi_field_forgery.tif,309091,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309091.tif
+datasets/raw/idrbt/300/Cheque 309092.tif,309092,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309092.tif
+datasets/synthetic/forged/axis/309092_amount_forgery.tif,309092,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309092.tif
+datasets/synthetic/forged/axis/309092_payee_forgery.tif,309092,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309092.tif
+datasets/synthetic/forged/axis/309092_multi_field_forgery.tif,309092,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309092.tif
+datasets/raw/idrbt/300/Cheque 309093.tif,309093,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309093.tif
+datasets/synthetic/forged/axis/309093_amount_forgery.tif,309093,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309093.tif
+datasets/synthetic/forged/axis/309093_payee_forgery.tif,309093,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309093.tif
+datasets/synthetic/forged/axis/309093_multi_field_forgery.tif,309093,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309093.tif
+datasets/raw/idrbt/300/Cheque 309094.tif,309094,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309094.tif
+datasets/synthetic/forged/axis/309094_amount_forgery.tif,309094,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309094.tif
+datasets/synthetic/forged/axis/309094_payee_forgery.tif,309094,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309094.tif
+datasets/synthetic/forged/axis/309094_multi_field_forgery.tif,309094,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309094.tif
+datasets/raw/idrbt/300/Cheque 309095.tif,309095,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309095.tif
+datasets/synthetic/forged/axis/309095_amount_forgery.tif,309095,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309095.tif
+datasets/synthetic/forged/axis/309095_payee_forgery.tif,309095,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309095.tif
+datasets/synthetic/forged/axis/309095_multi_field_forgery.tif,309095,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309095.tif
+datasets/raw/idrbt/300/Cheque 309096.tif,309096,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309096.tif
+datasets/synthetic/forged/axis/309096_amount_forgery.tif,309096,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309096.tif
+datasets/synthetic/forged/axis/309096_payee_forgery.tif,309096,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309096.tif
+datasets/synthetic/forged/axis/309096_multi_field_forgery.tif,309096,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309096.tif
+datasets/raw/idrbt/300/Cheque 309097.tif,309097,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309097.tif
+datasets/synthetic/forged/axis/309097_amount_forgery.tif,309097,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309097.tif
+datasets/synthetic/forged/axis/309097_payee_forgery.tif,309097,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309097.tif
+datasets/synthetic/forged/axis/309097_multi_field_forgery.tif,309097,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309097.tif
+datasets/raw/idrbt/300/Cheque 309099.tif,309099,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309099.tif
+datasets/synthetic/forged/axis/309099_amount_forgery.tif,309099,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309099.tif
+datasets/synthetic/forged/axis/309099_payee_forgery.tif,309099,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309099.tif
+datasets/synthetic/forged/axis/309099_multi_field_forgery.tif,309099,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309099.tif
+datasets/raw/idrbt/300/Cheque 309101.tif,309101,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309101.tif
+datasets/synthetic/forged/axis/309101_amount_forgery.tif,309101,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309101.tif
+datasets/synthetic/forged/axis/309101_payee_forgery.tif,309101,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309101.tif
+datasets/synthetic/forged/axis/309101_multi_field_forgery.tif,309101,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309101.tif
+datasets/raw/idrbt/300/Cheque 309102.tif,309102,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309102.tif
+datasets/synthetic/forged/axis/309102_amount_forgery.tif,309102,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309102.tif
+datasets/synthetic/forged/axis/309102_payee_forgery.tif,309102,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309102.tif
+datasets/synthetic/forged/axis/309102_multi_field_forgery.tif,309102,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309102.tif
+datasets/raw/idrbt/300/Cheque 309103.tif,309103,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309103.tif
+datasets/synthetic/forged/axis/309103_amount_forgery.tif,309103,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309103.tif
+datasets/synthetic/forged/axis/309103_payee_forgery.tif,309103,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309103.tif
+datasets/synthetic/forged/axis/309103_multi_field_forgery.tif,309103,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309103.tif
+datasets/raw/idrbt/300/Cheque 309104.tif,309104,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309104.tif
+datasets/synthetic/forged/axis/309104_amount_forgery.tif,309104,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309104.tif
+datasets/synthetic/forged/axis/309104_payee_forgery.tif,309104,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309104.tif
+datasets/synthetic/forged/axis/309104_multi_field_forgery.tif,309104,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309104.tif
+datasets/raw/idrbt/300/Cheque 309107.tif,309107,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309107.tif
+datasets/synthetic/forged/axis/309107_amount_forgery.tif,309107,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309107.tif
+datasets/synthetic/forged/axis/309107_payee_forgery.tif,309107,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309107.tif
+datasets/synthetic/forged/axis/309107_multi_field_forgery.tif,309107,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309107.tif
+datasets/raw/idrbt/300/Cheque 309108.tif,309108,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309108.tif
+datasets/synthetic/forged/axis/309108_amount_forgery.tif,309108,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309108.tif
+datasets/synthetic/forged/axis/309108_payee_forgery.tif,309108,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309108.tif
+datasets/synthetic/forged/axis/309108_multi_field_forgery.tif,309108,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309108.tif
+datasets/raw/idrbt/300/Cheque 309109.tif,309109,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309109.tif
+datasets/synthetic/forged/axis/309109_amount_forgery.tif,309109,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309109.tif
+datasets/synthetic/forged/axis/309109_payee_forgery.tif,309109,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309109.tif
+datasets/synthetic/forged/axis/309109_multi_field_forgery.tif,309109,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309109.tif
+datasets/raw/idrbt/300/Cheque 309110.tif,309110,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309110.tif
+datasets/synthetic/forged/axis/309110_amount_forgery.tif,309110,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309110.tif
+datasets/synthetic/forged/axis/309110_payee_forgery.tif,309110,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309110.tif
+datasets/synthetic/forged/axis/309110_multi_field_forgery.tif,309110,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309110.tif
+datasets/raw/idrbt/300/Cheque 309111.tif,309111,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309111.tif
+datasets/synthetic/forged/axis/309111_amount_forgery.tif,309111,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309111.tif
+datasets/synthetic/forged/axis/309111_payee_forgery.tif,309111,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309111.tif
+datasets/synthetic/forged/axis/309111_multi_field_forgery.tif,309111,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309111.tif
+datasets/raw/idrbt/300/Cheque 309112.tif,309112,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309112.tif
+datasets/synthetic/forged/axis/309112_amount_forgery.tif,309112,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309112.tif
+datasets/synthetic/forged/axis/309112_payee_forgery.tif,309112,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309112.tif
+datasets/synthetic/forged/axis/309112_multi_field_forgery.tif,309112,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309112.tif
+datasets/raw/idrbt/300/Cheque 309113.tif,309113,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309113.tif
+datasets/synthetic/forged/axis/309113_amount_forgery.tif,309113,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309113.tif
+datasets/synthetic/forged/axis/309113_payee_forgery.tif,309113,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309113.tif
+datasets/synthetic/forged/axis/309113_multi_field_forgery.tif,309113,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309113.tif
+datasets/raw/idrbt/300/Cheque 309114.tif,309114,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309114.tif
+datasets/synthetic/forged/axis/309114_amount_forgery.tif,309114,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309114.tif
+datasets/synthetic/forged/axis/309114_payee_forgery.tif,309114,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309114.tif
+datasets/synthetic/forged/axis/309114_multi_field_forgery.tif,309114,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309114.tif
+datasets/raw/idrbt/300/Cheque 309115.tif,309115,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309115.tif
+datasets/synthetic/forged/axis/309115_amount_forgery.tif,309115,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309115.tif
+datasets/synthetic/forged/axis/309115_payee_forgery.tif,309115,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309115.tif
+datasets/synthetic/forged/axis/309115_multi_field_forgery.tif,309115,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309115.tif
+datasets/raw/idrbt/300/Cheque 309116.tif,309116,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309116.tif
+datasets/synthetic/forged/axis/309116_amount_forgery.tif,309116,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309116.tif
+datasets/synthetic/forged/axis/309116_payee_forgery.tif,309116,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309116.tif
+datasets/synthetic/forged/axis/309116_multi_field_forgery.tif,309116,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309116.tif
+datasets/raw/idrbt/300/Cheque 309117.tif,309117,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309117.tif
+datasets/synthetic/forged/axis/309117_amount_forgery.tif,309117,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309117.tif
+datasets/synthetic/forged/axis/309117_payee_forgery.tif,309117,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309117.tif
+datasets/synthetic/forged/axis/309117_multi_field_forgery.tif,309117,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309117.tif
+datasets/raw/idrbt/300/Cheque 309118.tif,309118,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309118.tif
+datasets/synthetic/forged/axis/309118_amount_forgery.tif,309118,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309118.tif
+datasets/synthetic/forged/axis/309118_payee_forgery.tif,309118,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309118.tif
+datasets/synthetic/forged/axis/309118_multi_field_forgery.tif,309118,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309118.tif
+datasets/raw/idrbt/300/Cheque 100829.tif,100829,ICICI BANK,reference,none,datasets/raw/idrbt/300/Cheque 100829.tif
+datasets/synthetic/forged/icici/100829_amount_forgery.tif,100829,ICICI BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 100829.tif
+datasets/synthetic/forged/icici/100829_payee_forgery.tif,100829,ICICI BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 100829.tif
+datasets/synthetic/forged/icici/100829_multi_field_forgery.tif,100829,ICICI BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 100829.tif
+datasets/synthetic/forged/icici/100829_date_forgery.tif,100829,ICICI BANK,synthetic_forgery,date_forgery,datasets/raw/idrbt/300/Cheque 100829.tif
+datasets/raw/idrbt/300/Cheque 100830.tif,100830,ICICI BANK,reference,none,datasets/raw/idrbt/300/Cheque 100830.tif
+datasets/synthetic/forged/icici/100830_amount_forgery.tif,100830,ICICI BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 100830.tif
+datasets/synthetic/forged/icici/100830_payee_forgery.tif,100830,ICICI BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 100830.tif
+datasets/synthetic/forged/icici/100830_multi_field_forgery.tif,100830,ICICI BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 100830.tif
+datasets/synthetic/forged/icici/100830_date_forgery.tif,100830,ICICI BANK,synthetic_forgery,date_forgery,datasets/raw/idrbt/300/Cheque 100830.tif
+datasets/raw/idrbt/300/Cheque 100835.tif,100835,ICICI BANK,reference,none,datasets/raw/idrbt/300/Cheque 100835.tif
+datasets/synthetic/forged/icici/100835_amount_forgery.tif,100835,ICICI BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 100835.tif
+datasets/synthetic/forged/icici/100835_payee_forgery.tif,100835,ICICI BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 100835.tif
+datasets/synthetic/forged/icici/100835_multi_field_forgery.tif,100835,ICICI BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 100835.tif
+datasets/synthetic/forged/icici/100835_date_forgery.tif,100835,ICICI BANK,synthetic_forgery,date_forgery,datasets/raw/idrbt/300/Cheque 100835.tif
+datasets/raw/idrbt/300/Cheque 083657.tif,83657,SYNDICATE BANK,reference,none,datasets/raw/idrbt/300/Cheque 083657.tif
+datasets/synthetic/forged/syndicate/83657_amount_forgery.tif,83657,SYNDICATE BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 083657.tif
+datasets/synthetic/forged/syndicate/83657_payee_forgery.tif,83657,SYNDICATE BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 083657.tif
+datasets/synthetic/forged/syndicate/83657_multi_field_forgery.tif,83657,SYNDICATE BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 083657.tif
+datasets/raw/idrbt/300/Cheque 083659.tif,83659,SYNDICATE BANK,reference,none,datasets/raw/idrbt/300/Cheque 083659.tif
+datasets/synthetic/forged/syndicate/83659_amount_forgery.tif,83659,SYNDICATE BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 083659.tif
+datasets/synthetic/forged/syndicate/83659_payee_forgery.tif,83659,SYNDICATE BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 083659.tif
+datasets/synthetic/forged/syndicate/83659_multi_field_forgery.tif,83659,SYNDICATE BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 083659.tif
+datasets/raw/idrbt/300/Cheque 120612.tif,120612,CANARA BANK,reference,none,datasets/raw/idrbt/300/Cheque 120612.tif
+datasets/synthetic/forged/canara/120612_amount_forgery.tif,120612,CANARA BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 120612.tif
+datasets/synthetic/forged/canara/120612_payee_forgery.tif,120612,CANARA BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 120612.tif
+datasets/synthetic/forged/canara/120612_multi_field_forgery.tif,120612,CANARA BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 120612.tif
+datasets/raw/idrbt/300/Cheque 120617.tif,120617,CANARA BANK,reference,none,datasets/raw/idrbt/300/Cheque 120617.tif
+datasets/synthetic/forged/canara/120617_amount_forgery.tif,120617,CANARA BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 120617.tif
+datasets/synthetic/forged/canara/120617_payee_forgery.tif,120617,CANARA BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 120617.tif
+datasets/synthetic/forged/canara/120617_multi_field_forgery.tif,120617,CANARA BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 120617.tif
+datasets/raw/idrbt/300/Cheque 120619.tif,120619,CANARA BANK,reference,none,datasets/raw/idrbt/300/Cheque 120619.tif
+datasets/synthetic/forged/canara/120619_amount_forgery.tif,120619,CANARA BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 120619.tif
+datasets/synthetic/forged/canara/120619_payee_forgery.tif,120619,CANARA BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 120619.tif
+datasets/synthetic/forged/canara/120619_multi_field_forgery.tif,120619,CANARA BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 120619.tif
+datasets/raw/idrbt/300/Cheque 309123.tif,309123,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309123.tif
+datasets/synthetic/forged/axis/309123_amount_forgery.tif,309123,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309123.tif
+datasets/synthetic/forged/axis/309123_payee_forgery.tif,309123,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309123.tif
+datasets/synthetic/forged/axis/309123_multi_field_forgery.tif,309123,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309123.tif
+datasets/raw/idrbt/300/Cheque 309124.tif,309124,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309124.tif
+datasets/synthetic/forged/axis/309124_amount_forgery.tif,309124,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309124.tif
+datasets/synthetic/forged/axis/309124_payee_forgery.tif,309124,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309124.tif
+datasets/synthetic/forged/axis/309124_multi_field_forgery.tif,309124,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309124.tif
+datasets/raw/idrbt/300/Cheque 309125.tif,309125,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309125.tif
+datasets/synthetic/forged/axis/309125_amount_forgery.tif,309125,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309125.tif
+datasets/synthetic/forged/axis/309125_payee_forgery.tif,309125,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309125.tif
+datasets/synthetic/forged/axis/309125_multi_field_forgery.tif,309125,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309125.tif
+datasets/raw/idrbt/300/Cheque 309126.tif,309126,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309126.tif
+datasets/synthetic/forged/axis/309126_amount_forgery.tif,309126,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309126.tif
+datasets/synthetic/forged/axis/309126_payee_forgery.tif,309126,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309126.tif
+datasets/synthetic/forged/axis/309126_multi_field_forgery.tif,309126,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309126.tif
+datasets/raw/idrbt/300/Cheque 309129.tif,309129,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309129.tif
+datasets/synthetic/forged/axis/309129_amount_forgery.tif,309129,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309129.tif
+datasets/synthetic/forged/axis/309129_payee_forgery.tif,309129,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309129.tif
+datasets/synthetic/forged/axis/309129_multi_field_forgery.tif,309129,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309129.tif
+datasets/raw/idrbt/300/Cheque 309130.tif,309130,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309130.tif
+datasets/synthetic/forged/axis/309130_amount_forgery.tif,309130,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309130.tif
+datasets/synthetic/forged/axis/309130_payee_forgery.tif,309130,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309130.tif
+datasets/synthetic/forged/axis/309130_multi_field_forgery.tif,309130,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309130.tif
+datasets/raw/idrbt/300/Cheque 309133.tif,309133,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309133.tif
+datasets/synthetic/forged/axis/309133_amount_forgery.tif,309133,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309133.tif
+datasets/synthetic/forged/axis/309133_payee_forgery.tif,309133,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309133.tif
+datasets/synthetic/forged/axis/309133_multi_field_forgery.tif,309133,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309133.tif
+datasets/raw/idrbt/300/Cheque 309134.tif,309134,AXIS BANK,reference,none,datasets/raw/idrbt/300/Cheque 309134.tif
+datasets/synthetic/forged/axis/309134_amount_forgery.tif,309134,AXIS BANK,synthetic_forgery,amount_forgery,datasets/raw/idrbt/300/Cheque 309134.tif
+datasets/synthetic/forged/axis/309134_payee_forgery.tif,309134,AXIS BANK,synthetic_forgery,payee_forgery,datasets/raw/idrbt/300/Cheque 309134.tif
+datasets/synthetic/forged/axis/309134_multi_field_forgery.tif,309134,AXIS BANK,synthetic_forgery,multi_field_forgery,datasets/raw/idrbt/300/Cheque 309134.tif

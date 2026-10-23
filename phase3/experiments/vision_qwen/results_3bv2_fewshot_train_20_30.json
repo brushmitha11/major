@@ -1,0 +1,93 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount": {
+      "rows": [
+        {
+          "cheque_id": "309095_reference",
+          "expected": "5,75,010",
+          "raw": "₹ 1,70,010",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.25
+        },
+        {
+          "cheque_id": "309096_reference",
+          "expected": "74,030",
+          "raw": "74,030",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309097_reference",
+          "expected": "27,050",
+          "raw": "27,050/-",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309099_reference",
+          "expected": "3,97,000/-",
+          "raw": "3,97,0001-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.125
+        },
+        {
+          "cheque_id": "309101_reference",
+          "expected": "4,76,500/-",
+          "raw": "4,76,5001-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.125
+        },
+        {
+          "cheque_id": "309102_reference",
+          "expected": "71,50,000/-",
+          "raw": "1,50,000/-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.111
+        },
+        {
+          "cheque_id": "309103_reference",
+          "expected": "2,35,800/-",
+          "raw": "2,35,8001-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.125
+        },
+        {
+          "cheque_id": "309104_reference",
+          "expected": "1,59,000/-",
+          "raw": "59,000/-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.25
+        },
+        {
+          "cheque_id": "309107_reference",
+          "expected": "71,00,000/-",
+          "raw": "71,00,000",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309108_reference",
+          "expected": "5,20,000/-",
+          "raw": "5,26,000/-",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.125
+        }
+      ],
+      "exact": "1/10",
+      "exact_norm": "3/10",
+      "mean_cer_norm": 0.111
+    }
+  }
+}

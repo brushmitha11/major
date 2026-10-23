@@ -1,0 +1,23 @@
+# Pseudo-labels (generated, not verified)
+data/pseudo_labels/metadata.json
+data/pseudo_labels/validation_report.json
+data/pseudo_labels/yolo/train/
+data/pseudo_labels/variant_propagation.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+
+# Node modules (web app)
+web/node_modules/

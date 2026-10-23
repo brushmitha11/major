@@ -1,0 +1,158 @@
+{
+  "fields": {
+    "account_number": "911010049001545",
+    "amount_figures": "3,29,000/-",
+    "amount_words": "Three lakh twenty nine thousand",
+    "bank_name": "AXIS BANK LTD",
+    "cheque_number": "309062",
+    "date": "25/01/2015",
+    "ifsc_code": "UTIB0000426",
+    "micr_code": "500211012",
+    "payee_name": "Vijay Kumar Singh"
+  },
+  "ocr": {
+    "confidence": 0.919,
+    "lines": [
+      {
+        "confidence": 0.998,
+        "text": "AXIS BANK LTD"
+      },
+      {
+        "confidence": 1.0,
+        "text": "DATE"
+      },
+      {
+        "confidence": 1.0,
+        "text": "2"
+      },
+      {
+        "confidence": 1.0,
+        "text": "0"
+      },
+      {
+        "confidence": 1.0,
+        "text": "2"
+      },
+      {
+        "confidence": 0.964,
+        "text": "S"
+      },
+      {
+        "confidence": 0.998,
+        "text": "MEHDIPATNAM, HYDERABAD [AP], HYDERABAD, 500028"
+      },
+      {
+        "confidence": 0.793,
+        "text": "Parich"
+      },
+      {
+        "confidence": 0.986,
+        "text": "IFS CODE - UTIB0000426"
+      },
+      {
+        "confidence": 0.998,
+        "text": "VALID FOR THREE MONTHS FROM THE DATE OF ISSUE"
+      },
+      {
+        "confidence": 0.999,
+        "text": "DDMMYYYY"
+      },
+      {
+        "confidence": 0.973,
+        "text": "Vijay kuman Singh"
+      },
+      {
+        "confidence": 1.0,
+        "text": "PAY"
+      },
+      {
+        "confidence": 0.783,
+        "text": "OR BEARER/"
+      },
+      {
+        "confidence": 0.703,
+        "text": "A1O"
+      },
+      {
+        "confidence": 0.934,
+        "text": "Three lakn twenty"
+      },
+      {
+        "confidence": 0.876,
+        "text": "Nime thousand"
+      },
+      {
+        "confidence": 1.0,
+        "text": "RUPEES"
+      },
+      {
+        "confidence": 0.0,
+        "text": ""
+      },
+      {
+        "confidence": 0.97,
+        "text": "329,0001"
+      },
+      {
+        "confidence": 0.67,
+        "text": "3TGT \u6216"
+      },
+      {
+        "confidence": 0.999,
+        "text": "A/C NO."
+      },
+      {
+        "confidence": 1.0,
+        "text": "911010049001545"
+      },
+      {
+        "confidence": 1.0,
+        "text": "SAPPM"
+      },
+      {
+        "confidence": 1.0,
+        "text": "426160"
+      },
+      {
+        "confidence": 0.927,
+        "text": "AXISBAN"
+      },
+      {
+        "confidence": 0.999,
+        "text": "RAJARSHI PAL"
+      },
+      {
+        "confidence": 0.92,
+        "text": "08-15"
+      },
+      {
+        "confidence": 1.0,
+        "text": "Payable at par at all branches of Axis Bank Ltd in India."
+      },
+      {
+        "confidence": 1.0,
+        "text": "Please sign above"
+      },
+      {
+        "confidence": 0.995,
+        "text": "309062500211012:42616031"
+      }
+    ],
+    "status": "OK",
+    "text": "AXIS BANK LTD DATE 2 0 2 S MEHDIPATNAM, HYDERABAD [AP], HYDERABAD, 500028 Parich IFS CODE - UTIB0000426 VALID FOR THREE MONTHS FROM THE DATE OF ISSUE DDMMYYYY Vijay kuman Singh PAY OR BEARER/ A1O Three lakn twenty Nime thousand RUPEES  329,0001 3TGT \u6216 A/C NO. 911010049001545 SAPPM 426160 AXISBAN RAJARSHI PAL 08-15 Payable at par at all branches of Axis Bank Ltd in India. Please sign above 309062500211012:42616031"
+  },
+  "timestamp": "2026-10-17T07:25:39.325670Z",
+  "upload_id": "20261017_072538_Cheque_309062.tif",
+  "verification": null,
+  "vlm": {
+    "fields": {
+      "amount_figures": "3,29,000/-",
+      "amount_words": "Three Lakh Twenty Nine Thousand",
+      "date": "25/01/2015",
+      "payee_name": "Vijay Kumar Singh"
+    },
+    "model": "qwen2.5vl:3b",
+    "raw": "{\n  \"date\": \"25/01/2015\",\n  \"amount_figures\": \"329000\",\n  \"amount_words\": \"Three Lakh Twenty Nine Thousand\",\n  \"payee_name\": \"Vijay Kumar Singh\"\n}",
+    "status": "OK"
+  }
+}

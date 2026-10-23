@@ -1,0 +1,113 @@
+cheque_id,image_path,bank,image_format,width,height,dpi,user1,pen1,user2,pen2,handwritten_text_1,handwritten_text_2,source_dataset,parent_id,label
+309135,datasets/raw/idrbt/300/Cheque 309135.tif,AXIS BANK,TIF,2365,1079,300,1,1,2,2,"Satish kumar,twenty five thousand,25000","apparao,one lakh,1",IDRBT,309135,reference
+309136,datasets/raw/idrbt/300/Cheque 309136.tif,AXIS BANK,TIF,2365,1079,300,1,2,3,1,"ram kumar,thirty thousand,30000","naik,one lakh,1",IDRBT,309136,reference
+309137,datasets/raw/idrbt/300/Cheque 309137.tif,AXIS BANK,TIF,2365,1079,300,1,3,4,1,"rajesh kumar,sixty thousand,60000","k,one lakh &,1",IDRBT,309137,reference
+309138,datasets/raw/idrbt/300/Cheque 309138.tif,AXIS BANK,TIF,2365,1079,300,1,4,5,1,"rahul kumar,thirty five thousand,35000","mithun,five lack,5",IDRBT,309138,reference
+309139,datasets/raw/idrbt/300/Cheque 309139.tif,AXIS BANK,TIF,2365,1079,300,1,5,6,1,"vinay singh,five hundred,500","kumar,twenty three thousand,23",IDRBT,309139,reference
+309141,datasets/raw/idrbt/300/Cheque 309141.tif,AXIS BANK,TIF,2365,1079,300,1,7,8,1,"anirban,ten thousand,10000","sharma,one lakh,1",IDRBT,309141,reference
+309142,datasets/raw/idrbt/300/Cheque 309142.tif,AXIS BANK,TIF,2365,1079,300,1,8,9,9,"rahul singh,ten thousand,10000","bommakanti,one lack,1",IDRBT,309142,reference
+309144,datasets/raw/idrbt/300/Cheque 309144.tif,AXIS BANK,TIF,2365,1079,300,1,10,4,8,"rakesh kumar,sixty thousand,60000","j,two lakh,2",IDRBT,309144,reference
+309145,datasets/raw/idrbt/300/Cheque 309145.tif,AXIS BANK,TIF,2365,1079,300,1,11,5,8,"shyam rao,two thousand,2000","jatoth,twenty lack,200",IDRBT,309145,reference
+309147,datasets/raw/idrbt/300/Cheque 309147.tif,AXIS BANK,TIF,2365,1079,300,1,13,8,8,"rajib kumar,five thousand,5000","mishra,thirty,3",IDRBT,309147,reference
+309148,datasets/raw/idrbt/300/Cheque 309148.tif,AXIS BANK,TIF,2365,1079,300,1,14,9,8,"rajib kumar,sixty thousand,60000","ramini,three lacks,3",IDRBT,309148,reference
+309149,datasets/raw/idrbt/300/Cheque 309149.tif,AXIS BANK,TIF,2365,1079,300,2,1,1,3,"Bakshiram,fifty lakhs,5000000","singh,one crore,1",IDRBT,309149,reference
+309150,datasets/raw/idrbt/300/Cheque 309150.tif,AXIS BANK,TIF,2365,1079,300,2,2,3,3,"satyavati,twenty lakhs fourty thousand,204000","konati,one crore,1",IDRBT,309150,reference
+309151,datasets/raw/idrbt/300/Cheque 309151.tif,AXIS BANK,TIF,2365,1079,300,2,3,4,2,"shobharam,fourty lakhs,4000000","kumar,one crore,1",IDRBT,309151,reference
+309153,datasets/raw/idrbt/300/Cheque 309153.tif,AXIS BANK,TIF,2365,1079,300,2,5,6,2,"radha bhandari,seventy five lakhs,7500000","rani,one crore,1",IDRBT,309153,reference
+309155,datasets/raw/idrbt/300/Cheque 309155.tif,AXIS BANK,TIF,2365,1079,300,2,7,8,2,"amita kad,ten thousand & five hundred,10500","am,two lakh,2",IDRBT,309155,reference
+309156,datasets/raw/idrbt/300/Cheque 309156.tif,AXIS BANK,TIF,2365,1079,300,2,8,9,10,"latika makhija,two lakhs fourty thousand,240000","banothu,fifty,5",IDRBT,309156,reference
+309157,datasets/raw/idrbt/300/Cheque 309157.tif,AXIS BANK,TIF,2365,1079,300,2,9,3,10,"sunil,twenty five thousand,25000","kumar,one lakh,1",IDRBT,309157,reference
+309158,datasets/raw/idrbt/300/Cheque 309158.tif,AXIS BANK,TIF,2365,1079,300,2,10,4,9,"chahat,twenty lakhs,2000000","thalwar,four crore,4",IDRBT,309158,reference
+309159,datasets/raw/idrbt/300/Cheque 309159.tif,AXIS BANK,TIF,2365,1079,300,2,11,5,9,"rohit,twenty thousand,20000","kanna,twelve lack,12",IDRBT,309159,reference
+309160,datasets/raw/idrbt/300/Cheque 309160.tif,AXIS BANK,TIF,2365,1079,300,2,12,6,9,"prem,two hundred ,200","ashish,thirty thousand,30",IDRBT,309160,reference
+309061,datasets/raw/idrbt/300/Cheque 309061.tif,AXIS BANK,TIF,2365,1079,300,2,13,7,9,"dinesh kumar,ten lakhs,1000000","vemula,five crores,5",IDRBT,309061,reference
+309062,datasets/raw/idrbt/300/Cheque 309062.tif,AXIS BANK,TIF,2365,1079,300,2,14,8,9,"vijay,twenty nine thousand,29000","kumar singh,three lakh,3",IDRBT,309062,reference
+309063,datasets/raw/idrbt/300/Cheque 309063.tif,AXIS BANK,TIF,2365,1079,300,4,1,1,4,"Prathiba p,twenty thousand ,20000","kumarri,one thousand,1",IDRBT,309063,reference
+309066,datasets/raw/idrbt/300/Cheque 309066.tif,AXIS BANK,TIF,2365,1079,300,4,4,5,3,"priya t,five lakh twenty thousand,520000","prabhu,twenty,2",IDRBT,309066,reference
+309067,datasets/raw/idrbt/300/Cheque 309067.tif,AXIS BANK,TIF,2365,1079,300,4,5,6,3,"k sravani,fourty thousand,40000","kumari,one lakh,1",IDRBT,309067,reference
+309068,datasets/raw/idrbt/300/Cheque 309068.tif,AXIS BANK,TIF,2365,1079,300,4,6,7,3,"t tripura,two lakh fourty thousand,240000","reddy,fourty,4",IDRBT,309068,reference
+309069,datasets/raw/idrbt/300/Cheque 309069.tif,AXIS BANK,TIF,2365,1079,300,4,7,8,3,"r srilekha,seventy five thousand,75000","rao,two lakh,2",IDRBT,309069,reference
+309070,datasets/raw/idrbt/300/Cheque 309070.tif,AXIS BANK,TIF,2365,1079,300,4,8,9,11,"b amulya,sixty seven thousand,67000","prasad,seven lacks,7",IDRBT,309070,reference
+309071,datasets/raw/idrbt/300/Cheque 309071.tif,AXIS BANK,TIF,2365,1079,300,4,9,2,11,"g anusha,five lakh fourty thousand,540000","reddy,ninety,9",IDRBT,309071,reference
+309072,datasets/raw/idrbt/300/Cheque 309072.tif,AXIS BANK,TIF,2365,1079,300,4,10,3,11,"v shanthi,one lakh sixty five thousand,165000","thilagam,seventy,7",IDRBT,309072,reference
+309073,datasets/raw/idrbt/300/Cheque 309073.tif,AXIS BANK,TIF,2365,1100,300,4,11,5,10,"e vinay kumar,two lakh fourty thousand,240000","kanakala,thirty,3",IDRBT,309073,reference
+309074,datasets/raw/idrbt/300/Cheque 309074.tif,AXIS BANK,TIF,2365,1079,300,4,12,6,10,"k rajesh,fifty thousand,50000","gowd,one lakh,1",IDRBT,309074,reference
+309075,datasets/raw/idrbt/300/Cheque 309075.tif,AXIS BANK,TIF,2365,1079,300,4,13,7,10,"r ravisudhakar,three lakh fifty thousand,350000","reddy,twenty,2",IDRBT,309075,reference
+309076,datasets/raw/idrbt/300/Cheque 309076.tif,AXIS BANK,TIF,2365,1100,300,4,14,8,10,"g prafulla,seventy thousand four hundred,70400","sarangi,five lakh,5",IDRBT,309076,reference
+309077,datasets/raw/idrbt/300/Cheque 309077.tif,AXIS BANK,TIF,2365,1100,300,5,1,1,5,"rajju,twenty thousand,20000","maiti,one lakh,1",IDRBT,309077,reference
+309078,datasets/raw/idrbt/300/Cheque 309078.tif,AXIS BANK,TIF,2365,1100,300,5,2,2,5,"vijaypal v,two lack five hundred,200500","ganpath rao,one crore,1",IDRBT,309078,reference
+309079,datasets/raw/idrbt/300/Cheque 309079.tif,AXIS BANK,TIF,2365,1100,300,5,3,3,5,"venu k,twenty lack twenty thousand,2020000","thomas,five crore,5",IDRBT,309079,reference
+309080,datasets/raw/idrbt/300/Cheque 309080.tif,AXIS BANK,TIF,2365,1100,300,5,4,4,5,"raju k,twenty five lacks,2500000","kumar,one crore,1",IDRBT,309080,reference
+309082,datasets/raw/idrbt/300/Cheque 309082.tif,AXIS BANK,TIF,2365,1100,300,5,6,7,4,"r kumar,thirty lacks,3000000",deepak,IDRBT,309082,reference
+309083,datasets/raw/idrbt/300/Cheque 309083.tif,AXIS BANK,TIF,2365,1100,300,5,7,8,4,"ravi v,thirty five thousand,35000","p.d amsi,two lakh,2",IDRBT,309083,reference
+309084,datasets/raw/idrbt/300/Cheque 309084.tif,AXIS BANK,TIF,2365,1100,300,5,8,9,12,"yakesh,two crores,20000000","narayana,fifty,5",IDRBT,309084,reference
+309086,datasets/raw/idrbt/300/Cheque 309086.tif,AXIS BANK,TIF,2365,1100,300,5,10,2,12,"bommidi harish,twenty one lack,2100000","srisai,onecrore,1",IDRBT,309086,reference
+309089,datasets/raw/idrbt/300/Cheque 309089.tif,AXIS BANK,TIF,2365,1100,300,5,13,6,11,"sravani,two lack twenty thousand,220000","bhargavi,forty,4",IDRBT,309089,reference
+309090,datasets/raw/idrbt/300/Cheque 309090.tif,AXIS BANK,TIF,2365,1100,300,5,14,7,11,"sanjana k,seventy lacks,7000000","kumari,one crores,1",IDRBT,309090,reference
+309091,datasets/raw/idrbt/300/Cheque 309091.tif,AXIS BANK,TIF,2365,1100,300,6,1,1,6,"durgasaisri a,five thousand ,5000","vemuri,twenty,2",IDRBT,309091,reference
+309092,datasets/raw/idrbt/300/Cheque 309092.tif,AXIS BANK,TIF,2365,1100,300,6,2,2,6,"SARANYA AKURATHI,TWO THOUSAND AND TWENTY,2020","kumari,fourty,4",IDRBT,309092,reference
+309093,datasets/raw/idrbt/300/Cheque 309093.tif,AXIS BANK,TIF,2365,1100,300,6,3,3,6,"Narayana murthy,twenty two thousand ,22000","sunkara,three lakhs,3",IDRBT,309093,reference
+309094,datasets/raw/idrbt/300/Cheque 309094.tif,AXIS BANK,TIF,2365,1100,300,6,4,4,6,"Dileep mulagala,sixty thousand,60000","ravi,two lakh,2",IDRBT,309094,reference
+309095,datasets/raw/idrbt/300/Cheque 309095.tif,AXIS BANK,TIF,2365,1100,300,6,5,5,6,"Jhansi kalipaka,seventy  five thousand and ten,75010","p,five lack,5",IDRBT,309095,reference
+309096,datasets/raw/idrbt/300/Cheque 309096.tif,AXIS BANK,TIF,2365,1100,300,6,6,7,5,"Ram mohan rao k,four thousand and thirty,4030","mr.,seventy,7",IDRBT,309096,reference
+309097,datasets/raw/idrbt/300/Cheque 309097.tif,AXIS BANK,TIF,2365,1100,300,6,7,8,5,"satya sudheer k ,seven thousand and fifty,7050","khanda,twenty,2",IDRBT,309097,reference
+309098,datasets/raw/idrbt/300/Cheque 309098.tif,AXIS BANK,TIF,2365,1100,300,6,8,9,13,"Ambica kora,one lakh thirteen thousand ,113000","mamidala,twenty,2",IDRBT,309098,reference
+309099,datasets/raw/idrbt/300/Cheque 309099.tif,AXIS BANK,TIF,2365,1100,300,6,9,1,13,"sravya pallantla ,ninty  seven thousand,97000","kumarri,three lakh,3",IDRBT,309099,reference
+309100,datasets/raw/idrbt/300/Cheque 309100.tif,AXIS BANK,TIF,2365,1100,300,6,10,2,13,"sudha kapuganti,sixty eight thousand and nine hundred,68900","vennela,one lakh,1",IDRBT,309100,reference
+309101,datasets/raw/idrbt/300/Cheque 309101.tif,AXIS BANK,TIF,2365,1079,300,6,11,3,13,"hindumathi gundala,seventy six thousand five hundred,76500","konathala,four lacks,4",IDRBT,309101,reference
+309102,datasets/raw/idrbt/300/Cheque 309102.tif,AXIS BANK,TIF,2365,1079,300,6,12,4,13,"gopala krishna mulagala,one lakh fifty thousand,150000","surya,seventy,7",IDRBT,309102,reference
+309103,datasets/raw/idrbt/300/Cheque 309103.tif,AXIS BANK,TIF,2365,1079,300,6,13,5,12,"nagamani kolipaka,thirty five thousand eight hundred,35800","krupa,two lack,2",IDRBT,309103,reference
+309104,datasets/raw/idrbt/300/Cheque 309104.tif,AXIS BANK,TIF,2365,1079,300,6,14,7,12,"tejakrishna sai m,fifty nine thousand only,59000","pravin,one lakh,1",IDRBT,309104,reference
+309105,datasets/raw/idrbt/300/Cheque 309105.tif,AXIS BANK,TIF,2365,1079,300,7,1,1,7,"gopal jhu,two lakh twenty thousand,220000","sunil,forty,4",IDRBT,309105,reference
+309106,datasets/raw/idrbt/300/Cheque 309106.tif,AXIS BANK,TIF,2365,1079,300,7,2,2,7,"chinpudu rao,twenty five lakhs,2500000","aditya,one crore,1",IDRBT,309106,reference
+309107,datasets/raw/idrbt/300/Cheque 309107.tif,AXIS BANK,TIF,2365,1079,300,7,3,3,7,"dinesh,one lakh,100000","kumar ungala,seventy,7",IDRBT,309107,reference
+309108,datasets/raw/idrbt/300/Cheque 309108.tif,AXIS BANK,TIF,2365,1079,300,7,4,4,7,"rameshwar,twenty thousand,20000","t.,five lakh,5",IDRBT,309108,reference
+309109,datasets/raw/idrbt/300/Cheque 309109.tif,AXIS BANK,TIF,2365,1079,300,7,5,5,7,"raju v ,twenty five lakhs,2500000","madugu,one crore,1",IDRBT,309109,reference
+309110,datasets/raw/idrbt/300/Cheque 309110.tif,AXIS BANK,TIF,2365,1079,300,7,6,6,7,"swapna p,one thousand,1000","neha,fifty,5",IDRBT,309110,reference
+309111,datasets/raw/idrbt/300/Cheque 309111.tif,AXIS BANK,TIF,2365,1100,300,7,7,8,6,"githanjali v ,fifty lakhs,5000000","emula,two crore,2",IDRBT,309111,reference
+309112,datasets/raw/idrbt/300/Cheque 309112.tif,AXIS BANK,TIF,2365,1100,300,7,8,9,14,"u ravi,two crores,20000000","harihara,sixty,6",IDRBT,309112,reference
+309113,datasets/raw/idrbt/300/Cheque 309113.tif,AXIS BANK,TIF,2365,1100,300,7,9,1,14,"srujana p,tencrores,100000000","yadav,hundred,1",IDRBT,309113,reference
+309114,datasets/raw/idrbt/300/Cheque 309114.tif,AXIS BANK,TIF,2365,1100,300,7,10,2,14,"vamsi krishna,twenty crores,200000000",sri rao,IDRBT,309114,reference
+309115,datasets/raw/idrbt/300/Cheque 309115.tif,AXIS BANK,TIF,2365,1100,300,7,11,3,14,"vamsi krishna,fifty lakhs,5000000","veluga,one,1",IDRBT,309115,reference
+309116,datasets/raw/idrbt/300/Cheque 309116.tif,AXIS BANK,TIF,2365,1100,300,7,12,4,14,"raja rao,five thousand,5000","ch.,one lakh,10",IDRBT,309116,reference
+309117,datasets/raw/idrbt/300/Cheque 309117.tif,AXIS BANK,TIF,2365,1100,300,7,13,5,14,"sandhya m,fifty lakhs,5000000","sri,two lakh,2",IDRBT,309117,reference
+309118,datasets/raw/idrbt/300/Cheque 309118.tif,AXIS BANK,TIF,2365,1100,300,7,14,6,13,"ashurni,five thousand,5000","naga kumari,seventy,7",IDRBT,309118,reference
+309119,datasets/raw/idrbt/300/Cheque 309119.tif,AXIS BANK,TIF,2365,1079,300,8,1,1,2,"rameshwar talwar,ten thousands only,10000",raja singh,IDRBT,309119,reference
+100828,datasets/raw/idrbt/300/Cheque 100828.tif,ICICI BANK,TIF,2387,1093,300,8,3,3,4,"kumar ravi,two lakh twenty three thousand,223000","palli,twenty,2",IDRBT,100828,reference
+100829,datasets/raw/idrbt/300/Cheque 100829.tif,ICICI BANK,TIF,2387,1093,300,8,4,4,5,"sai kiran,one lakh eigthy three thousand,183000","j.,fifty,5",IDRBT,100829,reference
+100830,datasets/raw/idrbt/300/Cheque 100830.tif,ICICI BANK,TIF,2387,1093,300,8,5,5,6,"b shiva,four lakh,400000","kumar,two crore,21",IDRBT,100830,reference
+100831,datasets/raw/idrbt/300/Cheque 100831.tif,ICICI BANK,TIF,2387,1093,300,8,6,6,7,"manish ojha,two lakh thirty five thousand,235000","ravuri,twenty,2",IDRBT,100831,reference
+100832,datasets/raw/idrbt/300/Cheque 100832.tif,ICICI BANK,TIF,2387,1093,300,8,7,7,1,"amit soni,four lakh eighty thousand,480000","rajesh,seventy,7",IDRBT,100832,reference
+100833,datasets/raw/idrbt/300/Cheque 100833.tif,ICICI BANK,TIF,2387,1093,300,8,8,9,9,"v tejaswram,twelve thousand,12000","krishna,seven lacks,7",IDRBT,100833,reference
+100834,datasets/raw/idrbt/300/Cheque 100834.tif,ICICI BANK,TIF,2387,1093,300,8,9,1,10,"b shravan,three lakh eighty thousand,380000","kumar,thirty,3",IDRBT,100834,reference
+100835,datasets/raw/idrbt/300/Cheque 100835.tif,ICICI BANK,TIF,2372,1093,300,8,10,2,11,"raj shukla,three lakhs,300000","kishore,seventy,7",IDRBT,100835,reference
+83654,datasets/raw/idrbt/300/Cheque 083654.tif,SYNDICATE BANK,TIF,2372,1093,300,8,11,3,12,"d pradeep kumar,eight lakhs,800000","dadaba,eighty,8",IDRBT,83654,reference
+83655,datasets/raw/idrbt/300/Cheque 083655.tif,SYNDICATE BANK,TIF,2372,1093,300,8,12,4,13,"g jayakrishna,four lakh twenty thousand,420000","reddy,fourty,4",IDRBT,83655,reference
+83656,datasets/raw/idrbt/300/Cheque 083656.tif,SYNDICATE BANK,TIF,2365,1100,300,8,13,5,14,"ravi kumar singh,seventy thousand,70000","j.,two lakh,2",IDRBT,83656,reference
+83657,datasets/raw/idrbt/300/Cheque 083657.tif,SYNDICATE BANK,TIF,2365,1100,300,8,14,6,8,"p shiv kumar,one lakh five thousands,105000","roy,twenty,2",IDRBT,83657,reference
+83658,datasets/raw/idrbt/300/Cheque 083658.tif,SYNDICATE BANK,TIF,2365,1100,300,9,1,1,3,"abhilash,two lacks fifty five thousand,255000","reddy,twenty ,2",IDRBT,83658,reference
+83659,datasets/raw/idrbt/300/Cheque 083659.tif,SYNDICATE BANK,TIF,2372,1093,300,9,2,2,4,"ramana rao,six lacks thirty thousand,630000","srinivas,twenty,2",IDRBT,83659,reference
+83660,datasets/raw/idrbt/300/Cheque 083660.tif,SYNDICATE BANK,TIF,2365,1100,300,9,3,3,5,"shiva prasad,twenty five lakhs,25000000",kumar velugu,IDRBT,83660,reference
+120611,datasets/raw/idrbt/300/Cheque 120611.tif,CANARA BANK,TIF,2365,1100,300,9,4,4,6,"prasanna kumar,five lakhs twenty thousand,520000","j.,sixty,6",IDRBT,120611,reference
+120612,datasets/raw/idrbt/300/Cheque 120612.tif,CANARA BANK,TIF,2365,1100,300,9,5,5,7,"mamidajula dinesh kumar,three lacks,300000","reddy,seventy,7",IDRBT,120612,reference
+120613,datasets/raw/idrbt/300/Cheque 120613.tif,CANARA BANK,TIF,2365,1100,300,9,6,6,1,"mohammadh fayaz pasha,fifty five thousand,55000","j,three lakh,3",IDRBT,120613,reference
+120614,datasets/raw/idrbt/300/Cheque 120614.tif,CANARA BANK,TIF,2365,1100,300,9,7,7,2,"kadamanchi rana prathap,nine lacks,900000","reddy,sixty,6",IDRBT,120614,reference
+120615,datasets/raw/idrbt/300/Cheque 120615.tif,CANARA BANK,TIF,2365,1100,300,9,8,8,10,"mandalemula kaparthi,three lacks fourty thousand,340000","p.v.d,thirty,3",IDRBT,120615,reference
+120616,datasets/raw/idrbt/300/Cheque 120616.tif,CANARA BANK,TIF,2365,1100,300,9,9,1,11,"anvesh,five lacks,500000","reddy,fifty,5",IDRBT,120616,reference
+120617,datasets/raw/idrbt/300/Cheque 120617.tif,CANARA BANK,TIF,2365,1100,300,9,10,2,12,"g prathap,ningthy lacks ningthy thousand,9090000","kumar reddy,one crore,1",IDRBT,120617,reference
+120618,datasets/raw/idrbt/300/Cheque 120618.tif,CANARA BANK,TIF,2365,1100,300,9,11,3,13,"k anusha,five lacks sixty thousand,560000","chowdhary,fifty,5",IDRBT,120618,reference
+120619,datasets/raw/idrbt/300/Cheque 120619.tif,CANARA BANK,TIF,2365,1100,300,9,12,4,14,"gokul dharavth,three lacks,300000","a.,thirty,3",IDRBT,120619,reference
+120620,datasets/raw/idrbt/300/Cheque 120620.tif,CANARA BANK,TIF,2365,1100,300,9,13,5,8,"ramreddy bheem reddy,eight lacks seventy thousand,870000","sri,one crore,10",IDRBT,120620,reference
+309121,datasets/raw/idrbt/300/Cheque 309121.tif,AXIS BANK,TIF,2365,1065,300,3,3,9,4,"RAVI,FIFTEEN THOUSAND,15000","KUNCHALA,ONE LACK,1",IDRBT,309121,reference
+309122,datasets/raw/idrbt/300/Cheque 309122.tif,AXIS BANK,TIF,2365,1065,300,3,3,9,4,"KIRAN KUMAR,TEN THOUSAND,10000","BOMMAKANTI,FOUR LACK,4",IDRBT,309122,reference
+309123,datasets/raw/idrbt/300/Cheque 309123.tif,AXIS BANK,TIF,2365,1065,300,3,3,9,4,"ANIRUTH KUMAR,TWENTY THOUSAND,20000","NEELAM,SIXLACK,6",IDRBT,309123,reference
+309124,datasets/raw/idrbt/300/Cheque 309124.tif,AXIS BANK,TIF,2365,1065,300,3,3,9,4,"AVINASH,THIRTY THOUSAND,30000","RAMINI YADAV,THREE LACKS,3",IDRBT,309124,reference
+309125,datasets/raw/idrbt/300/Cheque 309125.tif,AXIS BANK,TIF,2365,1065,300,3,3,7,7,"PREM CHAND KUMAR,TWENTY FIVE thousand,25000","RAVI,ONE LAKH,1",IDRBT,309125,reference
+309126,datasets/raw/idrbt/300/Cheque 309126.tif,AXIS BANK,TIF,2365,1065,300,3,3,7,7,"RAGHU,TEN THOUSAND,10000","BHATHULA,FIVE LAKH,5",IDRBT,309126,reference
+309127,datasets/raw/idrbt/300/Cheque 309127.tif,AXIS BANK,TIF,2365,1079,300,3,3,7,7,"VAMSHI,FIVE THOUSAND,5000","KRISHNA,THREE LACK,30",IDRBT,309127,reference
+309128,datasets/raw/idrbt/300/Cheque 309128.tif,AXIS BANK,TIF,2365,1079,300,3,3,7,7,"NAVEEN KUMAR,seven THOUSAND,7000","SIMA,SIXTY,6",IDRBT,309128,reference
+309129,datasets/raw/idrbt/300/Cheque 309129.tif,AXIS BANK,TIF,2365,1079,300,3,3,7,7,"ANIL,NINE THOUSAND,9000","KUMAR REDDY,NINTY,9",IDRBT,309129,reference
+309130,datasets/raw/idrbt/300/Cheque 309130.tif,AXIS BANK,TIF,2365,1079,300,3,3,7,7,"SESHAGIRI RAO,THIRTY FIVE THOUSAND,35000","CHINTA,THREE LACK,3",IDRBT,309130,reference
+309131,datasets/raw/idrbt/300/Cheque 309131.tif,AXIS BANK,TIF,2365,1079,300,3,3,9,4,"CHANDRA SHEKAR,TEN THOUSAND,10000","UPPULA,FIVE LACKS,5",IDRBT,309131,reference
+309133,datasets/raw/idrbt/300/Cheque 309133.tif,AXIS BANK,TIF,2365,1079,300,3,3,9,4,"SRIKANTH REDDY,ONE LAKH,100000","PINNINTI,ONE CRORE,1",IDRBT,309133,reference
+309134,datasets/raw/idrbt/300/Cheque 309134.tif,AXIS BANK,TIF,2365,1079,300,3,3,9,4,"BHANU TEJA,TWO LAKH,200000","MAHESHWARAM,TWO CRORE,2",IDRBT,309134,reference

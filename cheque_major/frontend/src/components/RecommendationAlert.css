@@ -1,0 +1,69 @@
+.recommendation-alert {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border-left: 4px solid;
+  align-items: flex-start;
+}
+
+.alert-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+}
+
+.alert-content {
+  flex: 1;
+}
+
+.alert-message {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Severity levels */
+.severity-high {
+  background-color: #fee2e2;
+  border-color: var(--color-error);
+  color: #991b1b;
+}
+
+.severity-high .alert-icon {
+  color: var(--color-error);
+}
+
+.severity-medium {
+  background-color: #fef3c7;
+  border-color: var(--color-warning);
+  color: #92400e;
+}
+
+.severity-medium .alert-icon {
+  color: var(--color-warning);
+}
+
+.severity-low {
+  background-color: #e0e7ff;
+  border-color: #818cf8;
+  color: #312e81;
+}
+
+.severity-low .alert-icon {
+  color: #818cf8;
+}
+
+.severity-info {
+  background-color: #dbeafe;
+  border-color: var(--color-info);
+  color: #1e40af;
+}
+
+.severity-info .alert-icon {
+  color: var(--color-info);
+}

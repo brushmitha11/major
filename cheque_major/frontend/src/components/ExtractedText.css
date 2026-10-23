@@ -1,0 +1,39 @@
+.extracted-text {
+  padding: 16px;
+  background: var(--card-bg, #fff);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.extracted-text h3 {
+  margin: 12px 0 8px;
+  font-size: 16px;
+}
+
+.extracted-text table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.extracted-text th,
+.extracted-text td {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid #eee;
+  word-break: break-word;
+}
+
+.extracted-text th {
+  width: 40%;
+  font-weight: 600;
+}
+
+.extracted-text ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.extracted-text .muted {
+  color: #777;
+  font-size: 14px;
+}

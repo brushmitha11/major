@@ -1,0 +1,62 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount_words": {
+      "rows": [
+        {
+          "cheque_id": "309080_reference",
+          "expected": "One crore Twenty Five lacks",
+          "raw": "One Crore Twenty Five Lakh",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.074
+        },
+        {
+          "cheque_id": "309083_reference",
+          "expected": "Two lakh Thirty five thousand",
+          "raw": "Two Lakh Thirty Five Thousand",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309084_reference",
+          "expected": "Fifty Two Crores",
+          "raw": "Fifty Two Crores",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        }
+      ]
+    },
+    "payee_name": {
+      "rows": [
+        {
+          "cheque_id": "309080_reference",
+          "expected": "Kumar Raju K",
+          "raw": "Kumar Raju K",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309083_reference",
+          "expected": "P.D. Ravi Vamsi",
+          "raw": "P.D. Ravi Vamsi",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309084_reference",
+          "expected": "Yakesh Narayana",
+          "raw": "Yakesh Narayana",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        }
+      ]
+    }
+  }
+}

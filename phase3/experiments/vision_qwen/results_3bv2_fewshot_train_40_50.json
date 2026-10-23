@@ -1,0 +1,53 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount": {
+      "rows": [
+        {
+          "cheque_id": "309123_reference",
+          "expected": "6,20,000/-",
+          "raw": "6,20,000/-",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309124_reference",
+          "expected": "3,30,000/-",
+          "raw": "3,30,000/-",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309125_reference",
+          "expected": "1,25,000/-",
+          "raw": "1,25,000/-",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309126_reference",
+          "expected": "5,10,000/-",
+          "raw": "5,10,000/-",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309129_reference",
+          "expected": "99,000/-",
+          "raw": "99,000/-",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        }
+      ],
+      "exact": "5/5",
+      "exact_norm": "5/5",
+      "mean_cer_norm": 0.0
+    }
+  }
+}

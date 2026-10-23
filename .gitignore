@@ -1,0 +1,115 @@
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+dist/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Private/raw datasets and model weights
+datasets/raw/
+datasets/.hf_cache/
+*.pt
+*.pth
+*.onnx
+
+IDRBT_Cheque_Image_Dataset*/
+datasets/raw/
+phase3/data/
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.bak
+diagnostic_output.txt
+generation_log.txt
+test_output.txt
+
+# Additional repository safeguards
+**/venv*/
+**/.venv*/
+**/node_modules/
+**/__pycache__/
+**/uploads/
+**/.env
+**/.env.*
+!**/.env.example
+**/.paddlex/
+**/checkpoint/
+phase3/models/
+phase3/data/
+datasets/raw/
+datasets/.hf_cache/
+*.pt
+*.pth
+*.onnx
+*.backup_*
+*.bak
+
+# Python environments and generated files
+**/venv/
+**/venv_old/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/dist/
+**/uploads/
+**/.paddlex/
+
+# Secrets: keep example templates only
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Private cheque data and trained weights
+datasets/raw/
+datasets/.hf_cache/
+phase3/data/
+phase3/models/
+**/checkpoint/
+IDRBT_Cheque_Image_Dataset*/
+*.pt
+*.pth
+*.onnx
+*.tif
+*.tiff
+*.bak
+*.backup_*
+
+# Local logs and editor files
+*.log
+.vscode/
+.idea/

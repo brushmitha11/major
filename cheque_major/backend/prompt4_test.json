@@ -1,0 +1,2 @@
+{"fields":{"amount_figures":"2,04,00,000/-","amount_words":"Two Crore Four Lakh","date":"08/02/2016","payee_name":"B. Shiva Kumar"},"model":"qwen2.5vl:3b","raw":"{\n  \"date\": \"08022016\",\n  \"amount_figures\": \"2,14,00,000/-\",\n  \"amount_words\": \"Two crore Four lakh\",\n  \"payee_name\": \"B. Shiva Kumar\"\n}","status":"OK"}
+finished

@@ -1,0 +1,70 @@
+{
+  "model": "qwen2.5vl:3b",
+  "approach": "few-shot K=6, leave-one-out",
+  "fields": {
+    "amount_words": {
+      "rows": [
+        {
+          "cheque_id": "309095_reference",
+          "expected": "five lack seventy five thousand and ten",
+          "raw": "Five lakh Seventy five thousand and ten",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.051
+        },
+        {
+          "cheque_id": "309096_reference",
+          "expected": "Seventy four thousand and thirty",
+          "raw": "Seventy Fourteen Thousand and Thirty",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.125
+        },
+        {
+          "cheque_id": "309097_reference",
+          "expected": "Twenty seven thousand and fifty",
+          "raw": "Twenty Seven thousand and fifty",
+          "exact": false,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309099_reference",
+          "expected": "Three Lakh Ninty Seven thousand",
+          "raw": "Three Lakh Ninety Seven Thousand",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.032
+        }
+      ]
+    },
+    "payee_name": {
+      "rows": [
+        {
+          "cheque_id": "309095_reference",
+          "expected": "P. Jhansi Kalipaka",
+          "raw": "P. Jhansi Kodipaka",
+          "exact": false,
+          "exact_norm": false,
+          "cer_norm": 0.118
+        },
+        {
+          "cheque_id": "309096_reference",
+          "expected": "Mr. Ram Mohan Rao K",
+          "raw": "Mr. Ram Mohan Rao K",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        },
+        {
+          "cheque_id": "309097_reference",
+          "expected": "Satya Sudheer Khanda",
+          "raw": "Satya Sudheer Khanda",
+          "exact": true,
+          "exact_norm": true,
+          "cer_norm": 0.0
+        }
+      ]
+    }
+  }
+}

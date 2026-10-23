@@ -1,0 +1,160 @@
+{
+  "ocr": {
+    "confidence": 0.912,
+    "lines": [
+      {
+        "confidence": 0.999,
+        "text": "AXIS BANK LTD"
+      },
+      {
+        "confidence": 1.0,
+        "text": "DATE"
+      },
+      {
+        "confidence": 0.985,
+        "text": "240320"
+      },
+      {
+        "confidence": 1.0,
+        "text": "6"
+      },
+      {
+        "confidence": 0.999,
+        "text": "MEHDIPATNAM, HYDERABAD [AP], HYDERABAD, 500028"
+      },
+      {
+        "confidence": 0.665,
+        "text": "farich"
+      },
+      {
+        "confidence": 0.987,
+        "text": "IFS CODE - UTIB0000426"
+      },
+      {
+        "confidence": 0.999,
+        "text": "VALID FOR THREE MONTHS FROM THE DATE OF ISSUE"
+      },
+      {
+        "confidence": 1.0,
+        "text": "DDMMYYYY"
+      },
+      {
+        "confidence": 0.966,
+        "text": "PRABHUPRIYA\u00b7T"
+      },
+      {
+        "confidence": 1.0,
+        "text": "PAY"
+      },
+      {
+        "confidence": 0.618,
+        "text": "AI  NI1O"
+      },
+      {
+        "confidence": 0.809,
+        "text": "OR BEARER/"
+      },
+      {
+        "confidence": 0.983,
+        "text": "Twenty Five Lakh Twenty thousand"
+      },
+      {
+        "confidence": 1.0,
+        "text": "RUPEES"
+      },
+      {
+        "confidence": 0.0,
+        "text": ""
+      },
+      {
+        "confidence": 0.963,
+        "text": "25,20,000/-"
+      },
+      {
+        "confidence": 0.658,
+        "text": "3TGT \u6216"
+      },
+      {
+        "confidence": 0.994,
+        "text": "A/C NO."
+      },
+      {
+        "confidence": 1.0,
+        "text": "911010049001545"
+      },
+      {
+        "confidence": 1.0,
+        "text": "SAPPM"
+      },
+      {
+        "confidence": 1.0,
+        "text": "426160"
+      },
+      {
+        "confidence": 0.839,
+        "text": "SAXIZDAMKAXISBA"
+      },
+      {
+        "confidence": 0.997,
+        "text": "ANKAXISBANKAXISBAN"
+      },
+      {
+        "confidence": 0.996,
+        "text": "IKAXISBANKAXISBANK"
+      },
+      {
+        "confidence": 0.961,
+        "text": "KAXISBANKAXISBANK)"
+      },
+      {
+        "confidence": 0.724,
+        "text": "Perita"
+      },
+      {
+        "confidence": 0.999,
+        "text": "AXISBANKAXISBANKAX"
+      },
+      {
+        "confidence": 0.948,
+        "text": "XISBANKAXISBANKAXI"
+      },
+      {
+        "confidence": 0.924,
+        "text": "ISBAMK AXISBANKAXISI"
+      },
+      {
+        "confidence": 0.995,
+        "text": "RAJARSHI PAL"
+      },
+      {
+        "confidence": 0.895,
+        "text": "08-15"
+      },
+      {
+        "confidence": 1.0,
+        "text": "Payable at par at all branches of Axis Bank Ltd in India."
+      },
+      {
+        "confidence": 1.0,
+        "text": "Please sign above"
+      },
+      {
+        "confidence": 0.921,
+        "text": "\"309066\""
+      },
+      {
+        "confidence": 0.996,
+        "text": "500211012:42616031"
+      }
+    ],
+    "status": "OK",
+    "text": "AXIS BANK LTD DATE 240320 6 MEHDIPATNAM, HYDERABAD [AP], HYDERABAD, 500028 farich IFS CODE - UTIB0000426 VALID FOR THREE MONTHS FROM THE DATE OF ISSUE DDMMYYYY PRABHUPRIYA\u00b7T PAY AI  NI1O OR BEARER/ Twenty Five Lakh Twenty thousand RUPEES  25,20,000/- 3TGT \u6216 A/C NO. 911010049001545 SAPPM 426160 SAXIZDAMKAXISBA ANKAXISBANKAXISBAN IKAXISBANKAXISBANK KAXISBANKAXISBANK) Perita AXISBANKAXISBANKAX XISBANKAXISBANKAXI ISBAMK AXISBANKAXISI RAJARSHI PAL 08-15 Payable at par at all branches of Axis Bank Ltd in India. Please sign above \"309066\" 500211012:42616031"
+  },
+  "timestamp": "2026-10-16T07:48:11.697990Z",
+  "upload_id": "20261016_074811_Cheque_309066.tif",
+  "verification": null,
+  "vlm": {
+    "error": "VLM service request timed out",
+    "status": "TIMEOUT"
+  }
+}
