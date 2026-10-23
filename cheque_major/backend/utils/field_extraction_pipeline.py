@@ -1,3 +1,4 @@
+from datetime import datetime
 import re
 from typing import Dict, Tuple
 
@@ -75,59 +76,168 @@ class FieldExtractor:
         return None, 0.0
 
     def extract_account_number(self, text):
-        patterns = [r"(?:A/?C\s*NO\.?|ACCOUNT)\s*:?\s*([0-9\s\-]{6,})", r"(\d{6,18})"]
-
+        # Only accept a number explicitly associated with an account label.
+        text = text or ""
+        patterns = [
+            r"(?im)^.*?\bA\s*/?\s*C\s*(?:NO|NUMBER)?\.?\s*[:\-]?\s*([0-9][0-9\s-]{5,24})",
+            r"(?im)^.*?\bACCOUNT\s*(?:NO|NUMBER|NUM)\.?\s*[:\-]?\s*([0-9][0-9\s-]{5,24})",
+        ]
         for pattern in patterns:
-            m = re.search(pattern, text or "", re.IGNORECASE)
-            if m:
-                account = re.sub(r"\D", "", m.group(1))
-                if 6 <= len(account) <= 18:
-                    self.log_extraction("account_number", "regex", account, 0.90)
-                    return account, 0.90
+            match = re.search(pattern, text)
+            if match:
+                candidate = re.sub(r"\D", "", match.group(1))
+                if 6 <= len(candidate) <= 18:
+                    self.log_extraction("account_number", "labelled_account", candidate, 0.90)
+                    return candidate, 0.90
 
+        self.log_extraction("account_number", "no_explicit_account_label", None, 0.0)
         return None, 0.0
 
     def extract_date(self, text):
-        pattern = r"(\d{2})[/-](\d{2})[/-](\d{4})"
-        m = re.search(pattern, text or "")
-        if m:
-            self.log_extraction("date", "regex", m.group(0), 0.85)
-            return m.group(0), 0.85
+        # Validate calendar dates; do not accept impossible dates.
+        text = text or ""
+        patterns = [
+            r"(?<!\d)(\d{2})[/-](\d{2})[/-](\d{4})(?!\d)",
+            r"(?<!\d)(\d{4})[/-](\d{2})[/-](\d{2})(?!\d)",
+        ]
+        for pattern in patterns:
+            for match in re.finditer(pattern, text):
+                parts = match.groups()
+                candidates = ["/".join(parts)]
+                if len(parts[0]) == 4:
+                    candidates.append(f"{parts[2]}/{parts[1]}/{parts[0]}")
+                for candidate in candidates:
+                    for fmt in ("%d/%m/%Y", "%Y/%m/%d", "%d-%m-%Y", "%Y-%m-%d"):
+                        try:
+                            parsed = datetime.strptime(candidate, fmt)
+                            value = parsed.strftime("%d/%m/%Y")
+                            self.log_extraction("date", "validated_date", value, 0.95)
+                            return value, 0.95
+                        except ValueError:
+                            pass
 
-        self.log_extraction("date", "unavailable", None, 0.0)
+        self.log_extraction("date", "no_valid_date", None, 0.0)
         return None, 0.0
 
     def extract_amount_figures(self, text):
-        patterns = [r"₹\s*([0-9,]+(?:\.\d{1,2})?)", r"Rs\.?\s*([0-9,]+(?:\.\d{1,2})?)", r"([0-9]{1,3}(?:,[0-9]{3})*(?:\.[0-9]{2})?)"]
+        # Prefer explicit amount labels or currency markers. Avoid IDs, MICR,
+        # IFSC, account numbers, and date lines.
+        text = text or ""
+        amount_re = re.compile(
+            r"(?<![A-Z0-9])(?:\u20B9|RS\.?\s*)\s*([0-9][0-9,]*(?:\.\d{1,2})?)(?![A-Z0-9])",
+            re.IGNORECASE
+        )
+        number_re = re.compile(
+            r"(?<![A-Z0-9])([0-9]{1,3}(?:,[0-9]{3})+(?:\.\d{1,2})?|[0-9]{2,}(?:\.\d{1,2}))(?![A-Z0-9])",
+            re.IGNORECASE
+        )
+        lines = text.splitlines()
 
-        for pattern in patterns:
-            matches = re.findall(pattern, text or "")
+        # Highest priority: amount explicitly labelled on its line.
+        for line in lines:
+            if re.search(r"\b(AMOUNT|RUPEES|RS\.?|INR)\b|\u20B9", line, re.IGNORECASE):
+                if re.search(r"\b(MICR|IFSC|A/C|ACCOUNT|CHEQUE|CHQ|DATE|REFERENCE|CUSTOMER)\b",
+                             line, re.IGNORECASE):
+                    continue
+                matches = list(amount_re.finditer(line))
+                if matches:
+                    value = matches[-1].group(1).replace(",", "")
+                    self.log_extraction("amount_figures", "labelled_amount", value, 0.95)
+                    return value, 0.95
+                # An amount-labelled line may contain a plain numeric value.
+                matches = list(number_re.finditer(line))
+                if matches:
+                    value = matches[-1].group(1).replace(",", "")
+                    self.log_extraction("amount_figures", "amount_context", value, 0.85)
+                    return value, 0.85
+
+        # Next: currency-marked values anywhere outside identifier lines.
+        for line in lines:
+            if re.search(r"\b(MICR|IFSC|A/C|ACCOUNT|CHEQUE|CHQ|DATE|REFERENCE|CUSTOMER)\b",
+                         line, re.IGNORECASE):
+                continue
+            matches = list(amount_re.finditer(line))
             if matches:
-                amount = matches[-1] if len(matches) > 1 else matches[0]
-                self.log_extraction("amount_figures", "regex", amount, 0.85)
-                return amount, 0.85
+                value = matches[-1].group(1).replace(",", "")
+                self.log_extraction("amount_figures", "currency_marker", value, 0.90)
+                return value, 0.90
 
+        # Conservative fallback: decimal amounts on unlabelled lines only.
+        for line in lines:
+            if re.search(r"\b(MICR|IFSC|A/C|ACCOUNT|CHEQUE|CHQ|DATE|REFERENCE|CUSTOMER)\b",
+                         line, re.IGNORECASE):
+                continue
+            matches = list(re.finditer(
+                r"(?<![\d/.-])(\d{1,3}(?:,\d{3})+(?:\.\d{2})|\d{2,}(?:\.\d{2}))(?!\d)",
+                line
+            ))
+            if matches:
+                value = matches[-1].group(1).replace(",", "")
+                self.log_extraction("amount_figures", "unlabelled_decimal_candidate", value, 0.60)
+                return value, 0.60
+
+        self.log_extraction("amount_figures", "no_reliable_amount", None, 0.0)
         return None, 0.0
 
     def extract_amount_words(self, text):
-        words_pattern = r"((?:hundred|thousand|lakh|crore)\s+)?(?:and\s+)?(?:hundred|thousand|lakh|crore|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)+(?:\s+(?:hundred|thousand|lakh|crore|rupees?))?"
+        # Extract words only from a line with explicit amount/currency context.
+        text = text or ""
+        word = (
+            r"(?:zero|one|two|three|four|five|six|seven|eight|nine|ten|"
+            r"eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|"
+            r"eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|"
+            r"eighty|ninety|hundred|thousand|lakh|lakhs|million|crore|"
+            r"crores|and|only|rupee|rupees)"
+        )
+        for line in text.splitlines():
+            if not re.search(r"\b(RUPEES?|AMOUNT IN WORDS|AMOUNT)\b", line, re.IGNORECASE):
+                continue
+            matches = re.findall(word, line, re.IGNORECASE)
+            if matches:
+                value = " ".join(matches).upper()
+                self.log_extraction("amount_words", "amount_context", value, 0.80)
+                return value, 0.80
 
-        m = re.search(words_pattern, text or "", re.IGNORECASE)
-        if m:
-            self.log_extraction("amount_words", "regex", m.group(0), 0.80)
-            return m.group(0), 0.80
-
-        self.log_extraction("amount_words", "unavailable", None, 0.0)
+        self.log_extraction("amount_words", "no_amount_words_context", None, 0.0)
         return None, 0.0
 
     def extract_payee_name(self, text):
-        cleaned = re.sub(r"(?:PAY|TO|BEARER|ORDER|A/C|NO\.|ACCOUNT|DATE|AMOUNT)", "", text or "", flags=re.IGNORECASE)
-        cleaned = cleaned.strip()
+        # Read the name after a payee label, preferably on the same line.
+        text = text or ""
+        lines = text.splitlines()
+        label = re.compile(
+            r"\b(?:PAY\s+TO(?:\s+THE)?\s+ORDER\s+OF|PAY\s+TO|PAYEE)\b\s*[:\-]?\s*(.*)",
+            re.IGNORECASE
+        )
+        stop = re.compile(
+            r"\b(?:RUPEES?|AMOUNT|DATE|CHEQUE|CHQ|MICR|IFSC|A/C|ACCOUNT|"
+            r"BANK|BEARER|SIGNATURE|RS\.?)\b",
+            re.IGNORECASE
+        )
 
-        if cleaned and len(cleaned) > 2:
-            self.log_extraction("payee_name", "filtered_text", cleaned, 0.75)
-            return cleaned, 0.75
+        for index, line in enumerate(lines):
+            match = label.search(line)
+            if not match:
+                continue
 
+            candidate = match.group(1).strip(" :-\t")
+            if not candidate:
+                # Some OCR engines place the payee on the next line.
+                for next_line in lines[index + 1:index + 3]:
+                    if not next_line.strip():
+                        continue
+                    if stop.search(next_line):
+                        break
+                    candidate = next_line.strip()
+                    break
+
+            candidate = stop.split(candidate, maxsplit=1)[0].strip(" :-\t,.;")
+            candidate = re.sub(r"\s+", " ", candidate)
+            if candidate and re.search(r"[A-Za-z]", candidate) and len(candidate) <= 100:
+                self.log_extraction("payee_name", "payee_label", candidate, 0.90)
+                return candidate, 0.90
+
+        self.log_extraction("payee_name", "no_payee_label", None, 0.0)
         return None, 0.0
 
     def extract_all_fields(self, ocr_text, meta=None):
