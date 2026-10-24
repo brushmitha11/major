@@ -51,13 +51,27 @@ class FieldExtractor:
         return None, 0.0
 
     def extract_micr_code(self, text):
-        pattern = r"(?<!\d)(\d{6})[\s\W]*(\d{3})[\s\W]*(\d{3})[\s\W]*(\d{3})(?!\d)"
-        m = re.search(pattern, text or "")
-        if m:
-            micr = f"{m.group(2)}{m.group(3)}{m.group(4)}"
-            if len(micr) == 9:
-                self.log_extraction("micr_code", "regex", micr, 0.90)
-                return micr, 0.90
+        # Prefer an explicitly labelled MICR code.
+        text = text or ""
+        for line in text.splitlines():
+            if re.search(r"\bMICR\b", line, re.IGNORECASE):
+                candidates = re.findall(r"(?<!\d)(\d(?:[\s-]*\d){8})(?!\d)", line)
+                for candidate in candidates:
+                    micr = re.sub(r"\D", "", candidate)
+                    if len(micr) == 9:
+                        self.log_extraction("micr_code", "labelled_micr", micr, 0.90)
+                        return micr, 0.90
+
+        # Fallback for the observed OCR layout: 6-digit cheque number,
+        # 9-digit MICR candidate, colon, then trailing digits.
+        for line in text.splitlines():
+            match = re.search(r"(?<!\d)\d{6}(\d{9}):(\d{6,})(?!\d)", line)
+            if match:
+                micr = match.group(1)
+                self.log_extraction("micr_code", "ocr_micr_line_pattern", micr, 0.75)
+                return micr, 0.75
+
+        self.log_extraction("micr_code", "micr_not_reliably_found", None, 0.0)
         return None, 0.0
 
     def extract_cheque_number(self, text, micr_code=None):
@@ -180,7 +194,7 @@ class FieldExtractor:
         return None, 0.0
 
     def extract_amount_words(self, text):
-        # Extract words only from a line with explicit amount/currency context.
+        # Extract number words only from a labelled amount-in-words line.
         text = text or ""
         word = (
             r"(?:zero|one|two|three|four|five|six|seven|eight|nine|ten|"
@@ -190,11 +204,18 @@ class FieldExtractor:
             r"crores|and|only|rupee|rupees)"
         )
         for line in text.splitlines():
-            if not re.search(r"\b(RUPEES?|AMOUNT IN WORDS|AMOUNT)\b", line, re.IGNORECASE):
+            # Avoid treating a numeric AMOUNT line as amount-in-words.
+            if not re.search(
+                r"\b(?:RUPEES?|AMOUNT\s+IN\s+WORDS)\b",
+                line,
+                re.IGNORECASE,
+            ):
                 continue
+
             matches = re.findall(word, line, re.IGNORECASE)
             if matches:
                 value = " ".join(matches).upper()
+                value = re.sub(r"\bRUPEE\b", "RUPEES", value)
                 self.log_extraction("amount_words", "amount_context", value, 0.80)
                 return value, 0.80
 
