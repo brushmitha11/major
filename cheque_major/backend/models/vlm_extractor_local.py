@@ -1,148 +1,168 @@
+﻿"""
+Ollama Qwen2.5-VL implementation for cheque handwriting extraction.
+Uses the existing local Ollama model; no Transformers or PyTorch required.
 """
-Local Qwen2.5-VL Implementation - For handwritten text extraction
-"""
-import logging
-from typing import Dict, Any
-import cv2
 import base64
 import io
+import json
+import logging
+import re
+import urllib.request
+import urllib.error
+from typing import Dict, Any
 
 logger = logging.getLogger(__name__)
 
+
 class VLMExtractorLocal:
-    """Qwen2.5-VL for handwritten text extraction."""
+    """Extract handwritten cheque fields using Qwen through Ollama."""
 
     def __init__(self, config):
         self.config = config
-        self.enabled = config.ENABLE_QWEN_VLM
-        self.model = None
-        self.processor = None
+        self.enabled = bool(getattr(config, "ENABLE_QWEN_VLM", False))
+        self.model = getattr(config, "OLLAMA_MODEL", "qwen2.5vl:3b")
+        self.api_url = getattr(
+            config, "OLLAMA_API_URL", "http://127.0.0.1:11434/api/generate"
+        )
+        self.timeout = int(getattr(config, "OLLAMA_TIMEOUT", 180))
+
         if self.enabled:
-            self._initialize_vlm()
-
-    def _initialize_vlm(self):
-        """Initialize Qwen2.5-VL model."""
-        try:
-            logger.info("Initializing Qwen2.5-VL for handwritten text...")
-            from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
-
-            processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-3B-Instruct")
-            model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-                "Qwen/Qwen2.5-VL-3B-Instruct",
-                torch_dtype="auto",
-                device_map="auto"
-            )
-
-            self.processor = processor
-            self.model = model
-            logger.info("✓ Qwen2.5-VL ready")
-        except Exception as e:
-            logger.error(f"Qwen2.5-VL init failed: {e}")
-            self.enabled = False
+            logger.info("Qwen VLM enabled via Ollama: %s", self.model)
+        else:
+            logger.info("Qwen VLM disabled by configuration")
 
     def extract(self, image_path: str) -> Dict[str, Any]:
-        """Extract handwritten fields from cheque using Qwen."""
-        if not self.enabled or self.model is None:
+        """Send a cheque image to Ollama and extract handwriting."""
+        if not self.enabled:
             return {
-                'status': 'DISABLED',
-                'fields': {
-                    'date': '',
-                    'payee_name': '',
-                    'amount_words': '',
-                }
+                "status": "DISABLED",
+                "fields": {
+                    "date": "",
+                    "payee_name": "",
+                    "amount_words": "",
+                    "amount_figures": "",
+                    "other_text": "",
+                },
             }
 
         try:
-            logger.info(f"VLM: Extracting handwritten text from {image_path}")
-
             from PIL import Image
 
-            # Read image
-            image = Image.open(image_path).convert('RGB')
+            # Resize large scans while preserving their aspect ratio.
+            # This helps CPU-only inference and avoids sending huge TIFF files.
+            with Image.open(image_path) as source:
+                image = source.convert("RGB")
+                image.thumbnail((1800, 1800))
+                buffer = io.BytesIO()
+                image.save(buffer, format="JPEG", quality=92)
+                image_b64 = base64.b64encode(buffer.getvalue()).decode("ascii")
 
-            # Prepare prompt for handwritten field extraction
-            prompt = """Extract the following handwritten fields from this cheque image:
-1. Date (DD/MM/YYYY format)
-2. Payee name (who the cheque is made to)
-3. Amount in words (e.g., "Two thousand rupees")
-4. Any other handwritten text
+            prompt = """
+You are extracting fields from a scanned Indian bank cheque.
 
-Respond in JSON format:
+Read the handwriting visible in the image. Do not invent, complete,
+or guess characters that cannot be read. Use an empty string when a
+field is missing or illegible.
+
+Return ONLY a JSON object with these keys:
 {
-    "date": "DD/MM/YYYY",
-    "payee_name": "Name",
-    "amount_words": "Amount",
-    "other_text": "Any other handwritten content"
-}"""
+  "date": "",
+  "payee_name": "",
+  "amount_words": "",
+  "amount_figures": "",
+  "other_text": ""
+}
 
-            # Prepare inputs
-            messages = [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "image", "image": image},
-                        {"type": "text", "text": prompt}
-                    ]
-                }
-            ]
+Rules:
+- date: transcribe the visible date; do not infer missing digits.
+- payee_name: the name written after the cheque's PAY/Pay label.
+- amount_words: transcribe the written amount in words.
+- amount_figures: transcribe the numeric amount exactly as visible,
+  preserving commas and decimal marks where possible.
+- other_text: other handwritten content only.
+- Keep uncertain text literal; do not silently correct it.
+"""
 
-            # Generate response
-            text_input = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-            image_inputs, video_inputs = self.processor.process_image_input(messages)
-            inputs = self.processor(
-                text=[text_input],
-                images=image_inputs,
-                videos=video_inputs,
-                padding=True,
-                return_tensors="pt",
-            )
-
-            # Generate output
-            generated_ids = self.model.generate(**inputs, max_new_tokens=256)
-            generated_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
-
-            logger.info(f"✓ VLM: Generated response - {len(generated_text)} chars")
-
-            # Parse response
-            fields = self._parse_vlm_response(generated_text)
-
-            return {
-                'status': 'OK',
-                'fields': fields,
-                'raw_response': generated_text
+            payload = {
+                "model": self.model,
+                "prompt": prompt,
+                "images": [image_b64],
+                "stream": False,
+                "format": "json",
+                "options": {
+                    "temperature": 0,
+                    "num_predict": 300,
+                },
             }
 
-        except Exception as e:
-            logger.error(f"VLM error: {e}")
+            request = urllib.request.Request(
+                self.api_url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json"},
+                method="POST",
+            )
+
+            logger.info("Sending cheque image to Ollama model %s", self.model)
+
+            with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                api_result = json.loads(response.read().decode("utf-8"))
+
+            generated_text = api_result.get("response", "")
+            fields = self._parse_vlm_response(generated_text)
+
+            if not generated_text.strip():
+                raise ValueError("Ollama returned an empty response")
+
+            logger.info("Ollama extraction completed")
+
             return {
-                'status': 'ERROR',
-                'error': str(e),
-                'fields': {}
+                "status": "OK",
+                "fields": fields,
+                "raw_response": generated_text,
+                "model": self.model,
+                "confidence": None,
+                "confidence_note": (
+                    "Ollama response does not provide a calibrated field "
+                    "confidence score. Validate fields before accepting them."
+                ),
+            }
+
+        except Exception as exc:
+            logger.exception("Ollama VLM extraction failed")
+            return {
+                "status": "ERROR",
+                "error": f"{type(exc).__name__}: {exc}",
+                "fields": {
+                    "date": "",
+                    "payee_name": "",
+                    "amount_words": "",
+                    "amount_figures": "",
+                    "other_text": "",
+                },
             }
 
     def _parse_vlm_response(self, response: str) -> Dict[str, str]:
-        """Parse Qwen response to extract fields."""
+        """Parse JSON returned by Ollama into predictable string fields."""
         try:
-            import json
-            import re
+            data = json.loads(response)
+        except (json.JSONDecodeError, TypeError):
+            match = re.search(r"\{.*\}", response, re.DOTALL)
+            if not match:
+                raise ValueError("Qwen response did not contain valid JSON")
+            data = json.loads(match.group(0))
 
-            # Try to extract JSON from response
-            json_match = re.search(r'\{.*\}', response, re.DOTALL)
-            if json_match:
-                data = json.loads(json_match.group())
-                return {
-                    'date': data.get('date', '').strip(),
-                    'payee_name': data.get('payee_name', '').strip(),
-                    'amount_words': data.get('amount_words', '').strip(),
-                    'other_text': data.get('other_text', '').strip()
-                }
-        except:
-            pass
+        if not isinstance(data, dict):
+            raise ValueError("Qwen response JSON was not an object")
 
-        # Fallback: simple text extraction
+        keys = (
+            "date",
+            "payee_name",
+            "amount_words",
+            "amount_figures",
+            "other_text",
+        )
+
         return {
-            'date': '',
-            'payee_name': '',
-            'amount_words': '',
-            'other_text': response
+            key: str(data.get(key) or "").strip()
+            for key in keys
         }

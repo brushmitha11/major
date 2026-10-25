@@ -4,6 +4,7 @@ Compatible with PaddleOCR 3.x.
 """
 import json
 import logging
+import threading
 from typing import Dict, Any
 
 import cv2
@@ -18,6 +19,7 @@ class OCRExtractorLocal:
         self.config = config
         self.enabled = config.ENABLE_PADDLE_OCR
         self.ocr = None
+        self._ocr_lock = threading.Lock()
 
         if self.enabled:
             self._initialize_ocr()
@@ -66,7 +68,9 @@ class OCRExtractorLocal:
                 }
 
             # PaddleOCR 3.x API verified against the local cheque image.
-            results = self.ocr.predict(image)
+            # Serialize inference on the shared PaddleOCR instance.
+            with self._ocr_lock:
+                results = self.ocr.predict(image)
 
             lines = []
 
@@ -88,6 +92,7 @@ class OCRExtractorLocal:
 
                 texts = data.get("rec_texts", []) or []
                 scores = data.get("rec_scores", []) or []
+                boxes = data.get("rec_polys", data.get("dt_polys", [])) or []
 
                 for index, text in enumerate(texts):
                     if text is None:
@@ -102,9 +107,14 @@ class OCRExtractorLocal:
                     except (TypeError, ValueError):
                         score = 0.0
 
+                    box = boxes[index] if index < len(boxes) else None
+                    if hasattr(box, "tolist"):
+                        box = box.tolist()
+
                     lines.append({
                         "text": text,
                         "confidence": score,
+                        "box": box,
                     })
 
             combined_text = "\n".join(line["text"] for line in lines)

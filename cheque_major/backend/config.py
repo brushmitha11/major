@@ -1,4 +1,4 @@
-"""Configuration for the cheque verification system."""
+﻿"""Configuration for the cheque verification system."""
 import os
 from datetime import timedelta
 
@@ -56,5 +56,10 @@ class Config:
 
     # Feature flags
     ENABLE_PADDLE_OCR = True
-    ENABLE_QWEN_VLM = False  # Disabled due to disk space - focus on PaddleOCR
+    ENABLE_QWEN_VLM = False
+    OLLAMA_API_URL = 'http://127.0.0.1:11434/api/generate'
+    OLLAMA_MODEL = 'qwen2.5vl:3b'
+    OLLAMA_TIMEOUT = 180
     ENABLE_VERIFICATION_MODEL = False  # Set to True when model is available
+
+

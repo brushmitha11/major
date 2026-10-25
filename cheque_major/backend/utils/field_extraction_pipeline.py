@@ -51,42 +51,52 @@ class FieldExtractor:
         return None, 0.0
 
     def extract_micr_code(self, text):
-        # Prefer an explicitly labelled MICR code.
         text = text or ""
+
+        # First prefer a clearly labelled nine-digit MICR code.
         for line in text.splitlines():
             if re.search(r"\bMICR\b", line, re.IGNORECASE):
-                candidates = re.findall(r"(?<!\d)(\d(?:[\s-]*\d){8})(?!\d)", line)
+                candidates = re.findall(
+                    r"(?<!\d)(\d(?:[\s-]*\d){8})(?!\d)", line
+                )
                 for candidate in candidates:
-                    micr = re.sub(r"\D", "", candidate)
-                    if len(micr) == 9:
-                        self.log_extraction("micr_code", "labelled_micr", micr, 0.90)
-                        return micr, 0.90
+                    value = re.sub(r"\D", "", candidate)
+                    if len(value) == 9:
+                        self.log_extraction("micr_code", "labelled_micr", value, 0.90)
+                        return value, 0.90
 
-        # Fallback for the observed OCR layout: 6-digit cheque number,
-        # 9-digit MICR candidate, colon, then trailing digits.
+        # Fallback for the observed format:
+        # six-digit cheque number + nine-digit MICR + colon + routing digits.
         for line in text.splitlines():
             match = re.search(r"(?<!\d)\d{6}(\d{9}):(\d{6,})(?!\d)", line)
             if match:
-                micr = match.group(1)
-                self.log_extraction("micr_code", "ocr_micr_line_pattern", micr, 0.75)
-                return micr, 0.75
+                value = match.group(1)
+                self.log_extraction("micr_code", "ocr_micr_line_pattern", value, 0.75)
+                return value, 0.75
 
         self.log_extraction("micr_code", "micr_not_reliably_found", None, 0.0)
         return None, 0.0
 
     def extract_cheque_number(self, text, micr_code=None):
+        text = text or ""
+
+        # Only use the cheque number when it agrees with the extracted MICR.
         if micr_code and len(micr_code) == 9:
-            m = re.search(r"(?<!\d)(\d{6})[\s\W]*\d{3}[\s\W]*\d{3}[\s\W]*\d{3}", text or "")
-            if m:
-                self.log_extraction("cheque_number", "from_micr", m.group(1), 0.95)
-                return m.group(1), 0.95
+            for line in text.splitlines():
+                match = re.search(
+                    r"(?<!\d)(\d{6})(\d{9}):(\d{6,})(?!\d)", line
+                )
+                if match and match.group(2) == micr_code:
+                    value = match.group(1)
+                    self.log_extraction(
+                        "cheque_number", "validated_micr_line", value, 0.95
+                    )
+                    return value, 0.95
 
-        pattern = r"(?<!\d)(\d{6})(?!\d)"
-        matches = re.findall(pattern, text or "")
-        if matches:
-            self.log_extraction("cheque_number", "regex", matches[0], 0.85)
-            return matches[0], 0.85
-
+        # Avoid guessing from unrelated six-digit values.
+        self.log_extraction(
+            "cheque_number", "no_reliable_cheque_number", None, 0.0
+        )
         return None, 0.0
 
     def extract_account_number(self, text):
@@ -110,6 +120,17 @@ class FieldExtractor:
     def extract_date(self, text):
         # Validate calendar dates; do not accept impossible dates.
         text = text or ""
+        # Also recognize compact DDMMYYYY values, validating the calendar date.
+        compact = re.search(r"(?<!\d)(\d{2})(\d{2})(\d{4})(?!\d)", text)
+        if compact:
+            try:
+                parsed = datetime.strptime("".join(compact.groups()), "%d%m%Y")
+                value = parsed.strftime("%d/%m/%Y")
+                self.log_extraction("date", "validated_compact_date", value, 0.85)
+                return value, 0.85
+            except ValueError:
+                pass
+
         patterns = [
             r"(?<!\d)(\d{2})[/-](\d{2})[/-](\d{4})(?!\d)",
             r"(?<!\d)(\d{4})[/-](\d{2})[/-](\d{2})(?!\d)",
@@ -190,78 +211,201 @@ class FieldExtractor:
                 self.log_extraction("amount_figures", "unlabelled_decimal_candidate", value, 0.60)
                 return value, 0.60
 
+        # Recognize cheque-style amounts such as 23,500/ or 329,000/-.
+        for line in lines:
+            if re.search(
+                r"\b(MICR|IFSC|A/C|ACCOUNT|CHEQUE|CHQ|DATE|REFERENCE|CUSTOMER)\b",
+                line, re.IGNORECASE
+            ):
+                continue
+            match = re.search(
+                r"(?<![\d/])((?:\d{1,3}(?:,\d{2,3})+|\d{2,})"
+                r"(?:\.\d{1,2})?)\s*/(?:-)?(?!\d)",
+                line
+            )
+            if match:
+                value = match.group(1).replace(",", "")
+                self.log_extraction(
+                    "amount_figures", "cheque_slash_amount", value, 0.80
+                )
+                return value, 0.80
+
         self.log_extraction("amount_figures", "no_reliable_amount", None, 0.0)
         return None, 0.0
 
+
+
+    
     def extract_amount_words(self, text):
-        # Extract number words only from a labelled amount-in-words line.
+        """Extract amount words from nearby OCR lines."""
         text = text or ""
+        lines = text.splitlines()
+
         word = (
-            r"(?:zero|one|two|three|four|five|six|seven|eight|nine|ten|"
+            r"\b(?:zero|one|two|three|four|five|six|seven|eight|nine|ten|"
             r"eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|"
             r"eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|"
             r"eighty|ninety|hundred|thousand|lakh|lakhs|million|crore|"
-            r"crores|and|only|rupee|rupees)"
+            r"crores|and|only|rupees?)\b"
         )
-        for line in text.splitlines():
-            # Avoid treating a numeric AMOUNT line as amount-in-words.
-            if not re.search(
-                r"\b(?:RUPEES?|AMOUNT\s+IN\s+WORDS)\b",
-                line,
-                re.IGNORECASE,
-            ):
+
+        for index, line in enumerate(lines):
+            if not re.search(r"\bRUPEES?\b", line, re.IGNORECASE):
                 continue
 
-            matches = re.findall(word, line, re.IGNORECASE)
-            if matches:
-                value = " ".join(matches).upper()
-                value = re.sub(r"\bRUPEE\b", "RUPEES", value)
-                self.log_extraction("amount_words", "amount_context", value, 0.80)
-                return value, 0.80
+            candidate_lines = [line]
 
-        self.log_extraction("amount_words", "no_amount_words_context", None, 0.0)
+            for next_line in lines[index + 1:index + 4]:
+                if re.search(
+                    r"\b(?:DATE|PAY|BEARER|A/C|ACCOUNT|IFSC|MICR|"
+                    r"CHEQUE|CHQ|SIGNATURE|BANK)\b",
+                    next_line,
+                    re.IGNORECASE,
+                ):
+                    break
+                candidate_lines.append(next_line)
+
+            candidate_text = " ".join(candidate_lines)
+            matches = re.findall(word, candidate_text, re.IGNORECASE)
+
+            number_words = [
+                item for item in matches
+                if item.lower() not in ("rupee", "rupees", "only", "and")
+            ]
+
+            if number_words:
+                value = " ".join(matches).upper()
+                self.log_extraction(
+                    "amount_words", "multiline_amount_context", value, 0.65
+                )
+                return value, 0.65
+
+        self.log_extraction(
+            "amount_words", "no_amount_words_context", None, 0.0
+        )
         return None, 0.0
 
-    def extract_payee_name(self, text):
-        # Read the name after a payee label, preferably on the same line.
+    def extract_payee_name(self, text, ocr_lines=None):
+        """Extract payee using OCR geometry when available, then text fallback."""
+        # PaddleOCR coordinates are [top-left, top-right, bottom-right, bottom-left].
+        if ocr_lines:
+            def bounds(line):
+                box = line.get("box")
+                if not box or len(box) < 4:
+                    return None
+                try:
+                    xs = [float(p[0]) for p in box]
+                    ys = [float(p[1]) for p in box]
+                    return min(xs), min(ys), max(xs), max(ys)
+                except (TypeError, ValueError, IndexError):
+                    return None
+
+            entries = []
+            for line in ocr_lines:
+                b = bounds(line)
+                if b and line.get("text"):
+                    entries.append((str(line["text"]).strip(), b, float(line.get("confidence", 0) or 0)))
+
+            pay_labels = [
+                (txt, b) for txt, b, _ in entries
+                if re.fullmatch(r"\s*PAY\s*[:\-]?\s*", txt, re.IGNORECASE)
+            ]
+
+            for pay_text, pb in pay_labels:
+                px1, py1, px2, py2 = pb
+                pay_cy = (py1 + py2) / 2
+                pay_h = max(1, py2 - py1)
+
+                # Name words must be right of PAY, overlap its row, and
+                # remain left of the OR BEARER field.
+                candidates = []
+                for txt, b, score in entries:
+                    x1, y1, x2, y2 = b
+                    cy = (y1 + y2) / 2
+                    h = max(1, y2 - y1)
+
+                    if txt.upper().startswith("OR BEARER"):
+                        continue
+                    if x1 <= px2 + 20:
+                        continue
+                    if abs(cy - pay_cy) > max(65, 0.8 * max(pay_h, h)):
+                        continue
+                    if not re.fullmatch(r"[A-Za-z][A-Za-z.'-]*", txt):
+                        continue
+
+                    candidates.append((x1, txt, score))
+
+                # Stop before the printed OR BEARER label by coordinate.
+                bearer_left = min(
+                    (b[0] for txt, b, _ in entries if re.search(r"OR\s+BEARER", txt, re.IGNORECASE)),
+                    default=float("inf")
+                )
+                candidates = [c for c in candidates if c[0] < bearer_left]
+                candidates.sort(key=lambda c: c[0])
+
+                if candidates:
+                    # Require at least two nearby name tokens; a single
+                    # token is too uncertain to accept automatically.
+                    names = [c[1] for c in candidates]
+                    candidate = " ".join(names[:4])
+                    if len(names) >= 2:
+                        conf = min(0.85, sum(c[2] for c in candidates[:4]) / min(4, len(candidates)))
+                        conf = min(conf, 0.85)
+                        self.log_extraction("payee_name", "payee_row_coordinates", candidate, conf)
+                        return candidate, conf
+
+        # Existing text-only fallback for callers without OCR coordinates.
         text = text or ""
         lines = text.splitlines()
-        label = re.compile(
-            r"\b(?:PAY\s+TO(?:\s+THE)?\s+ORDER\s+OF|PAY\s+TO|PAYEE)\b\s*[:\-]?\s*(.*)",
-            re.IGNORECASE
-        )
         stop = re.compile(
             r"\b(?:RUPEES?|AMOUNT|DATE|CHEQUE|CHQ|MICR|IFSC|A/C|ACCOUNT|"
-            r"BANK|BEARER|SIGNATURE|RS\.?)\b",
+            r"BANK|BEARER|SIGNATURE|RS\.?|OR\s+BEARER)\b",
+            re.IGNORECASE
+        )
+        label = re.compile(
+            r"\b(?:PAY\s+TO(?:\s+THE)?\s+ORDER\s+OF|PAY\s+TO|PAYEE)\b\s*[:\-]?\s*(.*)",
             re.IGNORECASE
         )
 
         for index, line in enumerate(lines):
             match = label.search(line)
-            if not match:
-                continue
+            if match:
+                candidate = match.group(1).strip(" :-\t")
+                if not candidate:
+                    parts = []
+                    for next_line in lines[index + 1:index + 6]:
+                        item = next_line.strip()
+                        if not item or stop.search(item):
+                            break
+                        if not re.fullmatch(r"[A-Za-z][A-Za-z.'-]*", item):
+                            break
+                        parts.append(item)
+                    candidate = " ".join(parts)
 
-            candidate = match.group(1).strip(" :-\t")
-            if not candidate:
-                # Some OCR engines place the payee on the next line.
-                for next_line in lines[index + 1:index + 3]:
-                    if not next_line.strip():
-                        continue
-                    if stop.search(next_line):
+                candidate = stop.split(candidate, maxsplit=1)[0].strip(" :-\t,.;")
+                candidate = re.sub(r"\s+", " ", candidate)
+                if candidate and re.search(r"[A-Za-z]", candidate) and len(candidate) <= 100:
+                    self.log_extraction("payee_name", "payee_label", candidate, 0.90)
+                    return candidate, 0.90
+
+            if re.fullmatch(r"\s*PAY\s*[:\-]?\s*", line, re.IGNORECASE):
+                parts = []
+                for next_line in lines[index + 1:index + 6]:
+                    item = next_line.strip()
+                    if not item or stop.search(item):
                         break
-                    candidate = next_line.strip()
-                    break
-
-            candidate = stop.split(candidate, maxsplit=1)[0].strip(" :-\t,.;")
-            candidate = re.sub(r"\s+", " ", candidate)
-            if candidate and re.search(r"[A-Za-z]", candidate) and len(candidate) <= 100:
-                self.log_extraction("payee_name", "payee_label", candidate, 0.90)
-                return candidate, 0.90
+                    if not re.fullmatch(r"[A-Za-z][A-Za-z.'-]*", item):
+                        break
+                    parts.append(item)
+                if parts:
+                    candidate = " ".join(parts)
+                    self.log_extraction("payee_name", "multiline_pay_label", candidate, 0.80)
+                    return candidate, 0.80
 
         self.log_extraction("payee_name", "no_payee_label", None, 0.0)
         return None, 0.0
 
-    def extract_all_fields(self, ocr_text, meta=None):
+    def extract_all_fields(self, ocr_text, meta=None, ocr_lines=None):
         """Extract all fields with zero-blank guarantee."""
         results = {}
         confidence = {}
@@ -277,7 +421,7 @@ class FieldExtractor:
         results["date"], confidence["date"] = self.extract_date(ocr_text)
         results["amount_figures"], confidence["amount_figures"] = self.extract_amount_figures(ocr_text)
         results["amount_words"], confidence["amount_words"] = self.extract_amount_words(ocr_text)
-        results["payee_name"], confidence["payee_name"] = self.extract_payee_name(ocr_text)
+        results["payee_name"], confidence["payee_name"] = self.extract_payee_name(ocr_text, ocr_lines=ocr_lines)
 
         # Missing extraction must remain missing, never fabricated.
         for field in FIELD_ORDER:

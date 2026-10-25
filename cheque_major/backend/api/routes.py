@@ -1,4 +1,4 @@
-"""
+﻿"""
 API Routes for Cheque Verification System
 """
 from flask import request, jsonify, Response
@@ -170,8 +170,8 @@ def register_routes(app):
             if not os.path.exists(filepath):
                 return jsonify({'error': 'Upload not found'}), 404
 
-            run_ocr = data.get('run_ocr', True)
-            run_vlm = data.get('run_vlm', True)
+            run_ocr = data.get('run_ocr', app.config['ENABLE_PADDLE_OCR']) and app.config['ENABLE_PADDLE_OCR']
+            run_vlm = data.get('run_vlm', app.config['ENABLE_QWEN_VLM']) and app.config['ENABLE_QWEN_VLM']
             run_verification = data.get('run_verification', False)
 
             import time
@@ -202,11 +202,17 @@ def register_routes(app):
                 # Both tasks run in parallel - wait for both to complete (max 120s)
                 if ocr_future:
                     try:
-                        results['ocr'] = ocr_future.result(timeout=90)
+                        results['ocr'] = ocr_future.result(timeout=420)
                         logger.info(f"OCR completed in {time.time() - start_time:.2f}s")
                     except Exception as e:
-                        logger.error(f"OCR extraction failed: {e}")
-                        results['ocr'] = {'status': 'ERROR', 'error': str(e)}
+                        logger.exception("OCR extraction failed while waiting for the OCR result")
+                        results['ocr'] = {
+                            'status': 'ERROR',
+                            'error': f"{type(e).__name__}: {e}",
+                            'text': '',
+                            'lines': [],
+                            'confidence': 0.0,
+                        }
 
                 if vlm_future:
                     try:
@@ -232,13 +238,7 @@ def register_routes(app):
                     ),
                 }
 
-            # Use improved extraction pipeline
-            ocr_data = results.get('ocr') or {}
-            vlm_data = results.get('vlm') or {}
-
-            logger.info(f"DEBUG: OCR result keys: {ocr_data.keys() if isinstance(ocr_data, dict) else 'not dict'}")
-
-            # Extract OCR text
+            # Extract OCR text before running field extraction.
             ocr_text = ''
             if isinstance(ocr_data, dict) and ocr_data.get('status') == 'OK':
                 ocr_text = ocr_data.get('text', '')
@@ -246,23 +246,66 @@ def register_routes(app):
             logger.info(f"OCR text extracted: {len(ocr_text)} chars")
             if ocr_text:
                 logger.info(f"OCR text sample: {ocr_text[:200]}")
-
-            # Use field extraction pipeline
+            # Extract fields using the existing PaddleOCR pipeline first.
             extractor = FieldExtractor(metadata={})
-            extraction_result = extractor.extract_all_fields(ocr_text, meta={'bank': 'UNKNOWN'})
+            extraction_result = extractor.extract_all_fields(
+                ocr_text,
+                meta={'bank': 'UNKNOWN'},
+                ocr_lines=ocr_data.get('lines', [])
+            )
 
-            results['fields'] = extraction_result['fields']
-            results['extraction_confidence'] = extraction_result['confidence']
-            results['has_blanks'] = extraction_result['has_blanks']
+            fields = dict(extraction_result['fields'])
+            confidence = dict(extraction_result['confidence'])
+
+            # Use Qwen only to propose values for missing handwriting fields.
+            vlm_data = results.get('vlm') or {}
+            vlm_fields = (
+                vlm_data.get('fields', {})
+                if isinstance(vlm_data, dict)
+                and vlm_data.get('status') == 'OK'
+                else {}
+            )
+
+            qwen_field_map = {
+                'date': 'date',
+                'payee_name': 'payee_name',
+                'amount_words': 'amount_words',
+                'amount_figures': 'amount_figures',
+            }
+
+            qwen_used_fields = []
+
+            for target_field, qwen_key in qwen_field_map.items():
+                qwen_value = vlm_fields.get(qwen_key)
+
+                # Preserve existing OCR values; fill blanks only.
+                if (
+                    fields.get(target_field) in (None, '')
+                    and isinstance(qwen_value, str)
+                    and qwen_value.strip()
+                ):
+                    fields[target_field] = qwen_value.strip()
+                    qwen_used_fields.append(target_field)
+
+                    # No calibrated Qwen confidence is available.
+                    confidence[target_field] = 0.0
+
+            results['fields'] = fields
+            results['extraction_confidence'] = confidence
+            results['has_blanks'] = any(
+                value is None or value == ''
+                for value in fields.values()
+            )
+            results['qwen_used_fields'] = qwen_used_fields
             results['ocr_text_length'] = len(ocr_text)
 
             avg_conf = sum(extraction_result['confidence'].values()) / 9 if extraction_result['confidence'] else 0
-            logger.info(f"✓ Fields extracted: {sum(1 for v in extraction_result['fields'].values() if v)}/9, Avg Conf: {avg_conf:.2f}")
+            logger.info(f"âœ“ Fields extracted: {sum(1 for v in extraction_result['fields'].values() if v)}/9, Avg Conf: {avg_conf:.2f}")
 
             return jsonify(results), 200
 
         except Exception as e:
-            logger.error(f"Processing error: {e}")
+            logger.exception("Processing error in /api/process")
             return jsonify({'error': 'Processing failed'}), 500
 
     # Get processing status
@@ -323,3 +366,8 @@ def register_routes(app):
         return Response(buffer.tobytes(), mimetype='image/png')
 
     logger.info("API routes registered successfully")
+
+
+
+
+
