@@ -217,6 +217,13 @@ def register_routes(app):
                 if vlm_future:
                     try:
                         results['vlm'] = vlm_future.result(timeout=120)
+                        # DIAGNOSTIC: Detect implicit None return from extract()
+                        if results['vlm'] is None:
+                            logger.error("VLM extractor returned None (not ERROR dict)")
+                            results['vlm'] = {
+                                'status': 'ERROR',
+                                'error': 'VLM extraction returned None - preprocessing or exception handling failed'
+                            }
                         logger.info(f"VLM completed in {time.time() - start_time:.2f}s")
                     except Exception as e:
                         logger.error(f"VLM extraction failed: {e}")
@@ -237,6 +244,9 @@ def register_routes(app):
                         results.get('vlm')
                     ),
                 }
+
+            # Extract OCR data before field extraction.
+            ocr_data = results.get('ocr') or {}
 
             # Extract OCR text before running field extraction.
             ocr_text = ''

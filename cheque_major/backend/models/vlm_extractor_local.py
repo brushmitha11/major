@@ -2,6 +2,7 @@
 Ollama Qwen2.5-VL implementation for cheque handwriting extraction.
 Uses the existing local Ollama model; no Transformers or PyTorch required.
 """
+import uuid
 import base64
 import io
 import json
@@ -33,6 +34,7 @@ class VLMExtractorLocal:
 
     def extract(self, image_path: str) -> Dict[str, Any]:
         """Send a cheque image to Ollama and extract handwriting."""
+        request_id = str(uuid.uuid4())[:8]
         if not self.enabled:
             return {
                 "status": "DISABLED",
@@ -47,6 +49,7 @@ class VLMExtractorLocal:
 
         try:
             from PIL import Image
+            logger.debug(f"[{request_id}] PIL imported successfully")
 
             # Resize large scans while preserving their aspect ratio.
             # This helps CPU-only inference and avoids sending huge TIFF files.
@@ -54,6 +57,7 @@ class VLMExtractorLocal:
                 image = source.convert("RGB")
                 image.thumbnail((1800, 1800))
                 buffer = io.BytesIO()
+                logger.debug(f"[{request_id}] Image preprocessing completed")
                 image.save(buffer, format="JPEG", quality=92)
                 image_b64 = base64.b64encode(buffer.getvalue()).decode("ascii")
 
@@ -102,7 +106,7 @@ Rules:
                 method="POST",
             )
 
-            logger.info("Sending cheque image to Ollama model %s", self.model)
+            logger.info(f"[{request_id}] Sending cheque image to Ollama model {self.model}")
 
             with urllib.request.urlopen(request, timeout=self.timeout) as response:
                 api_result = json.loads(response.read().decode("utf-8"))
@@ -113,7 +117,7 @@ Rules:
             if not generated_text.strip():
                 raise ValueError("Ollama returned an empty response")
 
-            logger.info("Ollama extraction completed")
+            logger.info(f"[{request_id}] Ollama extraction completed successfully")
 
             return {
                 "status": "OK",
@@ -128,7 +132,8 @@ Rules:
             }
 
         except Exception as exc:
-            logger.exception("Ollama VLM extraction failed")
+            logger.exception(f"[{request_id}] Ollama VLM extraction failed at exception handler")
+            logger.error(f"[{request_id}] Exception type: {type(exc).__name__}, Message: {str(exc)[:100]}")
             return {
                 "status": "ERROR",
                 "error": f"{type(exc).__name__}: {exc}",

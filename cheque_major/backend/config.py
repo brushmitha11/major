@@ -1,4 +1,4 @@
-﻿"""Configuration for the cheque verification system."""
+"""Configuration for the cheque verification system."""
 import os
 from datetime import timedelta
 
